@@ -1,0 +1,40 @@
+\documentclass[fontsize=9pt,paper=a5,fleqn,parskip=full-,DIV15]{scrbook}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{ngerman} 
+\usepackage[ngerman]{babel}
+%\usepackage{umlaute}
+\usepackage{amsmath,amssymb}
+%\usepackage{color}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage{polynom}
+\renewcommand*{\chapterheadstartvskip}{\vspace{0pt}} % Kein Leerraum ueber Ueberschrift
+
+\begin{document}
+
+\title{Vorkurs Mathematik L\"osungen}
+\author{FaRaFIN Vorkurs-Team}
+\date{2010}
+\maketitle
+
+\tableofcontents
+
+\addtocounter{chapter}{1}
+% Hier folgen die einzelnen Kapitel in folgender Gliederung:
+\chapter{Basismathematik}
+\input{bruchrechnungLsg}
+\input{potenzenLsg}
+\input{binomischeFormelnLsg}
+\input{polynomdivision_loesungen}
+\input{Gleichungen-Loesungen}
+\input{gleichungssysteme_loesungen}
+\input{Ungleichungen-Lsg}
+% BEtrag ungleichunge kreis
+\input{vollstaendigeInduktionLsg}
+
+\addtocounter{chapter}{1}
+\input{vektoren_loesungen}
+%\input{komplexeZahlen_Lsg}
+%
+\end{document}

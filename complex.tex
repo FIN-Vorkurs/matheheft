@@ -1,0 +1,477 @@
+
+%=============================================================================
+\chapter{Komplexe Zahlen}\label{chap:complex}
+
+\paragraph*{Autor:} Andreas Zöllner
+
+%================================================================================
+\section{Historie}
+
+Es gibt keine reelle Zahl $x\in\real$, die die Gleichung
+\[
+x^2
+\ =\ -1
+\]
+erfüllt. Zur Formulierung von Lösungen dieser Gleichung muss eine
+Zahlbereichserweiterung durchgeführt werden. Deshalb führte R. Bombielli Mitte
+des 16.~Jahrhunderts das Symbol $\sqrt{-1}$ ein, für das L. Euler später
+$\imag$ schrieb. Diese \textbf{imaginäre Einheit} ist definiert als eine
+Lösung der Gleichung
+\[
+\imag^2
+\ =\ -1
+\,.
+\]
+{%\footnotesize
+Man beachte, dass $\imag$ \emph{nicht} definiert ist als $\sqrt{-1}$. Dies hat
+den Grund, dass die Gleichung $x^2=-1$ keine \emph{eindeutige} Lösung hat --
+ihre andere Lösung ist $-\imag$.
+%Dies hat den Grund, dass die Wurzel-Funktion als Funktion auf $\real$ för negative Argumente nicht definiert ist, und als Funktion auf den komplexen Zahlen nicht in die komplexen Zahlen, sondern in deren Potenzmenge abbildet. Das Radizieren hat ja bereits in den reellen Zahlen keine eindeutige L�sung. Z.\,B. besitzt die Gleichung $x^2=1$ die beiden L�sungen $-1$ und $1$, und man definiert $\sqrt{z}$ als die \emph{nichtnegative} L�sung der Gleichung $x^2=z$. Alternativ w�re es auch hier m�glich, die Wurzel-Funktion als Funktion von den reellen Zahlen in deren Potenzmenge zu definieren, so dass z.\,B. $\sqrt{1}\coloneqq\{-1,1\}$.
+}
+
+\noindent Euler entdeckte auch die für alle $x,y\in\real$ gültige Formel
+\begin{equation}
+\label{eq:EulerscheFormel}
+\e^{x+\imag y}
+\ =\ \e^x\,(\cos y + \imag \sin y)
+\,.
+\end{equation}
+
+%================================================================================
+\section{Kartesische Darstellung}
+
+Eine \textbf{komplexe Zahl} $z$ ist ein Symbol der Form
+\begin{equation}
+\label{eq:KartesischeForm}
+z
+\ =\ x\ +\ \imag y
+\qquad
+\text{mit $x,y\in\real$}.
+\end{equation}
+Die \textbf{Menge der komplexen Zahlen} wird mit $\complex$ bezeichnet,
+\[
+\complex
+\ =\ \{\;x+\imag y\;|\;x,y\in\real\;\}
+\,.
+\]
+
+\noindent Aus dieser \textbf{kartesischen Darstellung} $z=x+\imag y$ der komplexen Zahl
+$z\in\complex$ ergibt sich die Veranschaulichung von $z$ als geordnetes Paar
+bzw.\ zweidimensionaler Vektor $(x,y)\in\real^2$, d.\,h.\ als Punkt der
+\textbf{Gaußschen Zahlenebene}.
+\newline
+\noindent Für eine komplexe Zahl $z=x+\imag y$ mit $x,y\in\real$ bezeichnen
+\[
+\re(z)
+%\ \coloneqq\ \Re(z)
+\ \coloneqq\ x
+\qqtext{und}
+\im(z)
+%\ \coloneqq\ \Im(z)
+\ \coloneqq\ y
+\]
+den \textbf{Realteil} bzw.\ \textbf{Imaginärteil} von $z$. Damit ist also
+\[
+z
+\ =\ \re(z)+\imag\cdot\im(z)
+\,.
+\]
+
+\noindent Die Menge $\real$ der reellen Zahlen ist offensichtlich die Teilmenge der
+komplexen Zahlen $z\in\complex$ mit $\im(z)=0$. Die komplexen Zahlen mit
+$\re(z)=0$ heißen die \emph{rein imaginären Zahlen}.
+
+%================================================================================
+\section{Rechenoperationen}
+
+Mit den komplexen Zahlen wird nach den in $\real$ üblichen Rechenregeln
+gerechnet. Dabei wird $\imag$ wie eine Variable behandelt, für die
+$\imag^2=-1$ gilt, d.\,h.\ beim Rechnen auftretende Potenzen $\imag^k$ werden
+wieder auf $\imag=\imag^1$ zurückgeführt, so dass wieder eine kartesische
+Darstellung einer komplexen Zahl als Ergebnis der Rechnung vorliegt.
+
+\noindent Hierbei benötigt man noch das folgende Konzept: Die \textbf{konjugiert komplexe Zahl} zu $z=x+\imag y$ ist die komplexe Zahl
+\[
+\konj{z}
+\ =\ \konj{x+\imag y}
+\ \coloneqq\ x-\imag y
+\qquad
+\text{für $x,y\in\real$}.
+\]
+Grafisch interpretiert in der Gaußschen Zahlenebene entspricht dies der
+Spiegelung an der reellen Achse.
+
+\centerline{\includegraphics[width=7cm]{img/complex1}}
+
+Es ergeben sich nun die grundlegenden Rechenoperationen. Seien $a,b,c,d\in\real$.
+\begin{itemize}
+\addtolength{\itemsep}{-1em}
+\item{}Addition. Sie erfolgt komponentenweise:
+\[
+(a+\imag b)\ +\ (c+\imag d)
+\ =\ (a+c)+\imag(b+d)
+\]
+
+\item{}Subtraktion. Sie erfolgt ebenfalls komponentenweise:
+\[
+(a+\imag b)\ -\ (c+\imag d)
+\ =\ (a-c)+\imag(b-d)
+\]
+
+\item{}Multiplikation. Es wird ausmultipliziert (gemäß den binomischen
+Regeln):
+\[
+(a+\imag b)\cdot(c+\imag d)
+\ =\ ac+\imag bc+\imag ad+\imag^2bd
+\ =\ (ac-bd)+\imag(bc+ad)
+\]
+
+\item{}Division. Der Nenner wird reellwertig gemacht, indem der Bruch mit der konjugiert komplexen Zahl des Nenners erweitert wird:
+\begin{align*}
+\frac{a+\imag b}{c+\imag d}
+&\ =\ \frac{(a+\imag b)(c-\imag d)}{(c+\imag d)(c-\imag d)}
+\ =\ \frac{(ac+bd)+\imag(bc-ad)}{c^2+d^2}
+\\
+&\ =\ \frac{ac+bd}{c^2+d^2}+\imag\,\frac{bc-ad}{c^2+d^2}
+\end{align*}
+
+\item{}Potenzieren mit Exponenten $n\in\posint$. Es wird wiederholt multipliziert. Dabei gelten
+\[
+(a+\imag b)^0
+\ \coloneqq\ 1
+\qtext{und}
+(a+\imag b)^{n+1}
+\ =\ (a+\imag b)\cdot(a+\imag b)^n
+.
+\]
+
+
+Wichtig sind hierbei die ganzzahligen Potenzen von $\imag$. Für $n\in\integer$
+ist
+\[
+\imag^n
+\ =\ \left\{\begin{array}{r@{\,,\; \text{falls}\quad}l}
+1      & n\equiv0\!\mod4\\
+\imag  & n\equiv1\!\mod4\\
+-1     & n\equiv2\!\mod4\\
+-\imag & n\equiv3\!\mod4
+\end{array}\right.
+\]
+\end{itemize}
+%================================================================================
+\section{Eulersche Darstellung}
+
+Zu einer komplexen Zahl $z=x+\imag y$ mit $x,y\in\real$ betrachten wir deren
+Darstellung als Vektor der Gaußschen Zahlenebene in \emph{Polarkoordinaten},
+\[
+z
+%\ =\ x+\imag y
+\ =\ r\,(\cos\varphi+\imag\sin\varphi)
+\qquad\text{mit \,$r\ge0$\, und \,$-\pi<\varphi\le\pi$.}
+\]
+Der \textbf{Betrag} $\abs{z}$ von $z$ ist
+\[
+\abs{z}
+\ \coloneqq\ \sqrt{x^2+y^2}
+\ =\ \sqrt{z\cdot\konj{z}}
+\ =\ r
+\ \ge\ 0
+\]
+und das \textbf{Hauptargument} $\arg(z)$ von $z$ ist
+\[
+\arg{z}
+\ =\ \varphi
+\ \in\ \ocinterval{-\pi}{\pi}
+\,.
+\]
+Die Winkel $\varphi+2k\pi$ für $k\in\integer$ heißen die \textbf{Argumente}
+von $z$. Man beachte, dass sämtliche dieser Winkel ein und dieselbe komplexe
+Zahl $z$ bestimmen, d.\,h.
+\[
+z
+\ =\ r(\cos(\varphi+2k\pi)+\imag\sin(\varphi+2k\pi))
+\qquad\text{für alle \;$k\in\integer$,}
+\]
+und dass das Hauptargument durch die Forderung $\varphi\in\ocinterval{-\pi}{\pi}$ eindeutig festgelegt ist.
+
+\centerline{\includegraphics[width=7cm]{img/complex2}}
+
+\noindent Mit der Eulerschen Formel \eqref{eq:EulerscheFormel} ergibt sich die
+\textbf{Eulersche Form} der Darstellung einer komplexen Zahl $z=x+\imag y$ für
+$x,y\in\real$,
+\begin{equation}
+\label{eq:EulerscheForm}
+z
+\ =\ r\e^{\imag\varphi}
+\qquad\text{mit \,$r=\abs{z}$\, und \,$\varphi=\arg{z}$.}
+\end{equation}
+Mit dieser Darstellung vereinfachen sich einige Rechnungen mit komplexen Zahlen. Seien $r,s\ge0$ und $\varphi,\psi\in\ocinterval{-\pi}{\pi}$. Dann gelten unter Anwendung der Potenzgesetze:
+\begin{itemize}
+\addtolength{\itemsep}{-1em}
+\item{}Multiplikation:
+\;$\displaystyle
+r\e^{\imag\varphi}\ \cdot\ s\e^{\imag\psi}
+\ =\ (rs)\,\e^{\imag(\varphi+\psi)}
+$
+
+\item{}Division: Für $s>0$ gilt
+\;$\displaystyle
+\frac{r\e^{\imag\varphi}}{s\e^{\imag\psi}}
+\ =\ \frac{r}{s}\,\e^{\imag(\varphi-\psi)}
+$
+
+\end{itemize}
+Nun lassen sich die Grundrechenoperationen in der Gaußschen Zahlenebene
+geometrisch interpretieren.
+\begin{itemize}
+\addtolength{\itemsep}{-1em}
+\item{}Addition und Subtraktion sind gerade die gewöhnlichen (d.\,h.\
+komponentenweisen) Operationen für (zweidimensionale) Vektoren.
+
+\item{}Bei der Multiplikation werden die Beträge der beiden Operanden
+multipliziert und die Argumente addiert.
+%Hierbei handelt es sich also um eine sogenannte \emph{Drehstreckung}.
+
+\item{}Der Übergang von $z$ zur konjugiert komplexen Zahl $\konj{z}$
+entspricht einer Spiegelung an der reellen Achse. Eine Spiegelung an der
+imaginären Achse ergibt sich beim Übergang von $z$ zu $-z$.
+%Und der öbergang von $z$ zu $1/{\konj{z}}$ ergibt eine \emph{Spiegelung} (oder: \emph{Inversion}) \emph{am Einheitskreis}\footnote{D.\,h.\ die beiden Zahlen liegen auf einer Geraden durch den Nullpunkt, und das Produkt ihrer Abst�nde vom Nullpunkt ist $1$.}.
+
+\end{itemize}
+
+%================================================================================
+\section{Umrechnung zwischen kartesischen und Polarkoordinaten}
+
+Zunächst sei noch an den Zusammenhang zwischen den Winkelmaßen erinnert. Ein
+Vollkreis von $360^\circ$ entspricht $2\pi$. Somit gilt
+\[
+\text{$\varphi$ in Grad}
+\ =\ (\text{$\varphi$ in Radiant})\cdot\frac{180^\circ}{\pi}
+\,.
+\]
+Speziell gelten also $90^\circ=\pi/2$ und $180^\circ=\pi$.
+
+\noindent Gegeben sei ein Punkt $z=(x,y)\in\real^2$ (im kartesischen Koordinatensystem). Dann ergeben sich seine Polarkoordinaten $(r,\varphi)$ zu
+\[
+r
+\ =\ \abs{z}
+\ =\ \sqrt{x^2+y^2}
+\ \ge\ 0
+\]
+und $\varphi$ als Lösung des Gleichungssystems
+\[
+r\cos\varphi
+\ =\ x
+\qtext{und}
+r\sin\varphi
+\ =\ y
+\qqtext{mit}
+\varphi
+\ \in\ \ocinterval{-\pi}{\pi}
+\,.
+\]
+Dieses trigonometrische Gleichungssystem lässt sich für $x\neq0$ lösen, indem
+man eine Lösung $\psi$ von $\tan\psi=y/x$ findet, etwa
+\[
+\psi
+\ =\ \arctan\left(\frac{y}{x}\right)
+\ \in\ \Ointerval{-\frac{\pi}2}{\frac{\pi}2}
+,
+\]
+und dann anhand der Vorzeichen von $x$ und $y$ sicherstellt, dass der Winkel in den richtigen Quadranten zeigt, also $\varphi=\psi+k\pi$ mit dem richtigen Wert von $k\in\integer$.
+\[
+\begin{array}{c|c|c}
+x & y & \varphi=\\
+\hline
+\ge0 & =0 & 0\\
+<0 & =0 & \pi\\
+=0 & >0 & \pi/2\\
+=0 & <0 & -\pi/2
+\end{array}
+\qquad
+\begin{array}{c|c|c}
+x & y & \varphi\in\\
+\hline
+>0 & >0 & \ointerval{0}{\pi/2}\\
+>0 & <0 & \ointerval{-\pi/2}{0}\\
+<0 & >0 & \ointerval{\pi/2}{\pi}\\
+<0 & <0 & \ointerval{-\pi}{-\pi/2}
+\end{array}
+\]
+Schemata der Vorzeichen:
+\[
+\sin\,:\;
+\begin{array}{c|c}
++&+\\\hline-&-
+\end{array}
+\qquad
+\cos\,:\;
+\begin{array}{c|c}
+-&+\\\hline-&+
+\end{array}
+\qquad
+\tan\,:\;
+\begin{array}{c|c}
+-&+\\\hline+&-
+\end{array}
+\]
+
+\noindent Gegeben sei ein Punkt in Polarkoordinaten $z=(r,\varphi)\in\cointerval0{\infty}\times\ocinterval{-\pi}{\pi}$. Dann ergeben sich seine kartesischen Koordinaten $(x,y)$ zu
+\[
+x
+\ =\ r\cos\varphi
+\qqtext{und}
+y
+\ =\ r\sin\varphi
+\,.
+\]
+
+%================================================================================
+\section{Rechnen mit komplexen Zahlen}
+
+Für das Rechnen mit komplexen Zahlen bietet sich mal die kartesische, mal die
+Eulersche Form der Darstellung an.
+
+\noindent Sei in den folgenden Beispielen
+\[
+z
+\ =\ x+\imag y
+\ =\ r\e^{\imag\varphi}
+\ =\ r\e^{\imag(\varphi+2k\pi)}
+\]
+mit \;$\displaystyle{}x,y\in\real$\; und \;$\displaystyle{}r\ge0\,,\;\varphi\in\ocinterval{-\pi}{\pi}$\,,\; sowie \;$\displaystyle{}k\in\integer$\,. Dann ergeben sich
+%\footnote{Streng genommen mössen die im Folgenden verwendeten, aus den reellen Zahlen bekannten Funktionen erst f�r komplexe Zahlen definiert werden (Erweiterung des Definitionsbereichs), und es muss bewiesen werden, dass die angewendeten, ebenfalls aus den reellen Zahlen bekannten Rechengesetze tats�chlich auch f�r die komplexen Zahlen gelten. Also z.\,B.\ dass $\e^{x+y}=\e^x\cdot\e^y$ nicht nur f�r $x,y\in\real$, sondern auch f�r $x,y\in\img/complex$ gilt.}
+\begin{itemize}
+\addtolength{\itemsep}{-1em}
+\item{}Exponentialfuntion:
+\[
+\e^{z}
+\ =\ \exp(z)
+\ =\ \e^{x+\imag y}
+\ =\ \e^x\cdot\e^{\imag y}
+,
+\]
+die komplexe Zahl mit Betrag $\e^x$ und Hauptargument $y$
+
+\item{}Logarithmus:
+\[
+\ln z
+\ =\ \ln\left(r\e^{\imag(\varphi+2k\pi)}\right)
+\ =\ \ln r + \imag(\varphi+2k\pi)
+\,,\;k\in\integer
+\,,
+\]
+offensichtlich nicht eindeutig, mit Hauptwert $\ln r + \imag\varphi$
+
+\item{}Potenzieren mit reellen Exponenten $a\in\real$
+\[
+z^a
+\ =\ (r\e^{\imag(\varphi+2k\pi)})^a
+\ =\ r^a\,\e^{\imag(a\varphi+2ak\pi)}
+\]
+Und falls $a\in\integer$ ist auch $\ell\coloneqq{}ak\in\integer$, und daher gilt speziell
+\[
+z^a
+\ =\ r^a\,\e^{\imag(a\varphi+2\ell\pi)}
+\ =\ r^a\,\e^{\imag a\varphi}
+%\ =\ r^a\,(\cos(a\varphi)+\imag\sin(a\varphi))
+\]
+
+\item{}Radizieren:
+Für $n=2,3,\dotsc$ und $a=\abs{a}\,\e^{\imag\varphi}\in\complex$ heißt die
+Gleichung
+\[
+x^n
+\ =\ a
+\]
+die \textbf{\boldmath$n$-te Kreisteilungsgleichung}. Die \textbf{\boldmath$n$-ten Wurzeln} aus $a$ ergeben sich als deren Lösung zu
+\[
+x
+\ =\ \sqrt[n]{\abs{a}}\,\left(
+\cos\frac{\varphi+2k\pi}{n}
++\imag\sin\frac{\varphi+2k\pi}{n}
+\right)
+,\quad{}
+k=0,\dotsc,n-1\,.
+\]
+Diese komplexen Zahlen teilen den Kreis um den Nullpunkt mit Radius $\sqrt[n]{\abs{a}}$ in $n$ gleiche Teile.
+
+\centerline{\includegraphics[width=7cm]{img/complex3}}
+\vspace*{-1.5em}{\small
+Beispiel: Die vierten Wurzeln aus $16\,\e^{\frac{4}{3}\pi\imag}$.
+}
+\end{itemize}
+
+%================================================================================
+\section{Beispiele}
+
+Es folgen einige Beispiele für das Rechnen mit speziellen komplexen Zahlen.
+
+Es gelten
+\[
+\imag
+\ =\ 0+\imag\cdot1
+\ =\ \e^{\imag\frac{\pi}{2}}
+,
+\]
+sowie
+\[
+1
+\ =\ 1+\imag\cdot0
+\ =\ \e^{\imag\cdot0}
+\qqtext{und}
+-1
+\ =\ -1+\imag\cdot0
+\ =\ \e^{\imag\pi}
+,
+\]
+folglich die interessante Gleichung
+\[
+\e^{\imag\pi}+1
+\ =\ 0
+\,,
+\]
+die alle "`wichtigen"' Zahlen ($0$, $1$, $\e$, $\pi$ und $\imag$) in einen Zusammenhang stellt.
+
+Außerdem gelten
+\begin{align*}
+1^\imag
+&\ =\ \exp(\ln 1^\imag)
+\ =\ \exp(\imag\cdot\ln 1)
+\ =\ \exp(\imag\cdot\ln\e^{\imag\cdot2k\pi})
+\\
+&\ =\ \exp(\imag\cdot\imag\cdot2k\pi)
+\ =\ \e^{-2k\pi}
+\\
+\imag^\imag
+&\ =\ \exp(\ln \imag^\imag)
+\ =\ \exp(\imag\cdot\ln \imag)
+\ =\ \exp\left(\imag\cdot\imag(\frac{\pi}{2}+2k\pi)\right)
+\\
+&\ =\ \e^{-(\frac{\pi}{2}+2k\pi)}
+\end{align*}
+
+
+%================================================================================
+\input{complex_a}
+
+
+%================================================================================
+\section{Literatur}
+
+\renewcommand{\labelenumi}{[\arabic{enumi}]}
+\renewcommand{\theenumi}{[\arabic{enumi}]}
+\begin{enumerate}
+\item
+I. N. Bronstein et al. \textit{Teubner-Taschenbuch der Mathematik}. (2 Bände)
+B.\,G. Teubner Leipzig, 1996.
+
+\item
+K. Vetters. \textit{Formeln und Fakten im Grundkurs Mathematik}. B.\,G. Teubner Stuttgart, 2004.
+
+\end{enumerate}
+\pagestyle{scrplain}
+\ofoot[]{}
+
+\cleardoublepage
+%\end{document}

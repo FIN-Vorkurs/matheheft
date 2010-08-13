@@ -1,0 +1,66 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{vorkurs}[2007/08/09 v1.0 Vorkurs package (A.Z.)]
+
+\deffootnote[1em]{1em}{1em}{\textsuperscript{\thefootnotemark}}
+
+\newcommand{\real}{\mathbb{R}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\complex}{\mathbb{C}}
+\newcommand{\integer}{\mathbb{Z}}
+\newcommand{\posint}{\mathbb{N}}
+
+\DeclareMathSymbol{\Forall}{\mathrel}{symbols}{"38}
+\DeclareMathSymbol{\Exists}{\mathrel}{symbols}{"39}
+
+\newcommand{\e}{\mathrm{e}}
+\newcommand{\p}{\mathrm{p}}
+\newcommand{\w}{\mathrm{w}}
+\newcommand{\imag}{\mathrm{i}}
+\DeclareMathOperator{\re}{Re}
+\DeclareMathOperator{\im}{Im}
+
+\newcommand{\konj}[1]{\overline{#1}}
+
+\newcommand{\qtext}[1]{\quad\text{#1}\quad}
+\newcommand{\qqtext}[1]{\qquad\text{#1}\qquad}
+
+\newcommand{\coloneqq}{\mathrel{\mathop:}=}
+\newcommand{\eqqcolon}{=\mathrel{\mathop:}}
+\newcommand{\then}{\mathrel{\Rightarrow}}
+
+\makeatletter
+\DeclareRobustCommand*{\diff}{\@ifnextchar^{\DIfF}{\DIfF^{}}}
+%\newcommand*{\diff}{\@ifnextchar^{\DIfF}{\DIfF^{}}}
+\def\DIfF^#1{\mathop{\mathrm{\mathstrut d}}\nolimits^{#1}\gobblesp@ce}
+\def\gobblesp@ce{\futurelet\diffarg\opsp@ce}
+\def\opsp@ce{%
+   \let\DiffSpace\!%
+   \ifx\diffarg(%
+     \let\DiffSpace\relax
+   \else
+     \ifx\diffarg[%
+       \let\DiffSpace\relax
+     \else
+       \ifx\diffarg\{%
+         \let\DiffSpace\relax
+       \fi\fi\fi\DiffSpace}
+\makeatother
+
+\newcommand{\abs}[1]{\lvert#1\rvert}
+\newcommand{\Abs}[1]{\left\lvert#1\right\rvert}
+\newcommand{\norm}[2][]{\bigl\lVert#2\bigr\rVert_{#1}}
+\newcommand{\Norm}[2][]{\left\lVert#2\right\rVert_{#1}}
+
+\newcommand{\ointerval}[2]{({#1},{#2})}
+\newcommand{\Ointerval}[2]{\left({#1},{#2}\right)}
+\newcommand{\cinterval}[2]{[{#1},{#2}]}
+\newcommand{\ocinterval}[2]{({#1},{#2}]}
+\newcommand{\cointerval}[2]{[{#1},{#2})}
+
+%================================================================================
+
+\newcounter{aufgabe}[section]
+
+\newcommand{\Aufgabe}{\stepcounter{aufgabe}\paragraph*{\theaufgabe.}}
+%\renewcommand{\labelenumi}{\textup{\alph{enumi})}}
+%\renewcommand{\theenumi}{\textup{\alph{enumi}}}

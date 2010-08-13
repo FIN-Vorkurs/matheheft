@@ -1,0 +1,63 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Title: Komplexe Zahlen 2
+%%Creator: Andreas Zoellner
+%%CreationDate: Fri Aug 24 12:00:00 2007
+%%Pages: 1
+%%BoundingBox: 0 482 480 842
+%%EndComments
+%%Page: 1 1
+%%BeginDocument: complex3.eps
+
+
+% DEFINITIONS
+(plotter.ps) run
+(complex.ps) run
+
+
+% INITIALIZATION
+Plotter begin
+Init
+
+% MAIN PROGRAM
+40 522 440 802 SetScreen
+-4.5 -3.15 4.5 3.15 SetCoords
+
+Axes
+[-4 -3 -2 -1 1 2 3 4] XTicks
+[-3 -2 -1 1 2 3] YTicks
+
+(Times-Roman) 12 SetFont
+-0.4 -0.3 (0) Print
+0.93 -0.4 (1) Print
+-0.3 0.9 (1) Print
+
+0 setgray (Times-Roman) 16 SetFont (Re) XLabel (Im) YLabel
+
+1 setlinewidth SolidLine
+
+0 0 2 Circle
+
+0 2 60 cos mul add 0 2 60 sin mul add
+2 copy 0.1 FillCircle DashedLine 0 0 Line SolidLine
+
+newpath
+0 0 CoordsToScreen 40 0 60 arc
+stroke
+(Times-Roman) 12 SetFont 0.4 0.2 (60°) Print
+
+0 2 150 cos mul add 0 2 150 sin mul add
+2 copy 0.1 FillCircle DashedLine 0 0 Line SolidLine
+
+0 2 240 cos mul add 0 2 240 sin mul add
+2 copy 0.1 FillCircle DashedLine 0 0 Line SolidLine
+
+0 2 330 cos mul add 0 2 330 sin mul add
+2 copy 0.1 FillCircle DashedLine 0 0 Line SolidLine
+
+% FINALIZATION
+end % Plotter
+
+
+%%EndDocument
+%%Trailer
+%%EOF

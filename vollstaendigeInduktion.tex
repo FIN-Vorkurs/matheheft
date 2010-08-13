@@ -1,0 +1,162 @@
+\chapter{Vollständige Induktion}
+\label{Induktion}
+Autor: Katja Matthes
+
+\noindent "Uberarbeitung: Sebastian Nielebock
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Prinzip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Prinzip}
+Vollständige Induktion ist eine mathematische Beweismethode. Das Ziel der voll"-stän"-digen Induktion besteht darin, die Gültigkeit einer Aussage für alle natür"-li"-chen Zahlen $ n \geq n_{0} \in \mathbb{N}_{0} $ (Induktionsanfang) nachzuweisen.
+%%%Erkl�rung
+\begin{enumerate}
+%%%Induktionsanfang
+	\item \textbf{Induktionsanfang} \\
+	Man zeigt, dass die Aussage für die natürliche Zahl $ n_{0} = 1 $ (oder auch $ n_{0} = 0,2,3, ... $) gilt.
+%%%Induktionsschritt
+	\item \textbf{Induktionsschritt}
+		\begin{itemize}
+			\item Induktionsvoraussetzung:
+			Es wird angenommen, dass die Aussage für eine feste natürliche Zahl $ n $ gilt.
+			\item Induktionsbehauptung: Es wird behauptet, dass die Aussage unter der Voraussetzung auch für die nachfolgende natürliche Zahl $ n+1 $ gilt.
+			\item Induktionsbeweis: Die Induktionsbehauptung wird unter Verwendung der Induktionsvoraussetzung bewiesen.
+		\end{itemize}
+%%%Induktionsschluss	 
+	\item \textbf{Schlussfolgerung} \\
+	Aus dem Verbund von Verankerung und Vererbung folgt, dass die Aussage tatsächlich für alle natürlichen Zahlen $ n \geq n_{0} $ gilt.
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Erklärung Summen- und Produktzeichen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Einschub: Das Summen- und Produktzeichen}
+Viele Aufgaben in der Induktion sind mit Summen- und Produktzeichen formuliert. Um einen Teil der Beweise besser führen zu können, ist es notwendig einige Regeln für diese Symbole zu kennen.
+
+\subsection{Allgemein}
+Das Summen- bzw. das Produktzeichen stellen jeweils eine Verkürzung für die Addition bzw. Multiplikation dar:
+\[\sum_{i=1}^{n}{a_{i}} = a_{1} + a_{2} + \cdots + a_{n} \ ;\ \prod_{i=1}^{n}{a_{i}} = a_{1} \cdot a_{2} \cdot \ \cdots\ \cdot a_{n} \]
+
+\subsection{Letzten Index ausklammern}
+Eine sehr nützliche Regel zum Induktionsbeweis ist das Ausklammern des letzten Index. Für viele Beweise lässt sich so der Induktionsschritt leicht zeigen:
+\[\sum_{i=l}^{n+1}{a_{i}} = \left(\sum_{i=l}^{n}{a_{i}}\right) + a_{n+1}\ ;\ \prod_{i=l}^{n+1}{a_{i}} = \left(\prod_{i=l}^{n}{a_{i}}\right) \cdot a_{n+1}\]
+
+\subsection{Assoziativgesetz}
+
+\[\sum_{i=l}^{m-1}{a_{i}} + \sum_{i=m}^{n}{a_{i}} = \sum_{i=l}^{n}{a_{i}}\ ;\ \prod_{i=l}^{m-1}{a_{i}} \cdot \prod_{i=m}^{n}{a_{i}} = \prod_{i=l}^{n}{a_{i}}\]
+
+\subsection{Kommutativgesetz}
+
+\[\sum_{i=m}^{n}{a_{i}} = \sum_{i=m}^{n}{a_{m+n-i}}\ ;\ \prod_{i=m}^{n}{a_{i}} = \prod_{i=m}^{n}{a_{m+n-i}}\]
+
+\subsection{Verbindung zweier Summen- bzw. Produktzeichen}
+
+\[ \sum_{i=m}^{n}{a_{i}} + \sum_{i=m}^{n}{b_{i}} = \sum_{i=m}^{n}{\left(a_{i} + b_{i}\right)} \ ; \ \prod_{i=m}^{n}{a_{i}} \cdot \prod_{i=m}^{n}{b_{i}} = \prod_{i=m}^{n}{\left(a_{i} \cdot b_{i}\right)}\]
+
+\subsection{Doppelsummen bzw. Doppelprodukte}
+
+\[ \sum_{i=m}^{n}\sum_{j=k}^{l}{a_{i j}} = \sum_{j=k}^{l}\sum_{i=m}^{n}{a_{i j}} \ ; \ \prod_{i=m}^{n}\prod_{j=k}^{l}{a_{i j}} = \prod_{j=k}^{l}\prod_{i=m}^{n}{a_{i j}}\]
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Beispiel
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Beispielaufgabe}
+Zeigen Sie: Für alle $ n \in \mathbb{N} $ gilt die Gleichung 
+\[\sum_{k=1}^{n} 2^k = 2(2^n - 1)\]
+%%Induktionsanfang
+\subsection{Induktionsanfang}
+Wir zeigen, dass die Aussage richtig ist für $ n_0 = 1 $.
+	\[\sum_{k=1}^{1} 2^k = 2^1 = 2 = 2(2^1 - 1) \] (wahre Aussage)
+%%%Induktionsschritt
+\subsection{Induktionsschritt}
+%%%Voraussetzung
+\textbf{Induktionsvoraussetzung}: Wir nehmen an, dass die Annahme gültig ist für ein festes $ n \in \mathbb{N} $
+	\[\sum_{k=1}^{n} 2^k = 2(2^n-1)\]
+%%%Behauptung	
+\textbf{Induktionsbehauptung}: Wir behaupten, dass dann die Aussage auch für die nachfolgende Zahl $ n+1 $ $(n \mapsto n+1) $ gilt.
+	\[\sum_{k=1}^{n+1} 2^k = 2(2^{n+1} - 1)\]
+%%%Beweis	
+\textbf{Induktionsbeweis}: Mit Hilfe der Induktionsvorraussetzung wird die linke Seite der Behauptung in deren rechte Seite umgewandelt.
+\begin{align*}
+	\sum_{k=1}^{n+1} 2^k 	&= \sum_{k=1}^{n} 2^k + 2^{n+1}		&& \text{\textbar nach Voraussetzung} 	\\
+												&= 2(2^n - 1) + 2^{n+1} 					&& \text{\textbar Potenzgesetze} 			\\
+												&= 2(2^n-1)+2\cdot2^n 						&& \text{\textbar 2 ausklammern} 			\\
+												&= 2(2^n - 1 + 2^n) 							&& \text{\textbar zusammenfassen} 			\\
+												&= 2(2 \cdot 2^n - 1) 						&& \text{\textbar Potenzgesetze} 			\\
+												&= 2(2^{n+1} - 1)											
+\end{align*}
+%%%Induktionsschluss	
+\subsection{Induktionsschluss}
+Damit ist durch das Prinzip der vollständigen Induktion die Induktionsbehauptung und damit auch die Aussage: 
+	\[\sum_{k=1}^{n} 2^k = 2(2^n - 1)\]
+ für alle $ n \in \mathbb{N} $ bewiesen.
+\begin{center}
+qed.
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Literatur
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Literatur}
+\begin{itemize}
+	\item Bigalke, Köhler, Kuschnerow, Ledworuski: \textit{Mathematik 11. Leistungsfach}. 1. Auflg. 2001. Cornelsen Verlag, Berlin.
+	\item \url{http://www.math.uni-sb.de/ag/wittstock/lehre/WS00/analysis1/Vorlesung/node10.html}
+\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%Aufgaben
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Aufgaben}
+%%%Gleichungen
+\subsubsection{Gleichungen}
+\begin{enumerate}
+	\item Die Summe der ersten $ n $ ungeraden natürlichen Zahlen $ 1 + 3 + 5 + ... + 2n-1 $ soll bestimmt werden. Stellen Sie eine Vermutung auf und beweisen Sie diese durch Induktion.
+	\item Die Summe von $ 4 + 8 + 12 + ... + 4n $, also der ersten $ n $ durch 4 teilbaren natürlichen Zahlen, soll bestimmt werden. Stellen Sie eine Vermutung auf und beweisen Sie diese durch Induktion.
+	\item Beweisen Sie: Die Summe der ersten $ n $ geraden natürlichen Zahlen ist gleich $ n^2 + n $, d.h. 
+		\[ \sum_{k=1}^{n} 2k = n^2 + n \]
+	\item Beweisen Sie: Für alle $ n \in \mathbb{N} $ gilt die Summenformel 
+		\[\sum^n_{k=1} \frac{1}{(2k-1)(2k+1)} = \frac{n}{2n + 1} \]
+	\item Beweisen Sie: Für alle $ n \in \mathbb{N} $ gilt die Summenformel
+		\[\sum^n_{k=1} \frac{1}{k(k+1)} = \frac{n}{n+1} \]
+	\item Beweisen Sie: Für alle $ n \in \mathbb{N} $ gilt die Summenformel
+		\[\sum^n_{k=1} k = \frac{n(n+1)}{2} \]
+	\item Beweisen Sie: Für alle $ n \in \mathbb{N} $ gilt die Summenformel
+		\[\sum_{k=1}^n k^2 = \frac{n(n+1)(2n+1)}{6} \]
+	\item Beweisen Sie: Für alle $ n \in \mathbb{N} $ gilt die Summenformel
+		\[\sum_{k=1}^n \frac{k}{2^k} = 2 - \frac{n+2}{2^n} \]
+	\item Beweisen Sie die Summenformel:
+		\[\sum_{k=0}^n \left(\frac{2}{3}\right)^k = 3 \cdot \left(1 - \left(\frac{2}{3}\right)^{n+1}\right) \]
+	\item Beweisen Sie: Für alle $ n \in \mathbb{N} $ gilt die Summenformel (mit $ 0 < q < 1 $)
+		\[\sum_{k=0}^n q^k = \frac{1 - q^{n+1}}{1 - q} \]
+\end{enumerate}
+%%%Ungleichungen
+\subsubsection{Ungleichungen}
+\begin{enumerate}
+	\item Beweisen Sie die \textbf{Bernoulli-Ungleichung}: Für alle $ n \in \mathbb{N} $ und $ x \geq -1 $ gilt: $ (1 + x)^n \geq 1 + nx $
+	\item Bestimmen Sie die kleinste natürliche Zahl $ n_0 $, für die folgende Ungleichung richtig ist: $ n^2 + 10 < 2^n $. Beweisen Sie, dass die Ungleichung für alle natürlichen Zahlen $ n \geq n_0 $ richtig ist.
+	\item Beweisen Sie: Für alle natürlichen Zahlen $ n \geq 3 $ gilt: $ n^2 > 2n + 1 $
+	\item Beweisen Sie: Für alle natürlichen Zahlen $ n \geq 5 $ gilt: $ 2^n > n^2 $
+	\item Beweisen Sie: Für alle natürlichen Zahlen $ n \geq 2 $ gilt:
+		\[\sum_{k=1}^n \frac{1}{\sqrt{k}} > \sqrt{n} \]
+	\item Beweisen Sie: Für alle natürlichen Zahlen $ n > 2 $ gilt:
+		\[\sum_{k=1}^n \frac{1}{n+k} > \frac{13}{24} \]
+\end{enumerate}
+%Teilbarkeitsporbleme
+\subsubsection{Teilbarkeitsprobleme}
+\begin{enumerate}
+	\item Beweisen Sie: Für alle natürlichen Zahlen $ n $ ist $ 8 $ ein Teiler von $ 9^n - 1 $
+	\item Beweisen Sie: Für alle natürlichen Zahlen $ n $ ist $ 6 $ ein Teiler von $ 7^n - 1 $
+	\item Beweisen Sie: Für alle natürlichen Zahlen $ n $ ist $ a - 1 $ ein Teiler von $ a^n - 1 $ mit $ a \in \mathbb{R} $ und $ a > 1 $
+	\item Beweisen Sie, dass der Term $ n^3 + 6n^2 + 14n $ für alle natürlichen Zahlen ein Vielfaches von $ 3 $ ist.
+	\item Beweisen Sie: Für alle natürlichen Zahlen $ n $ ist $ 3 $ ein Teiler von $ 2^{2n} - 1 $
+	\item Beweisen Sie: Für alle natürlichen Zahlen $ n $ ist $ 6 $ ein Teiler von $ n^3 - n $
+	\item Beweisen Sie: Für alle natürlichen Zahlen $ n $ ist $ 3n^2 + 9n $ durch $ 6 $ teilbar.
+\end{enumerate}
+%%%Ableitungen
+\subsubsection{Ableitungen}
+\begin{enumerate}
+	\item Zeigen Sie, dass für die Ableitungen ($2n$)-ten Grades der Funktion $ f(x) = x + a \cdot \cos x $ gilt: $ f^{(2n)}(x) = (-1)^n \cdot a \cdot \cos x $ ($ n \in \mathbb{N}$).
+	\item Stellen Sie eine Vermutung über die ungeraden Ableitungen $ f^{(2n+1)}(x) $ der Funktion $ f(x) = x + a \cdot \cos x $ und beweisen Sie diese.
+	\item Formulieren Sie eine Formel für  $f^{(2n)}(x)$ mit $f(x) = x + \sin (a \cdot x) $ und $ a > 0 $. Beweisen Sie diese.
+	\item Beweisen Sie, dass für $f(x) = \frac{x}{x+1} $ mit $ x \neq -1 $ gilt: \[f^{(n)}(x) = (-1)^{n+1} \cdot \frac{n!}{(x+1)^{n+1}}\ .\]
+	\item Formulieren Sie eine Formel für  $f^{(n)}(x)$ mit $f(x) = \frac{x+1}{x-2} $ und $ x \neq -2 $. Beweisen Sie diese.
+	\item Sei $f(x) = x^3 + x^2 + x + 1 + \frac{1}{x-1} $. Ab welcher Ableitung kann eine allgemeingültige Formel aufgestellt werden? Vermuten Sie eine Formel und beweisen Sie diese.
+	\item Sei $f(x) = \sin \frac{x}{a}$. Stellen Sie eine Formel für die ($2n$)-te Ableitung von $f$ auf und beweisen Sie diese.
+\end{enumerate}

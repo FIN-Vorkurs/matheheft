@@ -1,0 +1,513 @@
+\chapter{Lineare Gleichungssysteme}
+	
+	Autor: Marko Rak
+	
+	\section{Definition}
+	
+		Als \emph{lineares Gleichungssystem} bezeichnet man eine Menge von $m$ Gleichungen,
+		die $n$ Unbekannte enthalten.
+		Allgemein l\"asst sich solch ein Gleichungssystem immer in folgender Form darstellen:
+		\[
+			\begin{array} {ccccccccccc}
+				a_{11} x_1 & + & a_{12} x_2 & + & a_{13} x_3 & + & \cdots & + & a_{1n} x_n & = & b_1\\
+				a_{21} x_1 & + & a_{22} x_2 & + & a_{23} x_3 & + & \cdots & + & a_{2n} x_n & = & b_2\\
+				a_{31} x_1 & + & a_{32} x_2 & + & a_{33} x_3 & + & \cdots & + & a_{3n} x_n & = & b_3\\
+				\vdots & & & & & & \ddots & & & & \vdots\\
+				a_{m1} x_1 & + & a_{m2} x_2 & + & a_{m3} x_3 & + & \cdots & + & a_{mn} x_n & = & b_m\\
+			\end{array}
+		\]
+		
+	\section{Lineare Abh\"angigkeit}
+		
+		Eine lineare Gleichung der obigen Form ist \emph{linear abh\"angig},
+		wenn sie sich durch die anderen Gleichungen des Systems und der Multiplikation mit einer Konstanten $c_i$ darstellen l\"asst.
+		\[
+			\begin{array} {ccccccccccccc}
+				& &a_{11} x_1 & + & a_{12} x_2 & + & \cdots & + & a_{1n} x_n & - & b_1 &  & \\
+				 & = & (a_{21} x_1 & + & a_{22} x_2 & + & \cdots & + & a_{2n} x_n & - & b_2) & c_2 \\
+				& + & (a_{31} x_1 & + & a_{32} x_2 & + & \cdots & + & a_{3n} x_n & - & b_3) & c_3\\
+				 &\vdots &  & & & & \ddots  & & & & & \vdots\\
+				& + & (a_{m1} x_1 & + & a_{m2} x_2 & + & \cdots & + & a_{mn} x_n & - & b_m) & c_n \\
+			\end{array}
+		\]
+		
+		Andernfalls ist sie \emph{linear unabh\"angig} von den anderen Gleichungen des Systems.
+		
+	\section{L\"osbarkeit}
+	
+		Ob ein lineares Gleichungssystem l\"osbar ist und wie viele L\"osungen es hat, ist unterschiedlich.
+		Dabei tritt immer einer der folgenden F\"alle auf:
+		
+		\begin{enumerate}
+			\item Das Gleichungssystem hat keine L\"osung.
+			\item Das Gleichungssystem hat genau eine L\"osung.
+			\item Das Gleichungssystem hat mehrere (meist unendlich viele) L\"osungen.
+		\end{enumerate}
+		
+		\noindent Kriterien f\"ur die L\"osbarkeit und die Zuteilung eines linearen Gleichungssystems zu einem dieser F\"alle,
+		w\"urde dem Vorlesungsinhalt vorgreifen und wird daher hier nicht ausf\"uhrlich erkl\"art.
+		Allgemein l\"asst sich jedoch sagen:
+		Hat ein lineares Gleichungssystem mehr Unbekannte als linear unabh\"angige Gleichungen,
+		so hat es mehrere L\"osungen.
+		
+	\section{L\"osungsverfahren}
+	
+		Neben den bereits bekannten L\"osungsverfahren wie Gleich-, Einsetzungsverfahren usw., existieren noch weitere, systematische Verfahren.
+		Dazu z\"ahlt u.A. das \emph{Gauss-Verfahren} (auch \emph{Gauss-Algorithmus} genannt),
+		welches unter Verwendung einer vereinfachten Gleichungssystemdarstellung eine Diagonalform oder auch Dreiecksform erstellt.
+		Diese beschleunigt das Finden von L\"osungen.
+		
+		\subsection{Vereinfachte Darstellung}
+		
+			Ein allgemeines lineares Gleichungssystem
+			\[
+				\begin{array} {ccccccccccc}
+					a_{11} x_1 & + & a_{12} x_2 & + & a_{13} x_3 & + & \cdots & + & a_{1n} x_n & = & b_1\\
+					a_{21} x_1 & + & a_{22} x_2 & + & a_{23} x_3 & + & \cdots & + & a_{2n} x_n & = & b_2\\
+					a_{31} x_1 & + & a_{32} x_2 & + & a_{33} x_3 & + & \cdots & + & a_{3n} x_n & = & b_3\\
+					\vdots & & & & & & \ddots & & & & \vdots\\
+					a_{m1} x_1 & + & a_{m2} x_2 & + & a_{m3} x_3 & + & \cdots & + & a_{mn} x_n & = & b_m\\
+				\end{array}
+			\]
+			l\"asst sich vereinfacht wie folgt darstellen:
+			\[
+				\begin{tabular} {ccccc|c}
+					$x_1$ & $x_2$ & $x_3$ & $\cdots$ & $x_n$ &\\
+					\hline
+					$a_{11}$ & $a_{12}$ & $a_{13}$ & $\cdots$ & $a_{1n}$ & $b_1$\\
+					$a_{21}$ & $a_{22}$ & $a_{23}$ & $\cdots$ & $a_{2n}$ & $b_2$\\
+					$a_{31}$ & $a_{32}$ & $a_{33}$ & $\cdots$ & $a_{3n}$ & $b_3$\\
+					$\vdots$ & & & $\ddots$ & & $\vdots$\\
+					$a_{m1}$ & $a_{m2}$ & $a_{m3}$ & $\cdots$ & $a_{mn}$ & $b_m$\\
+				\end{tabular}
+			\]
+			
+			\noindent Nun werden die Unbekannten,
+			da in allen Gleichungen der Systems gleich,
+			nur noch im Tabellenkopf dargestellt.
+			Tauchen in Gleichungen des Systems bestimmte Unbekannte nicht auf,
+			werden sie in dieser Tabellendarstellung mit Faktor 0 aufgef\"uhrt.
+			Das Gleichheitszeichen wird nun repr\"asentiert durch die Trennung vor der letzten Spalte.
+			Auf die Additionsoperatoren wird gezielt verzichtet und die Subtraktion wird als Addition mit einem negativen   	Operanden betrachtet.
+            Elementare Umformungen \"andern nichts an der L\"osung des linearen Gleichungssystems.
+			Unter elementare Umformungen versteht man:
+
+			\begin{enumerate}
+				\item das Vertauschen von Spalten oder Zeilen
+				\item die Multiplikation einer Zeile mit einer Konstanten
+				\item die Addition eines Vielfachen einer Zeile zu einer anderen
+			\end{enumerate}
+						
+		\subsection{Diagonalform}
+		
+			Die \emph{Diagonalform} des obigen allgemeinen linearen Gleichungssystems sieht wie folgt aus:
+			\[
+				\begin{tabular} {ccccccc|c}
+					$x_1$ & $x_2$ & $x_3$ & $x_4$ & $\cdots$ & $x_{n-1}$ & $x_n$ &\\
+					\hline
+					$a_{11}$ & $a_{12}$ & $a_{13}$ & $a_{14}$ & $\cdots$ & $a_{1(n-1)}$ & $a_{1n}$ & $b_{1}$\\
+					0 & $a_{22}^*$ & $a_{23}^*$ & $a_{24}^*$ & $\cdots$ & $a_{2(n-1)}^*$ & $a_{2n}^*$ & $b_{2}^*$\\
+					0 & 0 & $a_{33}^*$ & $a_{34}^*$ & $\cdots$ & $a_{3(n-1)}^*$ & $a_{3n}^*$ & $b_{3}^*$\\
+					0 & 0 & 0 & $a_{44}^*$ & $\cdots$ & $a_{4(n-1)}^*$ & $a_{3n}^*$ & $b_{3}^*$\\
+					$\vdots$ & & & & $\ddots$ & & & $\vdots$\\
+					0 & 0 & 0 & 0 & $\cdots$ & $a_{(m-1)(n-1)}^*$ & $a_{(m-1)n}^*$ & $b_{m-1}^*$\\
+					0 & 0 & 0 & 0 & $\cdots$ & 0 & $a_{mn}^*$ & $b_{m}^*$\\
+				\end{tabular}
+			\]
+			
+			\noindent Mittels dieses Schemas lassen sich die L\"osungen des linearen Gleichungssystem relativ leicht erschlie\ss en.
+			Man beginnt von unten und arbeitet sich zeilenweise aufw\"arts.
+			Dabei kann mit jeder neuen Zeile eine weitere Unbekannte bestimmt werden.
+			
+			\noindent Aus der letzten Zeile
+			\[
+				a_{mn}^* x_n = b_{m}^*
+			\]
+			ergibt sich
+			\[
+				x_n = \frac {b_m^*} {a_{mn}^*}.
+			\]
+			Nun wird $x_n$ in die vorletzte Zeile
+			\[
+				a_{(m-1)(n-1)}^* x_{n-1} + a_{(m-1)n}^* x_n = b_{m-1}^*
+			\]
+			eingesetzt und nach $x_{n-1}$ umgestellt, was
+            \[
+				x_{n-1} = \frac {b_{m-1}^* -  \frac {a_{(m-1)n}^*} {a_{mn}^*} b_m^*} {a_{(m-1)(n-1)}^*}
+			\]
+			
+			\noindent ergibt.
+			Dies wird zeilenweise aufsteigend bis zur ersten Gleichung fortgesetzt,
+			sodass gegebenenfalls alle Unbekannten ermittelt werden k\"onnen.
+			
+		\subsection{Gauss-Algorithmus}
+		
+			Der bereits angesprochende \emph{Gauss-Algorithmus} dient der Herstellung der Diagonalform aus einem beliebigen linearen Gleichungssystem.
+			Dazu wird die vereinfachte Darstellung genutzt und mittels elementarer Umformungen schrittweise die Dreiecksform erstellt.
+			Wir w\"ahlen in jedem Schritt eine Gleichung
+			und addieren ein Vielfaches dieser zu jeder anderen Gleichung,
+			um eine Spalte mit m\"oglichst vielen Nullen zu erzeugen.
+			
+			
+			\noindent Die Ausgangssituation stellt sich wie folgt dar:
+			
+			\[
+				\begin{tabular} {ccccc|c}
+					$x_1$ & $x_2$ & $x_3$ & $\cdots$ & $x_n$ &\\
+					\hline
+					$a_{11}$ & $a_{12}$ & $a_{13}$ & $\cdots$ & $a_{1n}$ & $b_1$\\
+					$a_{21}$ & $a_{22}$ & $a_{23}$ & $\cdots$ & $a_{2n}$ & $b_2$\\
+					$a_{31}$ & $a_{32}$ & $a_{33}$ & $\cdots$ & $a_{3n}$ & $b_3$\\
+					$\vdots$ & & & $\ddots$ & & $\vdots$\\
+					$a_{m1}$ & $a_{m2}$ & $a_{m3}$ & $\cdots$ & $a_{mn}$ & $b_m$\\
+				\end{tabular}
+			\]
+			
+			\noindent Wir w\"ahlen die erste Gleichung aus und addieren ein Vielfaches davon zu den anderen Gleichungen,
+			um in der ersten Spalte Nullen zu erzeugen.
+			
+			\[
+				\begin{array} {ccccc|ccccc}
+					x_1 & x_2 & x_3 & \cdots & x_n & & & & & \\
+					\hline
+					a_{11} & a_{12} & a_{13} & \cdots & a_{1n} & b_1 & \cdot(-\frac {a_{21}} {a_{11}}) & \cdot(-\frac {a_{31}} {a_{11}}) & \cdots & \cdot(-\frac {a_{m1}} {a_{11}})\\
+					a_{21} & a_{22} & a_{23} & \cdots & a_{2n} & b_2 & \hookleftarrow & & &  \\
+					a_{31} & a_{32} & a_{33} & \cdots & a_{3n} & b_3 & & \hookleftarrow & &  \\
+					\vdots & & & \ddots & & \vdots & & & \ddots & \\
+					a_{m1} & a_{m2} & a_{m3} & \cdots & a_{mn} & b_m & & & & \hookleftarrow  \\
+				\end{array}
+			\]
+			
+			\noindent Somit ergibt sich nach dem ersten Schritt diese Tabelle:
+			
+			\[
+				\begin{tabular} {ccccc|c}
+					$x_1$ & $x_2$ & $x_3$ & $\cdots$ & $x_n$ &\\
+					\hline
+					$a_{11}$ & $a_{12}$ & $a_{13}$ & $\cdots$ & $a_{1n}$ & $b_1$\\
+					0 & $a_{22}'$ & $a_{23}'$ & $\cdots$ & $a_{2n}'$ & $b_2'$\\
+					0 & $a_{32}'$ & $a_{33}'$ & $\cdots$ & $a_{3n}'$ & $b_3'$\\
+					$\vdots$ & & & $\ddots$ & & $\vdots$\\
+					0 & $a_{m2}'$ & $a_{m3}'$ & $\cdots$ & $a_{mn}'$ & $b_m'$\\
+				\end{tabular}
+			\]
+			
+			\noindent Nun w\"ahlen wir die zweite Gleichung und addieren ein Vielfaches davon zu jeder folgenden Gleichung,
+			um in der zweiten Spalte auch Nullen zu erzeugen.
+			
+			\[
+				\begin{tabular} {ccccc|cccc}
+					$x_1$ & $x_2$ & $x_3$ & $\cdots$ & $x_n$ & & & & \\
+					\hline
+					$a_{11}$ & $a_{12}$ & $a_{13}$ & $\cdots$ & $a_{1n}$ & $b_1$ & & \\
+					0 & $a_{22}'$ & $a_{23}'$ & $\cdots$ & $a_{2n}'$ & $b_2'$ & $\cdot (-\frac {a_{32}'}{a_{22}'})$ & $\cdots$ & $\cdot (-\frac {a_{m2}'}{a_{22}'})$\\
+					0 & $a_{32}'$ & $a_{33}'$ & $\cdots$ & $a_{3n}'$ & $b_3'$ & $\hookleftarrow$ & & \\
+					$\vdots$ & & & $\ddots$ & & $\vdots$ & & $\ddots$ & \\
+					0 & $a_{m2}'$ & $a_{m3}'$ & $\cdots$ & $a_{mn}'$ & $b_m'$ & & & $\hookleftarrow$  \\
+				\end{tabular}
+			\]
+			
+			\noindent Was uns nach dem zweiten Schritt zu der folgenden Tabelle bringt:
+			
+			\[
+				\begin{tabular} {ccccc|c}
+					$x_1$ & $x_2$ & $x_3$ & $\cdots$ & $x_n$ &\\
+					\hline
+					$a_{11}$ & $a_{12}$ & $a_{13}$ & $\cdots$ & $a_{1n}$ & $b_1$\\
+					0 & $a_{22}'$ & $a_{23}'$ & $\cdots$ & $a_{2n}'$ & $b_2'$\\
+					0 & 0 & $a_{33}''$ & $\cdots$ & $a_{3n}''$ & $b_3''$\\
+					$\vdots$ & & & $\ddots$ & & $\vdots$\\
+					0 & 0 & $a_{m3}''$ & $\cdots$ & $a_{mn}''$ & $b_m''$\\
+				\end{tabular}
+			\]
+			
+			\noindent Dieser Ablauf wird wiederholt, bis die gew\"unschte Diagonalform entstanden ist
+			und sich das erzeugte Schema wie oben beschrieben aufl\"osen l\"asst.
+			
+			\[
+				\begin{tabular} {cccccc|c}
+					$x_1$ & $x_2$ & $x_3$ & $\cdots$ & $x_{n-1}$ & $x_n$ &\\
+					\hline
+					$a_{11}$ & $a_{12}$ & $a_{13}$ & $\cdots$ & $a_{1(n-1)}$ & $a_{1n}$ & $b_{1}$\\
+					0 & $a_{22}^*$ & $a_{23}^*$ & $\cdots$ & $a_{2(n-1)}^*$ & $a_{2n}^*$ & $b_{2}^*$\\
+					0 & 0 & $a_{33}^*$ & $\cdots$ & $a_{3(n-1)}^*$ & $a_{3n}^*$ & $b_{3}^*$\\
+					$\vdots$ & & & $\ddots$ & & & $\vdots$\\
+					0 & 0 & 0 & $\cdots$ & 0 & $a_{mn}^*$ & $b_{m}^*$\\
+				\end{tabular}
+			\]
+				
+	\section{Beispiele}
+	
+		F\"ur alle Beispiele gilt $ x_i \in \mathbb{R} $ 
+		
+		\begin{enumerate}
+				\item
+				
+					Die Ausgangssituation stellt sich wie folgt dar:
+					\[
+						\begin{array} {ccccccc}
+							3 x_1 & - & 1 x_2 & + & 2 x_3 & = & 1\\
+							7 x_1 & - & 4 x_2 & - & 1 x_3 & = & -2\\
+							- x_1 & - & 3 x_2 & - & 12 x_3 & = & -5\\
+						\end{array}
+					\]
+					
+					und l\"asst sich vereinfacht darstellen:
+					\[
+						\begin{tabular} {ccc|c}
+							$x_1$ & $x_2$ & $x_3$ &\\
+							\hline
+							3 & -1 & 2 & 1\\
+							7 & -4 & -1 & -2\\
+							-1 & -3 & -12 & -5\\
+						\end{tabular}
+					\]
+					
+					Jetzt wird schrittweise die Diagonalform erzeugt.
+					Um Zeit und Platz zu sparen, lassen sich alle Schritte in einer Tabelle durchf\"uhren.
+					\[
+						\begin{tabular} {ccc|ccc}
+							$x_1$ & $x_2$ & $x_3$ & & &\\
+							\hline
+							3 & -1 & 2 & 1 & $\cdot (-\frac{7} {3})$ & $\cdot (\frac{1} {3})$\\
+							7 & -4 & -1 & -2 & $\hookleftarrow$ &\\
+							-1 & -3 & -12 & -5 & & $\hookleftarrow$\\
+							\hline
+							3 & -1 & 2 & 1 & &\\
+							0 & $-\frac{5} {3}$ & $-\frac{17} {3}$ & $-\frac{13} {3}$ & $\cdot (-2)$ &\\
+							0 & $-\frac{10} {3}$ & $-\frac{34} {3}$ & $-\frac{14} {3}$ & $\hookleftarrow$ &\\
+							\hline
+							3 & -1 & 2 & 1 & &\\
+							0 & $-\frac{5} {3}$ & $-\frac{17} {3}$ & $-\frac{13} {3}$ & &\\
+							0 & 0 & 0 & 4 & &\\
+						\end{tabular}
+					\]
+					
+					Nach Herstellung der Diagonalform l\"asst sich das Ergebnis wie oben beschrieben leicht erschlie\ss en.
+					In diesem Beispiel entsteht ein Widerspruch in der letzten Gleichung
+					\[
+						0 x_1 + 0 x_2 + 0 x_3 = 4.
+					\]
+					
+					Somit hat das lineare Gleichungssystem keine L\"osung.
+					
+				\item
+				
+					Eine weitere, diesmal gleich vereinfachte, Aufgabenstellung.
+					\[
+						\begin{tabular} {ccc|c}
+							$x_1$ & $x_2$ & $x_3$ &\\
+							\hline
+							2 & -5 & 3 & 3\\
+							4 & -12 & 8 & 4\\
+							3 & 1 & -2 & 9\\
+						\end{tabular}
+					\]
+					
+					Die schrittweise Umformung:
+					\[
+						\begin{tabular} {ccc|ccc}
+							$x_1$ & $x_2$ & $x_3$ & & &\\
+							\hline
+							2 & -5 & 3 & 3 & $\cdot (-2)$ & $\cdot (-\frac{3} {2})$\\
+							4 & -12 & 8 & 4 & $\hookleftarrow$ &\\
+							3 & 1 & -2 & 9 & & $\hookleftarrow$\\
+							\hline
+							2 & -5 & 3 & 3 & &\\
+							0 & -2 & 2 & -2 & $\cdot (\frac{17} {4})$ &\\
+							0 & $\frac{17} {2}$ & $-\frac{13} {2}$ & $\frac{9} {2}$ & $\hookleftarrow$ &\\
+							\hline
+							2 & -5 & 3 & 3 & &\\
+							0 & -2 & 2 & -2 & &\\
+							0 & 0 & 2 & -4 & &\\
+						\end{tabular}
+					\]
+					
+					Es ergibt sich also nacheinander aus den letzten drei Gleichungen.
+					\[
+						\begin{array} {ccc}
+							x_3 & = & -2\\
+							x_2 & = & -1\\
+							x_1 & = & 2\\
+						\end{array}
+					\]
+					
+					Somit hat das lineare Gleichungssystem genau eine L\"osung.
+
+				\item
+				
+					Ein letztes Beispiel in aller K\"urze.
+					\[
+						\begin{tabular} {ccc|ccc}
+							$x_1$ & $x_2$ & $x_3$ & & &\\
+							\hline
+							1 & -2 & 3 & 4 & $\cdot (-3)$ & $\cdot (-2)$\\
+							3 & 1 & -5 & 5 & $\hookleftarrow$ &\\
+							2 & -3 & 4 & 7 & & $\hookleftarrow$\\
+							\hline
+							1 & -2 & 3 & 4 & &\\
+							0 & 7 & -14 & -7 & $\cdot (-\frac{1} {7})$ &\\
+							0 & 1 & -2 & -1 & $\hookleftarrow$ &\\
+							\hline
+							1 & -2 & 3 & 4 & &\\
+							0 & 7 & -14 & -7 & &\\
+							0 & 0 & 0 & 0 & &\\
+						\end{tabular}
+					\]
+					
+					Es ist eine Nullzeile entstanden,
+					welche auftritt, wenn zwei Gleichungen linear abh\"angig sind.
+					Folglich hat das lineare Gleichungssystem nur noch 2 (linear unabh\"angige) Gleichungen und 3 Unbekannte.
+					Es l\"asst sich eine Variable frei w\"ahlen, was zu unendlich vielen L\"osungen f\"ur dieses lineare Gleichungssystems f\"uhrt.
+					Wir setzen also
+					\[
+						x_3 = t, t \in \mathbb{R}
+					\]
+					
+					und l\"osen nun die anderen Unbekannten in Abh\"angigkeit von $t$ auf.
+					\[
+						\begin{array} {ccccc}
+							x_2 & = & -1 & + & 2t\\
+							x_1 & = & 2 & + & t\\
+						\end{array}
+					\]
+				
+		\end{enumerate}
+		
+		
+	\section{Literatur}
+	
+ \begin{description}
+     \item[Grundstudium.info]  \texttt{http://www.grundstudium.info/\allowbreak linearealgebra/\\\allowbreak lineare\_\allowbreak algebra\_grundlagennode9.php}
+     \item[Mathematik.de] \texttt{http://www.mathematik.de/mde/fragenantworten/\\erstehilfe/linearegleichungssysteme/\\linearegleichungssysteme.html}
+ \end{description}
+   
+		
+		
+
+		
+  %\href{http://www.mathematik.de/mde/fragenantworten/erstehilfe/linearegleichungssysteme/linearegleichungssysteme.html}{http://www.mathematik.de/mde/fragenantworten/\\erstehilfe/linearegleichungssysteme/linearegleichungssysteme.html}
+	
+	\newpage
+	\section{Aufgaben}
+	
+		F\"ur alle Aufgaben gilt $ x_i \in \mathbb{R} $ und $ a, b \in \mathbb{R} $ sind fest.
+		
+		\subsection{Einfache Gleichungssysteme}
+			Bestimmen Sie die L\"osungen folgender Gleichungssysteme.
+
+			\begin{enumerate}\abovedisplayskip-1em
+				\item 
+				
+					\[
+						\begin{array} {ccccccc}
+							x_1 & + & 5 x_2 & + & 2 x_3 & = & 3 \\
+							2 x_1 & - & 2 x_2 & + & 4 x_3 & = & 5\\
+							x_1 & + & x_2 & + & 2 x_3 & = & 1\\
+						\end{array}
+					\]
+				
+				\item
+				
+					\[
+						\begin{array} {ccccccc}
+							7 x_1 & + & 8 x_2 & + & 5 x_3 & = & 3 \\
+							3 x_1 & - & 3 x_2 & + & 2 x_3 & = & 1\\
+							18 x_1 & + & 21 x_2 & + & 13 x_3 & = & 8\\
+						\end{array}
+					\]
+				
+				\item
+					
+					\[
+						\begin{array} {ccccccccc}
+							x_1 & + & x_2 & + & 3 x_3 & + & 4 x_4 & = & -3 \\
+							2 x_1 & + & 3 x_2 & + & 11 x_3 & + & 5 x_4 & = & 2\\
+							2 x_1 & + & x_2 & + & 3 x_3 & + & 2 x_4 & = & -3\\
+							x_1 & + & x_2 & + & 5 x_3 & + & 2 x_4 & = & 1\\
+						\end{array}
+					\]	
+						
+				\item
+					
+					\[
+						\begin{array} {ccccccc}
+							x_1 & + & 2 x_2 & + & 3 x_3 & = & -4 \\
+							5 x_1 & - & x_2 & + & x_3 & = & 0\\
+							7 x_1 & + & 3 x_2 & + & 7 x_3 & = & -8\\
+							2 x_1 & + & 3 x_2 & - & x_3 & = & 11\\
+						\end{array}
+					\]
+						
+				\item
+					
+					\[
+						\begin{array} {cccccccccccc}
+							- x_1 & + & x_2 & + & x_3 & & & - & x_5 & = & 0 \\
+							x_1 & - & x_2 & - & 3 x_3 & + & 2 x_4 & - & x_5 & = & 2\\
+							& & 3 x_2 & - & x_3 & - & 5 x_4 & - & 7 x_5 & = & 9\\
+							3 x_1 & - & 3 x_2 & - & 5 x_3 & + & 2 x_4 & + & 5 x_5 & = & 2\\
+						\end{array}
+					\]	
+	
+				\item
+					
+					\[
+						\begin{array} {ccccccccc}
+							x_1 & - & 2 x_2 & - & 3 x_3 & & & = & -7 \\
+							2 x_1 & - & x_2 & + & 2 x_3 & + & 7 x_4 & = & -3\\
+							-2 x_1 & + & x_2 & + & 3 x_3 & + & 3 x_4 & = & 8\\
+							x_1 & + & 4 x_2 & + & 5 x_3 & - & 2 x_4 & = & 7\\
+						\end{array}
+						\]
+						
+				\item
+					
+					\[
+						\begin{array} {ccccccc}
+							x_1 & - & x_2 & + & x_3 & = & 4 \\
+							x_1 & + & 2 x_2 & + & x_3 & = & 13\\
+							4 x_1 & + & 5 x_2 & + & 4 x_3 & = & 43\\
+							2 x_1 & + & 4 x_2 & + & 2 x_3 & = & 26\\
+						\end{array}
+					\]
+					
+
+			\end{enumerate}
+			
+		\subsection{Parametrisierte Gleichungssysteme}
+				
+			Bestimmen Sie die L\"osungen folgender Gleichungssysteme in Abh\"angigkeit von $a$ und $b$.
+
+			\begin{enumerate}\abovedisplayskip-1em
+				\item
+				
+					\[
+						\begin{array} {ccccccc}
+							2 x_1 & - & x_2 & + & 4 x_3 & = & 0 \\
+							x_1 & + & 3 x_2 & - & x_3 & = & 0\\
+							7 x_1 & + & 7 x_2 & + & (4-a) x_3 & = & 0\\
+						\end{array}
+					\]
+						
+				\item
+					
+					\[
+						\begin{array} {ccccccc}
+							x_1 & + & x_2 & + & x_3 & = & 0 \\
+							x_1 & + & a x_2 & + & x_3 & = & 4\\
+							a x_1 & + & 3 x_2 & + & a x_3 & = & -2\\
+						\end{array}
+					\]
+					
+				\item
+					
+					\[
+						\begin{array} {ccccccc}
+							x_1 & - & 2 x_2 & + & 3 x_3 & = & 4 \\
+							2 x_1 & + & x_2 & + & x_3 & = & -2\\
+							x_1 & + & a x_2 & + & 2 x_3 & = & b\\
+						\end{array}
+					\]
+					
+			\end{enumerate}

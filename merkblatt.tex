@@ -1,0 +1,115 @@
+\section{Komplexe Zahlen}
+
+komplexe Zahlen:
+\;$\displaystyle
+\complex
+\ =\ \{\;x+\imag y\;|\;x,y\in\real\;\}
+\,.
+$
+
+kartesische Darstellung: $z=x+\imag y$,
+\\
+Realteil $\re(z)=x$, Imaginärteil $\im(z)=y$
+
+Eulersche Darstellung: $z=r\e^{\imag\varphi}$,
+\\
+Betrag $\abs{z}=r\ge0$, Hauptargument $\arg{z}=\varphi\in\ocinterval{-\pi}{\pi}$
+
+Zusammenhang: $r\e^{\imag\varphi}=r\,(\cos\varphi+\imag\sin\varphi)$, wobei $r=\sqrt{x^2+y^2}$ und $\varphi=\arctan(y/x)$ aus richtigem Quadranten:
+\[
+\begin{array}{c|c|c}
+x & y & \varphi=\\
+\hline
+\ge0 & =0 & 0\\
+<0 & =0 & \pi\\
+=0 & >0 & \pi/2\\
+=0 & <0 & -\pi/2
+\end{array}
+\qquad
+\begin{array}{c|c|c}
+x & y & \varphi\in\\
+\hline
+>0 & >0 & \ointerval{0}{\pi/2}\\
+>0 & <0 & \ointerval{-\pi/2}{0}\\
+<0 & >0 & \ointerval{\pi/2}{\pi}\\
+<0 & <0 & \ointerval{-\pi}{-\pi/2}
+\end{array}
+\]
+und umgekehrt: $x=r\cos\varphi$ und $y=r\sin\varphi$
+
+konjugiert komplexe Zahl: $z=x-\imag y$
+
+Addition: $(a+\imag b)+(c+\imag d)=(a+c)+\imag(b+d)$
+
+Subtraktion: $(a+\imag b)-(c+\imag d)=(a-c)+\imag(b-d)$
+
+Multiplikation: $(a+\imag b)\cdot(c+\imag d)=(ac-bd)+\imag(bc+ad)$
+\\
+bzw.\ $r\e^{\imag\varphi}\cdot{}s\e^{\imag\psi}=(rs)\,\e^{\imag(\varphi+\psi)}$
+
+Division (erweitern mit konjugiert Komplexem des Nenners):
+\\
+$\displaystyle\frac{a+\imag b}{c+\imag d}
+=\frac{ac+bd}{c^2+d^2}+\imag\,\frac{bc-ad}{c^2+d^2}$
+\\
+bzw.\ $\displaystyle\frac{r\e^{\imag\varphi}}{s\e^{\imag\psi}}
+=\frac{r}{s}\,\e^{\imag(\varphi-\psi)}$ für $s>0$
+
+Potenzen von $\imag$: Für $n\in\integer$ ist
+\[
+\imag^n
+\ =\ \left\{\begin{array}{r@{\,,\; \text{falls}\quad}l}
+1      & n\equiv0\!\mod4\\
+\imag  & n\equiv1\!\mod4\\
+-1     & n\equiv2\!\mod4\\
+-\imag & n\equiv3\!\mod4
+\end{array}\right.
+\]
+Potenzieren mit Exponenten $a\in\real$:
+$
+z^a=r^a\,\e^{\imag(a\varphi+2ak\pi)}
+$
+\\
+und falls $a\in\integer$ speziell
+$
+z^a=r^a\,\e^{\imag a\varphi}
+$
+
+Radizieren: $n$-ten Wurzeln für $n=2,3,\dotsc$,
+\[
+\sqrt[n]{r}\,\left(
+\cos\frac{\varphi+2k\pi}n
++\imag\sin\frac{\varphi+2k\pi}n
+\right)
+,\quad{}
+k=0,\dotsc,n-1
+\,,
+\]
+teilen den Kreis um Nullpunkt mit Radius $\sqrt[n]{r}$ in $n$ gleiche Teile
+
+%================================================================================
+\section{Kurvendiskussion}
+
+Definitionsbereich: $D(f)$, Wertebereich: $W(f)=\{f(x)\,|\,x\in{}D(f)\}$
+
+Definitionslücken? Stetigkeit? Differenzierbarkeit?
+
+Nullstellen: $f(x_0)=0$
+
+Extrema: $f'(x_{\e})=0$ und dann
+\\
+lokales Minimum: $f''(x_{\e})>0$, lokales Maximum: $f''(x_{\e})<0$
+\\
+globale Extrema: betrachte zusätzlich $\lim\limits_{x\to-\infty}f(x)$ und
+$\lim\limits_{x\to\infty}f(x)$
+
+Monotonie: wachsend: $f'(x)>0$, fallend: $f'(x)<0$
+
+Krümmung: konvex: $f''(x)>0$, konkav: $f''(x)<0$
+
+Wendestelle: $f''(x_{\w})=0$ und $f'''(x_{\w})\neq0$
+
+weiteres: Polstellen? Asymptoten? Periodizität?
+
+Skizzieren des Graphen!
+

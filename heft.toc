@@ -1,0 +1,197 @@
+\select@language {ngerman}
+\contentsline {chapter}{\numberline {1}Spickzettel}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}Zahlenbereiche}{5}{section.1.1}
+\contentsline {section}{\numberline {1.2}Mengen}{5}{section.1.2}
+\contentsline {section}{\numberline {1.3}Intervalle}{6}{section.1.3}
+\contentsline {section}{\numberline {1.4}Abk\IeC {\"u}rzungen und Vokabeln}{7}{section.1.4}
+\contentsline {chapter}{\numberline {2}Basismathematik}{9}{chapter.2}
+\global \c@tocdepth 1\relax 
+\contentsline {section}{\numberline {2.1}Bruchrechnung}{9}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Definition}{9}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}K\IeC {\"u}rzen und Erweitern}{9}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Spezielle Rechenregeln}{9}{subsection.2.1.3}
+\contentsline {subsubsection}{Addition von gleichnamigen Br\IeC {\"u}chen}{9}{section*.2}
+\contentsline {subsubsection}{Subtraktion von gleichnamigen Br\IeC {\"u}chen}{9}{section*.3}
+\contentsline {subsubsection}{Multiplikation mit einem Faktor}{10}{section*.4}
+\contentsline {subsubsection}{Division durch eine Zahl}{10}{section*.5}
+\contentsline {subsection}{\numberline {2.1.4}Allgemeine Rechenregeln}{10}{subsection.2.1.4}
+\contentsline {subsubsection}{Addition}{10}{section*.6}
+\contentsline {subsubsection}{Subtraktion}{10}{section*.7}
+\contentsline {subsubsection}{Multiplikation}{10}{section*.8}
+\contentsline {subsubsection}{Division}{10}{section*.9}
+\contentsline {subsection}{\numberline {2.1.5}Literatur}{11}{subsection.2.1.5}
+\contentsline {subsection}{\numberline {2.1.6}Aufgaben}{11}{subsection.2.1.6}
+\contentsline {subsubsection}{Aufgabe 1}{11}{section*.10}
+\contentsline {subsubsection}{Aufgabe 2}{11}{section*.11}
+\contentsline {subsubsection}{Aufgabe 3}{11}{section*.12}
+\contentsline {subsubsection}{Aufgabe 4}{11}{section*.13}
+\contentsline {subsubsection}{Aufgabe 5}{11}{section*.14}
+\contentsline {subsubsection}{Aufgabe 6}{11}{section*.15}
+\contentsline {section}{\numberline {2.2}Potenzen}{13}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Definition}{13}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Besondere Exponenten}{13}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}Potenzgesetze}{13}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Wurzeln}{14}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Wurzelgesetze}{14}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}Literatur}{14}{subsection.2.2.6}
+\contentsline {subsection}{\numberline {2.2.7}Aufgaben}{15}{subsection.2.2.7}
+\contentsline {subsubsection}{Aufgabe 1}{15}{section*.16}
+\contentsline {subsubsection}{Aufgabe 2}{15}{section*.17}
+\contentsline {subsubsection}{Aufgabe 3}{16}{section*.18}
+\contentsline {subsubsection}{Aufgabe 4}{16}{section*.19}
+\contentsline {subsubsection}{Aufgabe 5}{17}{section*.20}
+\contentsline {subsubsection}{Aufgabe 6}{17}{section*.21}
+\contentsline {subsubsection}{Aufgabe 7}{17}{section*.22}
+\contentsline {subsubsection}{Aufgabe 8}{17}{section*.23}
+\contentsline {subsubsection}{Aufgabe 9}{18}{section*.24}
+\contentsline {subsubsection}{Aufgabe 10}{19}{section*.25}
+\contentsline {subsubsection}{Aufgabe 11}{19}{section*.26}
+\contentsline {subsubsection}{Aufgabe 12}{19}{section*.27}
+\contentsline {subsubsection}{Aufgabe 13*}{20}{section*.28}
+\contentsline {section}{\numberline {2.3}Binomische Formeln}{21}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Definition}{21}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Formeln}{21}{subsection.2.3.2}
+\contentsline {subsubsection}{Erste binomische Formel}{21}{section*.29}
+\contentsline {subsubsection}{Zweite binomische Formel}{21}{section*.30}
+\contentsline {subsubsection}{Dritte binomische Formel}{22}{section*.31}
+\contentsline {subsection}{\numberline {2.3.3}Literatur}{23}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.4}Aufgaben}{23}{subsection.2.3.4}
+\contentsline {subsubsection}{Aufgabe 1}{23}{section*.32}
+\contentsline {subsubsection}{Aufgabe 2}{24}{section*.33}
+\contentsline {subsubsection}{Aufgabe 3}{24}{section*.34}
+\contentsline {subsubsection}{Aufgabe 4}{24}{section*.35}
+\contentsline {subsubsection}{Aufgabe 5}{25}{section*.36}
+\contentsline {subsection}{\numberline {2.3.5}Aufgabe 6}{25}{subsection.2.3.5}
+\contentsline {section}{\numberline {2.4}Polynomdivision}{26}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Polynome}{26}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Verfahren}{26}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Beispiel}{26}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Weitere Beispiele}{27}{subsection.2.4.4}
+\contentsline {subsection}{\numberline {2.4.5}Aufgaben}{28}{subsection.2.4.5}
+\contentsline {subsection}{\numberline {2.4.6}Literatur}{28}{subsection.2.4.6}
+\global \c@tocdepth 0\relax 
+\contentsline {chapter}{\numberline {3}Quadratische Gleichungen}{29}{chapter.3}
+\contentsline {section}{\numberline {3.1}Definition}{29}{section.3.1}
+\contentsline {section}{\numberline {3.2}L\IeC {\"o}sen quadratischer Gleichungen}{29}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Satz von Vieta:}{29}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Mitternachtsformel}{29}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}p-q-Formel}{30}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Satz vom Nullprodukt}{30}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Substitution}{30}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Beispiele}{31}{section.3.3}
+\contentsline {section}{\numberline {3.4}Aufgaben}{32}{section.3.4}
+\contentsline {chapter}{\numberline {4}Lineare Gleichungssysteme}{35}{chapter.4}
+\contentsline {section}{\numberline {4.1}Definition}{35}{section.4.1}
+\contentsline {section}{\numberline {4.2}Lineare Abh\"angigkeit}{35}{section.4.2}
+\contentsline {section}{\numberline {4.3}L\"osbarkeit}{35}{section.4.3}
+\contentsline {section}{\numberline {4.4}L\"osungsverfahren}{36}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Vereinfachte Darstellung}{36}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Diagonalform}{37}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Gauss-Algorithmus}{37}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Beispiele}{39}{section.4.5}
+\contentsline {section}{\numberline {4.6}Literatur}{41}{section.4.6}
+\contentsline {section}{\numberline {4.7}Aufgaben}{42}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Einfache Gleichungssysteme}{42}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Parametrisierte Gleichungssysteme}{43}{subsection.4.7.2}
+\global \c@tocdepth 1\relax 
+\contentsline {chapter}{\numberline {5}Betrag, Ungleichungen, Kreis}{45}{chapter.5}
+\contentsline {section}{\numberline {5.1}Betrag}{45}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Definition}{45}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Die Betragfunktion}{45}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Rechenregeln f"ur den Betrag}{45}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Beispiele}{46}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Aufgaben}{46}{subsection.5.1.5}
+\contentsline {section}{\numberline {5.2}Rund um den Kreis}{47}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Definition}{47}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Mathematische Beschreibung}{47}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Koordinatengleichung}{47}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Funktionsgleichung}{48}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Beispiele}{48}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Aufgaben}{49}{subsection.5.2.6}
+\contentsline {section}{\numberline {5.3}Ungleichungen}{50}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Definition}{50}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}"Aquivalenzumformung von Ungleichungen}{50}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Lineare Ungleichungen}{51}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Quadratische Ungleichungen}{51}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Ungleichungen h"oherer Ordnung}{53}{subsection.5.3.5}
+\contentsline {subsection}{\numberline {5.3.6}Bruchungleichungen}{53}{subsection.5.3.6}
+\contentsline {subsubsection}{L"osen von Bruchungleichungen}{53}{section*.38}
+\contentsline {subsubsection}{Beispiel}{54}{section*.39}
+\contentsline {subsection}{\numberline {5.3.7}Ungleichungen mit mehreren Variablen}{54}{subsection.5.3.7}
+\contentsline {subsubsection}{Beispiel: Ungleichung mit 2 Variablen}{55}{section*.40}
+\contentsline {subsection}{\numberline {5.3.8}Quellen}{55}{subsection.5.3.8}
+\contentsline {subsection}{\numberline {5.3.9}Aufgaben}{56}{subsection.5.3.9}
+\contentsline {subsubsection}{Ungleichungen mit einer Variablen}{56}{section*.41}
+\contentsline {subsubsection}{Ungleichungen mit mehreren Variablen}{57}{section*.42}
+\global \c@tocdepth 0\relax 
+\contentsline {chapter}{\numberline {6}Vollst\IeC {\"a}ndige Induktion}{61}{chapter.6}
+\contentsline {section}{\numberline {6.1}Prinzip}{61}{section.6.1}
+\contentsline {section}{\numberline {6.2}Einschub: Das Summen- und Produktzeichen}{61}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Allgemein}{61}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Letzten Index ausklammern}{62}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Assoziativgesetz}{62}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Kommutativgesetz}{62}{subsection.6.2.4}
+\contentsline {subsection}{\numberline {6.2.5}Verbindung zweier Summen- bzw. Produktzeichen}{62}{subsection.6.2.5}
+\contentsline {subsection}{\numberline {6.2.6}Doppelsummen bzw. Doppelprodukte}{62}{subsection.6.2.6}
+\contentsline {section}{\numberline {6.3}Beispielaufgabe}{62}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Induktionsanfang}{62}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Induktionsschritt}{63}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Induktionsschluss}{63}{subsection.6.3.3}
+\contentsline {section}{\numberline {6.4}Literatur}{63}{section.6.4}
+\contentsline {section}{\numberline {6.5}Aufgaben}{64}{section.6.5}
+\contentsline {subsubsection}{Gleichungen}{64}{section*.43}
+\contentsline {subsubsection}{Ungleichungen}{65}{section*.44}
+\contentsline {subsubsection}{Teilbarkeitsprobleme}{65}{section*.45}
+\contentsline {subsubsection}{Ableitungen}{66}{section*.46}
+\contentsline {chapter}{\numberline {7}Funktionen}{67}{chapter.7}
+\contentsline {section}{\numberline {7.1}Trigonometrische Funktionen}{68}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Definition}{68}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Periodizit\IeC {\"a}t und Symmetrie}{69}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Umkehrfunktionen}{69}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Trigonometrischer Pythagoras}{70}{subsection.7.1.4}
+\contentsline {subsection}{\numberline {7.1.5}Additionstheoreme}{70}{subsection.7.1.5}
+\contentsline {subsection}{\numberline {7.1.6}Aufgaben}{71}{subsection.7.1.6}
+\global \c@tocdepth 1\relax 
+\contentsline {section}{\numberline {7.2}Exponentialfunktionen und Logarithmus}{72}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Exponentialfunktionen}{72}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Logarithmus}{72}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Logarithmusfunktion}{73}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Logarithmengesetze}{73}{subsection.7.2.4}
+\contentsline {subsection}{\numberline {7.2.5}Basiswechsel}{73}{subsection.7.2.5}
+\contentsline {subsection}{\numberline {7.2.6}Aufgaben}{74}{subsection.7.2.6}
+\contentsline {subsection}{\numberline {7.2.7}Literatur}{74}{subsection.7.2.7}
+\contentsline {section}{\numberline {7.3}Kurvendiskussion}{75}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Definitionsbereich}{75}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Wertebereich}{75}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Nullstellen}{75}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Extrema}{76}{subsection.7.3.4}
+\contentsline {subsection}{\numberline {7.3.5}Exkursion: Ableiten einer Funktion}{77}{subsection.7.3.5}
+\contentsline {subsubsection}{Differentiationsregeln}{77}{section*.47}
+\contentsline {subsubsection}{wichtige Ableitungen}{77}{section*.48}
+\contentsline {subsection}{\numberline {7.3.6}Wendepunkte}{77}{subsection.7.3.6}
+\contentsline {subsection}{\numberline {7.3.7}Verhalten im Unendlichen, Polstellen, Asymptoten}{78}{subsection.7.3.7}
+\contentsline {subsection}{\numberline {7.3.8}Graph der Funktion}{78}{subsection.7.3.8}
+\contentsline {subsection}{\numberline {7.3.9}\IeC {\"U}bungsaufgaben}{78}{subsection.7.3.9}
+\contentsline {subsection}{\numberline {7.3.10}Literatur}{79}{subsection.7.3.10}
+\contentsline {chapter}{\numberline {8}Vektoren}{81}{chapter.8}
+\contentsline {section}{\numberline {8.1}Definition}{81}{section.8.1}
+\contentsline {section}{\numberline {8.2}Operationen}{82}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Addition und Subtraktion}{82}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Multiplikation mit einem Skalar}{82}{subsection.8.2.2}
+\contentsline {section}{\numberline {8.3}Linearkombination}{83}{section.8.3}
+\contentsline {section}{\numberline {8.4}Lineare Abh\IeC {\"a}ngigkeit}{83}{section.8.4}
+\contentsline {section}{\numberline {8.5}Betrag eines Vektors}{84}{section.8.5}
+\contentsline {section}{\numberline {8.6}Skalarprodukt}{84}{section.8.6}
+\contentsline {section}{\numberline {8.7}Kreuzprodukt}{85}{section.8.7}
+\contentsline {section}{\numberline {8.8}Literatur}{86}{section.8.8}
+\contentsline {section}{\numberline {8.9}Aufgaben}{86}{section.8.9}
+\contentsline {chapter}{\numberline {9}Komplexe Zahlen}{89}{chapter.9}
+\contentsline {section}{\numberline {9.1}Historie}{89}{section.9.1}
+\contentsline {section}{\numberline {9.2}Kartesische Darstellung}{89}{section.9.2}
+\contentsline {section}{\numberline {9.3}Rechenoperationen}{90}{section.9.3}
+\contentsline {section}{\numberline {9.4}Eulersche Darstellung}{91}{section.9.4}
+\contentsline {section}{\numberline {9.5}Umrechnung zwischen kartesischen und Polarkoordinaten}{92}{section.9.5}
+\contentsline {section}{\numberline {9.6}Rechnen mit komplexen Zahlen}{93}{section.9.6}
+\contentsline {section}{\numberline {9.7}Beispiele}{94}{section.9.7}
+\contentsline {section}{\numberline {9.8}\IeC {\"U}bungsaufgaben}{95}{section.9.8}
+\contentsline {section}{\numberline {9.9}Literatur}{96}{section.9.9}

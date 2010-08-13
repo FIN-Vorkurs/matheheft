@@ -1,0 +1,445 @@
+\chapter{Vollständige Induktion Lösung}
+Autor: Katja Matthes
+\section{Gleichungen}
+\subsubsection{Aufgabe 1}
+\textbf{Gesucht:} Formeln für $ 1 + 3 + 5 + ... + 2n-1 = \sum_{k=1}^n 2k-1 $ \\
+\textbf{Finden der Vermutung:}\begin{align*} 	\sum_{k=1}^1 2k-1 &= 1 &\quad \sum_{k=1}^3 2k-1 &= 9 \\
+																							\sum_{k=1}^2 2k-1 &= 4 &\quad \sum_{k=1}^4 2k-1 &= 16	\end{align*}\\
+\textbf{Zu Zeigen}: \quad							$\sum_{k=1}^n 2k-1 = n^2 $ \\
+\textbf{Ind.anfang}: \quad$n_0 = 1$ \\
+\textbf{Ind.voraussetzung}:\quad $\sum_{k=1}^n 2k-1 = n^2$ \\
+\textbf{Ind.behauptung}:\quad$ \sum_{k=1}^{n+1} 2k-1 = (n+1)^2$ \\
+\textbf{Induktionsbeweis}: \begin{align*}
+	\sum_{k=1}^{n+1} 2k-1 &= \sum_{k=1}^n 2k-1 + 2(n+1)-1 && \text{\textbar nach Voraussetzung}\\
+												&= n^2 + 2n+2-1 								&& \text{\textbar Zusammenfassen}\\
+												&= n^2 + 2n + 1 								&& \text{\textbar Binomische Formel}\\
+												&= (n+1)												&& \text{\textbar qed}\end{align*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 2}
+\textbf{Gesucht:} Formeln für $ 4 + 8 + 12 + ... + 4n = 2n(n+1) = \sum_{k=1}^n 4k$ \\
+\textbf{Finden der Vermutung:}\begin{align*} 	\sum_{k=1}^1 4k = 4  &= 2\cdot1\cdot2 &\sum_{k=1}^3 4k = 24 &= 2\cdot3\cdot4\\
+																							\sum_{k=1}^2 4k = 12 &= 2\cdot2\cdot3 &\sum_{k=1}^4 4k = 40 &= 2\cdot4\cdot5 \end{align*}\\
+\textbf{Zu Zeigen}:\quad$\sum_{k=1}^n 4k = 2n(n+1) $ \\
+\textbf{I.anfang}:\quad$ n_0 = 1$ \\
+\textbf{I.voraussetzung}:\quad$\sum_{k=1}^n 4k = 2n(n+1) $\\
+\textbf{I.behauptung}: \quad $\sum_{k=1}^{n+1} 4k = 2(n+1)((n+1)+1) $\\
+\textbf{Induktionsbeweis}: \begin{align*}
+	\sum_{k=1}^{n+1} 4k &= \sum_{k=1}^n 4k + 4(n+1)	&& \text{\textbar Voraussetzung}\\
+											&= 2n(n+1) + 4(n+1)					&& \text{\textbar $2$ Ausklammern}\\
+											&= 2(n(n+1)+2(n+1))					&& \text{\textbar $(n+1)$ Ausklammern}\\
+											&= 2(n+1)(n+2)							&& \\
+											&= 2(n+1)((n+1)+1)				&& \text{\textbar qed}\end{align*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 3}
+\textbf{I.anf.}:\quad$ n_0 = 1 \Rightarrow \sum_{k=1}^1 2k = 2\cdot1 = 2 = 1^2+1$ \\
+\textbf{I.vor.}: \quad$\sum_{k=1}^{n} 2k = n^2 + n $\\
+\textbf{I.beh.}:\quad$\sum_{k=1}^{n+1} 2k = (n+1)^2 + (n+1) $\\
+\textbf{Induktionsbeweis}:  \begin{align*} 
+		\sum_{k=1}^{n+1} 2k 	&= \sum_{k=1}^{n} 2k + 2(n+1) && \text{\textbar Voraussetzung}\\
+													&= n^2 + n + 2(n+1) 					&& \text{\textbar Ausmultiplizieren}\\
+													&= n^2 + n + 2n + 2						&& \text{\textbar Umordnen}\\
+													&= n^2 + 2n + 1 + n+1 				&& \text{\textbar Binomische Formel}\\
+													&= (n+1)^2 + (n+1) 						&& \text{\textbar qed}\end{align*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 4}
+\textbf{I.anf.}:\quad $n_0 = 1 \Rightarrow \sum^1_{k=1} \frac{1}{(2k-1)(2k+1)} = \frac{1}{3}= \frac{1}{2\cdot1+1}$\\
+\textbf{I.vor.}:\quad$\sum^n_{k=1} \frac{1}{(2k-1)(2k+1)} = \frac{n}{2n + 1}$ \\
+\textbf{I.beh.}:\quad$\sum^{n+1}_{k=1} \frac{1}{(2k-1)(2k+1)} = \frac{n+1}{2(n+1) + 1} $\\
+\textbf{Induktionsbeweis}: \begin{align*}
+&\sum^{n+1}_{k=1} \frac{1}{(2k-1)(2k+1)}\\ 
+= &\sum^n_{k=1} \frac{1}{(2k-1)(2k+1)} + \frac{1}{(2(n+1)-1)(2(n+1)+1)} \\
+& \qquad\text{\textbar Voraussetzung}\end{align*}\begin{align*}
+																				= &\frac{n}{2n + 1} + \frac{1}{(2n+1)(2n+3)} && \\
+																				= &\frac{n \cdot (2n+3) + 1}{(2n+1)(2n+3)} 		&& \text{\textbar Ausmultiplizieren}\\
+																				= &\frac{2n^2 + 3n + 1}{(2n+1)(2n+3)} 				&& \text{\textbar Polynomdivision}\\
+																				= &\frac{(2n+1)(n+1)}{(2n+1)(2n+3)} 					&& \text{\textbar Kürzen}\\
+																				= &\frac{n+1}{2n+3}														&& \text{\textbar Umformen}\\
+																				= &\frac{n+1}{2(n+1) + 1} 										&& \text{\textbar qed}
+\end{align*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 5}
+\textbf{I.anf.}:\quad$n_0 = 1 \Rightarrow \sum^1_{k=1} \frac{1}{k(k+1)} = \frac{1}{2} = \frac{1}{1+1}$\\
+\textbf{I.vor.}: \quad$\sum^n_{k=1} \frac{1}{k(k+1)} = \frac{n}{n+1} $\\
+\textbf{I.beh.}:\quad$\sum^{n+1}_{k=1} \frac{1}{k(k+1)} = \frac{n+1}{(n+1)+1} $\\
+\textbf{Induktionsbeweis}:\begin{align*} 
+&\sum^{n+1}_{k=1} \frac{1}{k(k+1)} \\
+= &\sum^n_{k=1} \frac{1}{k(k+1)} + \frac{1}{(n+1)((n+1)+1)} && \text{\textbar Voraussetzung}\\
+																	= &\frac{n}{n+1} + \frac{1}{(n+1)(n+2)} \\
+																	= &\frac{n \cdot (n+2) +1}{(n+1)(n+2)} && \text{\textbar Ausmultiplizieren}\\
+																	= &\frac{n^2 + 2n + 1}{(n+1)(n+2)} && \text{\textbar Binomische Formel}\\
+																	= &\frac{(n+1)^2}{(n+1)(n+2)} && \text{\textbar Kürzen}\\
+																	= &\frac{n+1}{n+2}						&& \text{\textbar Umformen}\\
+																	= &\frac{n+1}{(n+1)+1} 				&& \text{\textbar qed}\end{align*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 6}
+\textbf{I.anf.}:\quad$ n_0 = 1 \Rightarrow \sum^1_{k=1} k = 1 = \frac{2}{2} = \frac{1(1+1)}{2}$\\
+\textbf{I.vor.}: \quad$\sum^n_{k=1} k = \frac{n(n+1)}{2}$ \\
+\textbf{I.beh.}:\quad$\sum^{n+1}_{k=1} k = \frac{(n+1)((n+1)+1)}{2} $\\
+\textbf{Induktionsbeweis}: \begin{align*}
+\sum^{n+1}_{k=1} k &= \sum^n_{k=1} k + (n+1) && \text{\textbar Voraussetzung}\\
+										&= \frac{n(n+1)}{2} + (n+1)\\
+										&= \frac{n(n+1) + 2(n+1)}{2} && \text{\textbar $(n+1)$ Ausklammern}\\
+										&= \frac{(n+1)(n + 2)}{2} && \text{\textbar Umformen}\\
+										&= \frac{(n+1)((n+1)+1)}{2} && \text{\textbar qed} \end{align*}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 7}
+\textbf{I.anf.}:\quad $n_0 = 1 \Rightarrow \sum_{k=1}^1 k^2 = 1^2 = \frac{6}{6} = \frac{1(1+1)(2\cdot1+1)}{6} $\\
+\textbf{I.vor.}:\quad $\sum_{k=1}^n k^2 = \frac{n(n+1)(2n+1)}{6} $ \\
+\textbf{I.beh.}: \quad$\sum_{k=1}^{n+1} k^2 = \frac{(n+1)((n+1)+1)(2(n+1)+1)}{6} $\\
+\textbf{Induktionsbeweis}: \begin{align*}
+\sum_{k=1}^{n+1} k^2 &= \sum_{k=1}^n k^2 + (n+1)^2 && \text{\textbar Voraussetzung}\\
+											&= \frac{n(n+1)(2n+1)}{6} + (n+1)^2 \\
+											&= \frac{n(n+1)(2n+1) + 6(n+1)^2}{6} && \text{\textbar $(n+1)$ Ausklammern}\\
+											&= \frac{(n+1)(n(2n+1) + 6(n+1))}{6} \\
+											&= \frac{(n+1)(2n^2 + 7n + 6)}{6} && \text{\textbar Polynomdivision}\\
+											&= \frac{(n+1)(n+2)(2n+3)}{6} && \text{\textbar Umformen}\\
+											&= \frac{(n+1)((n+1)+1)(2(n+1)+1)}{6} && \text{\textbar qed}\end{align*}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 8}
+\textbf{I.anf.}:\quad$ n_0 = 1 \Rightarrow \sum_{k=1}^1 \frac{k}{2^k} = \frac{1}{2^1} = 2 - \frac{3}{2} = 2 - \frac{1+2}{2^1}$\\
+\textbf{I.vor.}:\quad$ \sum_{k=1}^n \frac{k}{2^k} = 2 - \frac{n+2}{2^n}$ \\
+\textbf{I.beh.}:\quad$ \sum_{k=1}^{n+1} \frac{k}{2^k} = 2 - \frac{(n+1)+2}{2^{n+1}}$ \\
+\textbf{Induktionsbeweis}:\begin{align*} 
+\sum_{k=1}^{n+1} \frac{k}{2^k} &= \sum_{k=1}^n \frac{k}{2^k} + \frac{n+1}{2^{n+1}} && \text{\textbar Voraussetzung}\\
+																&= 2 - \frac{n+2}{2^n} + \frac{n+1}{2^{n+1}} \\
+																&= 2 + \frac{-2(n+2)+(n+1)}{2^{n+1}} && \text{\textbar Zusammenfassen}\\
+																&= 2 + \frac{-(n+3)}{2^{n+1}} && \text{\textbar $(-)$ Vorziehen}\\
+																&= 2 - \frac{(n+1)+2}{2^{n+1}} && \text{\textbar qed} \end{align*}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 9}
+\textbf{I.anf.}:\quad$ n_0 = 0 \Rightarrow \sum_{k=0}^0 \left(\frac{2}{3}\right)^k = \frac{2}{3} = 3\cdot \frac{1}{3} = 3\left(1-\frac{2}{3}^{0+1}\right)$\\
+\textbf{I.vor.}:\quad$\sum_{k=0}^n \left(\frac{2}{3}\right)^k = 3 \cdot \left(1 - \left(\frac{2}{3}\right)^{n+1}\right)$ \\
+\textbf{I.beh.}\quad$ \sum_{k=0}^{n+1} \left(\frac{2}{3}\right)^k = 3 \cdot \left(1 - \left(\frac{2}{3}\right)^{(n+1)+1}\right) $\\
+\textbf{Induktionsbeweis}:\begin{align*} 
+\sum_{k=0}^{n+1} \left(\frac{2}{3}\right)^k &= \sum_{k=0}^n \left(\frac{2}{3}\right)^k + \left(\frac{2}{3}\right)^{n+1} && \text{\textbar Voraussetzung}\\
+																						&= 3 \cdot \left(1 - \left(\frac{2}{3}\right)^{n+1}\right) + \left(\frac{2}{3}\right)^{n+1} && \text{\textbar R. Br. mit $3$ erweitern}\\
+																						&= 3 \cdot \left(1 - \left(\frac{2}{3}\right)^{n+1}\right) + \frac{3 \cdot 2^{n+1}}{3^{n+2}} && \text{\textbar $3$ Ausklammern}\\
+																						&= 3 \cdot \left(1 - \left(\frac{2}{3}\right)^{n+1} + \frac{2^{n+1}}{3^{n+2}}\right) \\
+																						&= 3 \cdot \left(1 + \frac{-3 \cdot 2^{n+1} + 2^{n+1}}{3^{n+2}} \right) \\
+																						&= 3 \cdot \left(1 + \frac{-2 \cdot 2^{n+1}}{3^{n+2}} \right) && \text{\textbar Potenzgesetze}\\
+																						&= 3 \cdot \left(1 - \left(\frac{2}{3}\right)^{n+2} \right) && \text{\textbar Umformen}\\
+																						&= 3 \cdot \left(1 - \left(\frac{2}{3}\right)^{(n+1)+1} \right) && \text{\textbar qed}\end{align*}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 10}
+\textbf{I.anf.}:\quad $ n_0 = 1 \Rightarrow \sum_{k=0}^1 q^k = 1 + q = \frac{(1+q)(1-q)}{(1-q)} = \frac{1-q^{1+1}}{1-q}$\\ 
+\textbf{I.vor.}:\quad $\sum_{k=0}^n q^k = \frac{1 - q^{n+1}}{1 - q} $\\
+\textbf{I.beh..}: \quad $\sum_{k=0}^{n+1} q^k = \frac{1 - q^{(n+1)+1}}{1 - q} $\\
+\textbf{Induktionsbeweis}:\begin{align*} 
+\sum_{k=0}^{n+1} q^k &= \sum_{k=0}^n q^k + q^{n+1} && \text{\textbar Voraussetzung}\\
+											&= \frac{1 - q^{n+1}}{1 - q} + q^{n+1} \\
+											&= \frac{(1 - q^{n+1}) + (1-q)q^{n+1}}{1 - q} && \text{\textbar Zusammenfassen}\\
+											&= \frac{1 - q^{n+2}}{1 - q} && \text{\textbar Umformen}\\
+											&= \frac{1 - q^{(n+1)+1}}{1 - q}&& \text{\textbar qed}\end{align*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Ungleichung}
+\subsubsection{Aufgabe 1 - Bernoulli-Ungleichung}
+\textbf{I.anf.}: $ n_0 = 1 \Rightarrow (1+x)^1 = 1 + x \geq 1+1\cdot x $\\
+\textbf{I.vor.}: $ (1 + x)^n \geq 1 + nx $\\
+\textbf{I.beh.}: $ (1 + x)^{n+1} \geq 1 + (n+1)x $\\
+\textbf{Induktionsbeweis}: \begin{align*}
+(1 + x)^{n+1} &= (1 + x)^n \cdot (1 + x) 				 && \text{\textbar Voraussetzung}\\
+							&\geq (1 + nx) \cdot (1 + x) 				 && \text{\textbar Ausmultiplizieren}\\
+							&= 1 + x + nx + nx^2 					 && \text{\textbar $x$ teilweise ausklammern}\\
+							&= 1 + (n+1)x + nx^2 					 && \text{\textbar da $nx^2 \geq 0$}\\
+							&\geq 1 + (n+1)x 							 && \text{\textbar qed}\end{align*}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 2}
+\textbf{I.anf.}: $ n_0 = 6 $\\
+	\quad $ n = 5 \Rightarrow 5^2+10 = 35 < 32 = 2^5 $ falsche Aussage\\
+	\quad $ n = 6 \Rightarrow 6^2+10=46 <64 =2^6 $ wahre Aussage \\
+\textbf{I.vor.}: $ n^2 + 10 < 2^n $\\
+\textbf{I.beh.}: $ (n+1)^2 + 10 < 2^{n+1} $\\
+\textbf{Induktionsbeweis}: \begin{align*}
+(n+1)^2 + 10 &= n^2 + 2n + 1 + 10 && \text{\textbar Voraussetzung}\\
+							&< 2^n + 2n + 1 		&& \text{\textbar da $2n<2n+1<n^2$, $n\geq3$}\\
+							&										&& \text{\textbar Vgl. Aufgabe 3}\\
+							&< 2^n + n^2 + 1 		&& \text{\textbar da $1<10$}\\
+							&< 2^n + n^2 + 10 	&& \text{\textbar Voraussetzung}\\
+							&< 2^n + 2^n 				&& \text{\textbar Zusammenfassen}\\
+							&= 2 \cdot 2^n 			&& \text{\textbar Potenzgesetze}\\
+							&= 2^{n+1} 					&& \text{\textbar qed}\end{align*}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 3}
+\textbf{I.anf.}: $ n_0 = 3 \Rightarrow 3^2 = 9 > 7 = 2\cdot3+1$\\
+\textbf{I.vor.}: $ n^2 > 2n + 1 $\\
+\textbf{I.beh.}: $ (n+1)^2 > 2(n+1) + 1 $\\
+\textbf{Induktionsbeweis}:\begin{align*} 
+(n+1)^2 &= n^2 + 2n + 1 && \text{\textbar Voraussetzung}\\
+				&> 2n + 1 + 2n + 1 && \text{\textbar Ordnen}\\
+				&= 2n + 2 + 2n \\
+				&= 2(n+1) + 2n && \text{\textbar da $2n>1$ mit $n \in \mathbb{N}$}\\
+				&> 2(n+1) + 1 && \text{\textbar qed}\end{align*}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 4}
+\textbf{I.anf.}: $ n_0 = 5 \Rightarrow 2^5 = 32 > 25 = 5^2$\\
+\textbf{I.vor.}: $ 2^n > n^2 $\\
+\textbf{I.beh.}: $ 2^{n+1} > (n+1)^2 $\\
+\textbf{Induktionsbeweis}: \begin{align*}
+2^{n+1} &= 2^n \cdot 2 && \text{\textbar Voraussetzung}\\
+				&> n^2 \cdot 2 && \text{\textbar als Summe schreiben}\\
+				&= n^2 + n^2&& \text{\textbar $n^2>2n+1$ Vgl. Aufg. 3}\\
+				&> n^2 + 2n + 1 && \text{\textbar Binomische Formel}\\
+				&= (n+1)^2 && \text{\textbar qed}\end{align*}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\subsubsection{Aufgabe 5}
+\textbf{I.anf.}: $ n_0 = 2 \Rightarrow \sum_{k=1}^2 \frac{1}{\sqrt{k}} = 1 + \frac{1}{\sqrt{2}} = \frac{\sqrt{2}+1}{\sqrt{2}} > \frac{2}{\sqrt{2}} = \sqrt{2} $\\
+\textbf{I.vor.}: $\sum_{k=1}^n \frac{1}{\sqrt{k}} > \sqrt{n} $\\
+\textbf{I.beh.}: $\sum_{k=1}^{n+1} \frac{1}{\sqrt{k}} > \sqrt{n+1} $\\
+\textbf{Induktionsbeweis}: \begin{align*}
+\sum_{k=1}^{n+1} \frac{1}{\sqrt{k}} &= \sum_{k=1}^n \frac{1}{\sqrt{k}} + \frac{1}{\sqrt{n+1}} && \text{\textbar Voraussetzung}\\
+																		&> \sqrt{n} + \frac{1}{\sqrt{n+1}} \\
+																		&\stackrel{?}{>} \sqrt{n+1} \end{align*}
+\textbf{Noch zu zeigen}:\begin{align*} 
+\sqrt{n} + \frac{1}{\sqrt{n+1}} &> \sqrt{n+1} && \text{\textbar $\cdot \sqrt{n+1}$}\\
+\sqrt{n \cdot (n+1)} + 1 				&> n+1 && \text{\textbar $-1$}\\
+\sqrt{n^2 + n} 									&> n		&& \text{\textbar $n^2$ Ausklammern}\\ 	
+\sqrt{n^2\left(1+\frac{1}{n}\right)}				&> n		&& \text{\textbar teilweise Wurzel ziehen}\\
+n\sqrt{1+\frac{1}{n}}						&> n		&& \text{\textbar $\div n$, da $n>0$}\\
+\sqrt{1+\frac{1}{n}}						&> 1		&& \text{\textbar wahre Aussage $\forall n \in \mathbb{N}$}\\
+&																				&& \text{\textbar qed}\end{align*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 6}
+\textbf{I.anf.}: $ n_0 = 3 \Rightarrow   \sum_{k=1}^3 \frac{1}{n+k} = \frac{1}{4} + \frac{1}{5} + \frac{1}{6} = \frac{86}{120}>\frac{65}{120}=\frac{13}{24} $\\
+\textbf{I.vor.}: $\sum_{k=1}^n \frac{1}{n+k} > \frac{13}{24} $\\
+\textbf{I.beh.}: $\sum_{k=1}^{n+1} \frac{1}{(n+1)+k} > \frac{13}{24} $\\
+\textbf{Induktionsbeweis}: \begin{align*}
+&\sum_{k=1}^{n+1} \frac{1}{(n+1)+k} && \text{\textbar Indexverschiebung}\\
+= &\sum_{k+2}^{n+2} \frac{1}{n+k}								&& \text{\textbar Summanden abspalten}\\
+= &\sum_{k=2}^n \frac{1}{n+k} + \frac{1}{2n + 1} + \frac{1}{2(n+1)} 				&& \text{\textbar 0-Erweiterung}\end{align*}	
+\begin{align*}
+= &\sum_{k=2}^n \frac{1}{n+k} + \frac{1}{n+1} - \frac{1}{n+1} + \frac{1}{2n + 1} + \frac{1}{2(n+1)} \\
+	&\quad \text{\textbar Indexverschiebung}\\
+= &\sum_{k=1}^n \frac{1}{n+k} - \frac{1}{n+1} + \frac{1}{2n + 1} + \frac{1}{2(n+1)} \\
+	&\quad \text{\textbar Voraussetzung}\\
+> &\frac{13}{24} - \frac{1}{n+1} + \frac{1}{2n + 1} + \frac{1}{2(n+1)} 							\\
+	&\quad \text{\textbar Zusammenfassen}\\
+= &\frac{13}{24} + \frac{-(2n+1) \cdot 2 + 2(n+1) + (2n+1)}{(2n+1) \cdot 2(n+1)} 		\\
+	&\quad \text{\textbar weiter Zusammenfassen}\\
+= &\frac{13}{24} + \frac{1}{(2n+1) \cdot 2(n+1)} 																	\\
+	&\quad  \text{\textbar da $\frac{1}{(2n+1) \cdot 2(n+1)} > 0$}\\
+> &\frac{13}{24} 	\qquad \text{\textbar qed}\end{align*}		
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Teilbarkeitsprobleme}
+\subsubsection{Aufgabe 1}
+\textbf{I.anf.}: $ n_0 = 1 \Rightarrow 8|9^1-1 \Leftrightarrow 8|8$\\
+\textbf{I.vor.}: $ 8 | 9^n-1 $\\
+\textbf{I.beh.}: $ 8 | 9^{n+1}-1 $\\
+\textbf{Induktionsbeweis}: ($m_x \in \mathbb{N}$)\begin{align*}
+9^{n+1}-1 &= 9 \cdot 9^n - 1 						&& \text{\textbar 0-Erweiterung}\\
+					&= 9 \cdot 9^n - 9 + 9 - 1		&& \text{\textbar $9$ Ausklammern}\\
+					&= 9 \cdot (9^n - 1) + 8 			&& \text{\textbar Voraussetzung}\\
+					&= 9 \cdot 8 \cdot m_1 + 8 		&& \text{\textbar $8$ Ausklammern}\\
+					&= 8 \cdot (9m_1 + 1) 				\\
+					&= 8 \cdot m_2  							&& \text{\textbar qed}\end{align*}		
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 2}
+\textbf{I.anf.}: $ n_0 = 1  \Rightarrow 6|7^1-1 \Leftrightarrow 6|6$\\
+\textbf{I.vor.}: $ 6 | 7^n-1 $\\
+\textbf{I.beh.}: $ 6 | 7^{n+1}-1 $\\
+\textbf{Induktionsbeweis}: ($m_x \in \mathbb{N}$)\begin{align*}
+7^{n+1}-1 &= 7 \cdot 7^n - 1 							&& \text{\textbar 0-Erweiterung}\\
+					&= 7 \cdot 7^n - 7 + 7 - 1			&& \text{\textbar $7$ Ausklammern}\\
+					&= 7 \cdot (7^n - 1) + 6 				&& \text{\textbar Voraussetzung}\\
+					&= 7 \cdot 6 \cdot m_1 + 6			&& \text{\textbar $6$ Ausklammern}\\
+					&= 6 \cdot (7m_1 + 1) 					\\
+					&= 6 \cdot m_2  								&& \text{\textbar qed}\\
+\end{align*}		
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 3}
+\textbf{I.anf.}: $ n_0 = 1 \Rightarrow a-1|a^1-1$\\
+\textbf{I.vor.}: $ a-1 | a^n-1 $\\
+\textbf{I.beh.}: $ a-1 | a^{n+1}-1 $\\
+\textbf{Induktionsbeweis}: ($m_x \in \mathbb{N}$)\begin{align*}
+a^{n+1}-1 &= a \cdot a^n - 1 				&& \text{\textbar 0-Erweiterung}\\
+					&= a \cdot a^n - a + a - 1 		&& \text{\textbar $a$ Ausklammern}\\
+					&= a \cdot (a^n - 1) + (a-1) 	&& \text{\textbar Voraussetzung}\\
+					&= a \cdot (a-1) \cdot m_1 + (a-1) 	&& \text{\textbar $(a-1)$ Ausklammern}\\
+					&= (a-1) \cdot (a m_1 + 1) 					\\
+					&= (a-1) \cdot m_2  								&& \text{\textbar qed}\end{align*}		
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 4}
+\textbf{I.anf.}: $ n_0 = 1 \Rightarrow 3|1^3+6\cdot1^2+14\cdot1 \Leftrightarrow 3|21$\\
+\textbf{I.vor.}: $ 3 | n^3 + 6n^2 + 14n $\\
+\textbf{I.beh.}: $ 3 | (n+1)^3 + 6(n+1)^2 + 14(n+1) $\\
+\textbf{Induktionsbeweis}: ($m_x \in \mathbb{N}$)\begin{align*}
+&(n+1)^3 + 6(n+1)^2 + 14(n+1) \\
+= &n^3+3n^2+3n+1+6n^2+12n+6+14n+14			&& \text{\textbar Sortieren}\\
+														= &(n^3 + 6n^2 + 14n) + 3n^2 + 15n + 21		&& \text{\textbar Voraussetzung}\\
+														= &3 \cdot m_1 + 3n^2 + 15n + 21 					&& \text{\textbar $3$ Ausklammern}\\
+														= &3 \cdot (m_1 + n^2 + 5n + 7) 					\\
+														= &3 \cdot m_2 														&& \text{\textbar qed}\end{align*}		
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 5}
+\textbf{I.anf.}: $ n_0 = 1 \Rightarrow 3|2^{2\cdot1}-1 \Leftrightarrow 3|4-1 \Leftrightarrow 3|3 $\\
+\textbf{I.vor.}: $ 3 | 2^{2n} - 1 $\\
+\textbf{I.beh.}: $ 3 | 2^{2(n+1)} - 1 $\\
+\textbf{Induktionsbeweis}: ($m_x \in \mathbb{N}$)\begin{align*}
+2^{2(n+1)} - 1 &= 4 \cdot 2^{2n} - 1 							&& \text{\textbar 0-Erweiterung}\\
+							&= 4 \cdot 2^{2n} - 4 + 4 - 1 			&& \text{\textbar $4$ Ausklammern}\\
+							&= 4 \cdot (2^{2n} - 1) + 3 				&& \text{\textbar Voraussetzung}\\
+							&= 4 \cdot 3 \cdot m_1 + 3 					&& \text{\textbar $3$ Ausklammern}\\
+							&= 3 \cdot (4m_1 + 1) 							\\
+							&= 3 \cdot m_2 											&& \text{\textbar qed}\end{align*}	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 6}
+\textbf{I.anf.}: $ n_0 = 1  \Rightarrow 6|1^3-1  \Leftrightarrow 6|0$\\
+\textbf{I.vor.}: $ 6 | n^3 - n $\\
+\textbf{I.beh.}: $ 6 | (n+1)^3 - (n+1) $\\
+\textbf{Induktionsbeweis}: ($m_x \in \mathbb{N}\cup{0}$)\begin{align*}
+&(n+1)^3 - (n+1) \\
+= &n^3+3n^2+3n+1-n-1 			&& \text{\textbar Ordnen}\\
+								= &(n^3 - n) + 3n^2 + 3n 	&& \text{\textbar Voraussetzung}\\
+								= &6 \cdot m_1 + 3n^2 + 3n \\
+								\stackrel{?}{=} &6 \cdot m_1 + 6 \cdot m_2 \\
+								= &6 \cdot (m_1 + m_2) \\
+								= &6 \cdot m_3  					\end{align*}
+\textbf{Noch zu zeigen}: $ 6 | 3n^2 + 3n $\\
+\textbf{I.anf.}: $ n_0 = 1 \Rightarrow 6|3\cdot1^2+3\cdot1 \Leftrightarrow 6|6$\\
+\textbf{I.vor.}: $ 6 | 3n^2 + 3n $\\
+\textbf{I.beh.}: $ 6 | 3(n+1)^2 + 3(n+1) $\\
+\textbf{Induktionsbeweis}: ($m_x \in \mathbb{N}$)\begin{align*}
+3(n+1)^2 + 3(n+1) &= 3n^2+6n+3+3n+3 			&& \text{\textbar Ordnen}\\
+									&= (3n^2 + 3n) + 6n + 6 && \text{\textbar Voraussetzung}\\
+									&= 6 \cdot m_1 + 6n + 6 && \text{\textbar $6$ Ausklammern}\\
+									&= 6 \cdot (m_1 + n + 1)\\
+									&= 6 \cdot m_2 					\\
+									&												&& \text{\textbar qed}\end{align*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 7}
+\textbf{I.anf.}: $ n_0 = 1 \Rightarrow 6|3\cdot1^2 +9\cdot1 \Leftrightarrow 6|12$\\
+\textbf{I.vor.}: $ 6 | 3n^2 + 9n $\\
+\textbf{I.beh.}: $ 6 | 3(n+1)^2 + 9(n+1) $\\
+\textbf{Induktionsbeweis}: ($m_x \in \mathbb{N}$)\begin{align*}
+3(n+1)^2 + 9(n+1) &= 3n^2+6n+3+9n+9			&& \text{\textbar Ordnen}\\
+									&= (3n^2 + 9n) + 6n + 12 		&& \text{\textbar Voraussetzung}\\
+									&= 6 \cdot m_1 + 6n + 12 		&& \text{\textbar $6$ Ausklammern}\\
+									&= 6 \cdot (m_1 + n + 2) 		\\
+									&= 6 \cdot m_2 							&& \text{\textbar qed}\end{align*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Ableitungen}
+\subsubsection{Aufgabe 1}
+\textbf{I.anf.}: $ n_0 = 1 $\begin{align*}
+f(x) &= x + a\cdot \cos x\\
+f'(x) &= -a \sin x \\
+f''(x) &= - a \cos x = (-1)^1\cdot a\cdot \cos x = f^{(2\cdot 1)}(x)\end{align*}
+\textbf{I.vor.}: $ f^{(2n)}(x) = (-1)^n \cdot a \cdot \cos x $\\
+\textbf{I.beh.}: $ f^{(2(n+1))}(x) = (-1)^{n+1} \cdot a \cdot \cos x $\\
+\textbf{Induktionsbeweis}:\begin{align*}
+f^{(2(n+1))}(x) &= f^{(2n+2))}(x) \\
+								&= [f^{(2n)}(x)]''  		&& \text{\textbar Voraussetzung}\\
+								&= [(-1)^n \cdot a \cdot \cos x]'' 	&& \text{\textbar Ableitung bilden}\\
+								&= [(-1)^{n+1} \cdot a \cdot \sin x]' && \text{\textbar Ableitung bilden}\\
+								&= (-1)^{n+1} \cdot a \cdot \cos x 		&& \text{\textbar qed}\end{align*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 2}
+\textbf{Gesucht:} Formel für $ f^{(2n+1)}(x) $ mit $ f(x)=x+a\cos x $ \\
+\textbf{Finden der Vermutung:}\begin{align*} 	
+f(x) &= x+a\cos x \\
+f'(x) &= -a \sin x &&\text{($n=0$)}\\
+f''(x) &= -a\cos x \\
+f'''(x) &= a \sin x&&\text{($n=1$)}\end{align*}
+\textbf{Zu zeigen}: $ f^{(2n+1)}(x) = (-1)^{n+1} \cdot a \cdot \sin x $\\
+\textbf{I.anf.}:$ n_0 = 0 $\\
+\textbf{I.vor.}: $ f^{(2n+1)}(x) = (-1)^{n+1} \cdot a \cdot \sin x $\\
+\textbf{I.beh.}: $ f^{(2(n+1)+1)}(x) = (-1)^{(n+1)+1} \cdot a \cdot \sin x $\\
+\textbf{Induktionsbeweis}:\begin{align*}
+f^{(2(n+1)+1)}(x) &= f^{(2n+3)}(x) \\
+									&= [f^{(2n+1)}(x)]'' 						&& \text{\textbar Voraussetzung}\\
+									&= [(-1)^{n+1} \cdot a \cdot \sin x]''&& \text{\textbar Ableitung bilden}\\
+									&= [(-1)^{n+1} \cdot a \cdot \cos x]' && \text{\textbar Ableitung bilden}\\
+									&= (-1)^{n+1}\cdot(-1) \cdot a \cdot \sin x \\
+									&= (-1)^{(n+1)+1} \cdot a \cdot \sin x && \text{\textbar qed}\end{align*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 3}
+\textbf{Gesucht:} Formel für $ f^{(2n)}(x) $ mit $ f(x)=x+\sin(a\cdot x) $, $a>0$ \\
+\textbf{Finden der Vermutung:}\begin{align*} 	
+f(x) &= x+\sin(a\cdot x) \\
+f'(x) &= a\cdot \cos(a\cdot x)\\
+f''(x) &= -a^2\sin(a\cdot x)&&\text{($n=1$)}\\
+f'''(x) &= -a^3 \cos(a\cdot x) \\
+f^{(4)}(x) &= a^4\sin (a\cdot x)&&\text{($n=2$)}
+\end{align*}
+\textbf{Zu zeigen}: $ f^{(2n)}(x) = (-1)^{n} \cdot a^{2n} \cdot \sin (a \cdot x) $\\
+\textbf{I.anf.}: $ n_0 = 1 $\\
+\textbf{I.vor.}: $ f^{(2n)}(x) = (-1)^{n} \cdot a^{2n} \cdot \sin (a \cdot x) $\\
+\textbf{I.beh.}: $ f^{(2(n+1))}(x) = (-1)^{n+1} \cdot a^{2(n+1)} \cdot \sin (a \cdot x) $\\
+\textbf{Induktionsbeweis}:\begin{align*}
+f^{(2(n+1))}(x) &= f^{(2n+2)}(x) \\
+								&= [f^{(2n)}(x)]'' && \text{\textbar Voraussetzung}\\
+								&= [(-1)^{n} \cdot a^{2n} \cdot \sin (a \cdot x)]''				&& \text{\textbar Ableitung bilden}\\
+								&= [(-1)^{n} \cdot a^{2n} \cdot a \cdot \cos (a \cdot x)]' \\
+								&= [(-1)^{n} \cdot a^{2n+1} \cdot \cos (a \cdot x)]' 		&& \text{\textbar Ableitung bilden}\\
+								&= (-1)^{n} \cdot (-1) \cdot a^{2n+1} \cdot a \cdot \sin (a \cdot x) \\
+								&= (-1)^{n+1} \cdot a^{2n+2} \cdot \sin (a \cdot x) \\
+								&= (-1)^{n+1} \cdot a^{2(n+1)} \cdot \sin (a \cdot x) && \text{\textbar qed}\end{align*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 4}
+\textbf{I.anf.}: $ n_0 = 1 $\begin{align*}
+f(x) &= \frac{x}{x+1}\\
+f'(x) &= (x+1)^{-1} + x\cdot(-1)(x+1)^{-2} \\
+			&= \frac{1}{(x+1)^2} = (-1)^{1+1}\cdot \frac{1!}{(x+1)^{1+1}}\\
+			&= f^{(1)}(x)\end{align*}
+\textbf{I.vor.}: $ f^{(n)}(x) = (-1)^{n+1} \cdot \frac{n!}{(x+1)^{n+1}} $\\
+\textbf{I.beh.}: $ f^{(n+1)}(x) = (-1)^{(n+1)+1} \cdot \frac{(n+1)!}{(x+1)^{(n+1)+1}} $\\
+\textbf{Induktionsbeweis}:\begin{align*}
+&f^{(n+1)}(x) \\= &[f^{(n)}(x)]'&& \text{\textbar Voraussetzung}\\
+							= &[(-1)^{n+1} \cdot \frac{n!}{(x+1)^{n+1}}]' && \text{\textbar Ableitung bilden}\\
+							= &(-1)^{n+1} \cdot (-1) \cdot (n+1) \frac{n!}{(x+1)^{(n+1)+1}} \\
+							= &(-1)^{(n+1)+1} \cdot \frac{(n+1)!}{(x+1)^{(n+1)+1}} && \text{\textbar qed}\end{align*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 5}
+\textbf{Gesucht:} Formel für $ f^{(n)}(x) $ mit $ f(x)=\frac{x+1}{x-2} $, $x\neq-2$ \\
+\textbf{Finden der Vermutung:}\begin{align*}
+f(x) &= (x+1)(x-2)^{-1}\\
+f'(x) &= (x-2)^{-1} + (x+1)(-1)(x-2)^{-2} \\&= -3(x-2)^{-2} = (-1)^1\cdot3\cdot(x-2)^{-(1+1)}\\
+f''(x)&= -3(-2)(x-2)^{-3}= 3\cdot2\cdot(-1)^2(x-2)^{-(2+1)}\\
+f^{(3)}(x)&= 3\cdot2\cdot(-3)(x-2)^{-4} = 3\cdot 3!\cdot(-1)^3(x-2)^{-(3+1)}\end{align*}
+\textbf{Zu zeigen}: $ f^{(n)}(x) = \frac{3\cdot(-1)^n n!}{(x-2)^{n+1}} $\\
+\textbf{I.anf.}: $ n_0 = 1 $\\
+\textbf{I.vor.}: $ f^{(n)}(x) = \frac{3\cdot(-1)^n n!}{(x-2)^{n+1}} $\\
+\textbf{I.beh.}: $ f^{(n+1)}(x) = \frac{3\cdot(-1)^{n+1} (n+1)!}{(x-2)^{(n+1)+1}} $\\
+\textbf{Induktionsbeweis}:\begin{align*}
+f^{(n+1)}(x) &= [f^{(n)}(x)]' && \text{\textbar Voraussetzung}\\
+						 &= \left[\frac{3\cdot(-1)^n n!}{(x-2)^{n+1}}\right]' && \text{\textbar Ableitung bilden}\\
+						 &= \frac{3\cdot(-1)^n\cdot n!\cdot(n+1)\cdot(-1)}{(x-2)^{n+2}}\\
+						 &= \frac{3\cdot(-1)^{n+1}(n+1)!}{(x-2)^{(n+1)+1}}&& \text{\textbar qed}
+\end{align*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 6}
+\textbf{Gesucht:} $n_0$  und eine Formel für $ f^{(n)}(x) $ mit $ f(x)=x^3+x^2+x+1+\frac{1}{x-1}$ \\
+\textbf{Finden der Vermutung:}\begin{align*}
+f(x)		&= x^3+x^2+x+1+\frac{1}{x-1}\\
+f'(x)		&= 3x^2+2x+1+(-1)(x-1)^{-2}\\
+f''(x)	&= 6x+2+(-1)^2\cdot2(x-1)^{-3}\\
+f'''(x)	&= 6+(-1)^3\cdot3!(x-1)^{-4}\\
+f^{(4)}	&= (-1)^4\cdot4!(x-1)^{-5}\\
+f^{(5)}	&= (-1)^5\cdot5!(x-1)^{-6}\end{align*}
+\textbf{Zu zeigen}: $ f^{(n)}(x) = (-1)^n \cdot \frac{n!}{(x-1)^{n+1}} $\\
+\textbf{I.anf.}: $ n_0 = 4 $\\
+\textbf{I.vor.}:$ f^{(n)}(x) = (-1)^n \cdot \frac{n!}{(x-1)^{n+1}} $\\
+\textbf{I.beh.}: $ f^{(n+1)}(x) = (-1)^{n+1} \cdot \frac{(n+1)!}{(x-1)^{(n+1)+1}} $\\
+\textbf{Induktionsbeweis}:\begin{align*}
+&f^{(n+1)}(x) \\= &[f^{(n)}(x)]' && \text{\textbar Voraussetzung}\\
+						= &\left[ (-1)^n \cdot \frac{n!}{(x-1)^{n+1}} \right]' && \text{\textbar Ableitung bilden}\\
+						= &(-1)^n \cdot \frac{n!}{(x-1)^{(n+1)+1}} \cdot (-1) \cdot (n+1) \\
+						= &(-1)^{n+1} \cdot \frac{(n+1)!}{(x-1)^{(n+1)+1}} && \text{\textbar qed}\end{align*}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsubsection{Aufgabe 7}
+\textbf{Gesucht:} Formel für $ f^{(2n)}(x) $ mit $ f(x)=\sin \frac{x}{a}$ \\
+\textbf{Finden der Vermutung:}\begin{align*}
+f(x)		&= \sin \frac{x}{a}\\
+f'(x)		&= \frac{1}{a} \cos \frac{x}{a}\\
+f''(x)	&= -\frac{1}{a^2}\sin \frac{x}{a} &&(n=1)\\
+f^{(3)}	&= -\frac{1}{a^3}\cos \frac{x}{a}\\
+f^{(4)}	&= \frac{1}{a^4}\sin \frac{x}{a} &&(n=2)\end{align*}
+\textbf{Zu zeigen}: $ f^{(2n)}(x) =  \frac{(-1)^n}{a^{2n}} \cdot \sin \frac{x}{a} $\\
+\textbf{I.anf.}: $ n_0 = 1 $\\
+\textbf{I.vor.}:$ f^{(2n)}(x) = \frac{(-1)^n}{a^{2n}} \cdot \sin \frac{x}{a} $\\
+\textbf{I.beh.}: $ f^{(2(n+1))}(x) = \frac{(-1)^{n+1}}{a^{2(n+1)}} \cdot \sin \frac{x}{a} $\\
+\textbf{Induktionsbeweis}:\begin{align*}
+f^{(2(n+1))}(x) &= f^{(2n+2))}(x) \\
+								&= [f^{(2n)}(x)]'' && \text{\textbar Voraussetzung}\\
+								&= \left[ (-1)^n \cdot \frac{1}{a^{2n}} \cdot \sin \frac{x}{a} \right]'' && \text{\textbar Ableitung bilden}\\
+								&= \left[ (-1)^n \cdot \frac{1}{a^{2n+1}} \cdot \cos \frac{x}{a} \right]' && \text{\textbar Ableitung bilden}\\
+								&= (-1)^{n+1} \cdot \frac{1}{a^{2n+2}} \cdot sin \frac{x}{a} \\
+								&= (-1)^{n+1} \cdot \frac{1}{a^{2(n+1)}} \cdot sin \frac{x}{a} && \text{\textbar qed}\end{align*}

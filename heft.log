@@ -1,0 +1,1269 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2009.12.10)  13 AUG 2010 01:51
+entering extended mode
+**heft.tex
+
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\he
+ft.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
+("C:\Program Files\MiKTeX 2.8\tex\latex\koma-script\scrbook.cls"
+Document Class: scrbook 2010/02/15 v3.05 KOMA-Script document class (book)
+("C:\Program Files\MiKTeX 2.8\tex\latex\koma-script\scrkbase.sty"
+Package: scrkbase 2010/02/15 v3.05 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\koma-script\scrbase.sty"
+Package: scrbase 2010/02/15 v3.05 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\koma-script\scrlfile.sty"
+Package: scrlfile 2009/03/25 v3.03 KOMA-Script package (loading files)
+
+Package scrlfile, 2009/03/25 v3.03 KOMA-Script package (loading files)
+                  Copyright (C) Markus Kohm
+
+))) ("C:\Program Files\MiKTeX 2.8\tex\latex\koma-script\tocbasic.sty"
+Package: tocbasic 2010/01/05 v3.04b KOMA-Script package (handling toc-files)
+)
+Package tocbasic Info: omitting babel extension for `toc'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `toc' on input line 117.
+Package tocbasic Info: omitting babel extension for `lof'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lof' on input line 118.
+Package tocbasic Info: omitting babel extension for `lot'
+(tocbasic)             because of feature `nobabel' available
+(tocbasic)             for `lot' on input line 119.
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\fleqn.clo"
+File: fleqn.clo 1998/08/17 v1.1c Standard LaTeX option (flush left equations)
+\mathindent=\dimen102
+)
+
+Class scrbook Warning: You've used obsolete option `smallheadings'.
+(scrbook)              Usage of this option indicates an old document and
+(scrbook)              changes compatibility level using
+(scrbook)              `headings=small,version=first'.
+(scrbook)              If you don't want this, you should simply replace
+(scrbook)              usage of option `smallheadings' by `headings=small'.
+
+Class scrbook Info: Switching compatibility level to `first'.
+Class scrbook Info: You've used standard option `final'.
+(scrbook)           This is correct!
+(scrbook)           Internally I'm using `draft=false'.
+(scrbook)           If you'd like to set the option with \KOMAoptions,
+(scrbook)           you'd have to use `draft=false' there
+(scrbook)           instead of `final', too.
+Class scrbook Info: File `size9.clo' used to setup font sizes on input line 127
+2.
+("C:\Program Files\MiKTeX 2.8\tex\latex\extsizes\size9.clo"
+File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\koma-script\typearea.sty"
+Package: typearea 2010/02/15 v3.05 KOMA-Script package (type area)
+
+Package typearea, 2010/02/15 v3.05 KOMA-Script package (type area)
+                  Copyright (C) Frank Neukam, 1992-1994
+                  Copyright (C) Markus Kohm, 1994-
+
+\ta@bcor=\skip41
+\ta@div=\count79
+\ta@hblk=\skip42
+\ta@vblk=\skip43
+\ta@temp=\skip44
+Package typearea Info: These are the values describing the layout:
+(typearea)             DIV  = 15
+(typearea)             BCOR = 14.22636pt
+(typearea)             \paperwidth      = 421.10083pt
+(typearea)              \textwidth      = 325.4996pt
+(typearea)              DIV departure   = 0%
+(typearea)              \evensidemargin = -18.02008pt
+(typearea)              \oddsidemargin  = -30.91867pt
+(typearea)             \paperheight     = 597.50793pt
+(typearea)              \textheight     = 479.84987pt
+(typearea)              \topmargin      = -62.5486pt
+(typearea)              \headheight     = 13.68748pt
+(typearea)              \headsep        = 16.42499pt
+(typearea)              \topskip        = 9.0pt
+(typearea)              \footskip       = 38.32498pt
+(typearea)              \baselineskip   = 10.95pt
+(typearea)              on input line 1115.
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\abovecaptionskip=\skip45
+\belowcaptionskip=\skip46
+\c@pti@nb@sid@b@x=\box26
+\c@figure=\count87
+\c@table=\count88
+\bibindent=\dimen103
+) ("C:\Program Files\MiKTeX 2.8\tex\latex\koma-script\scrpage2.sty"
+Package: scrpage2 2009/11/11 v2.4 LaTeX2e KOMA-Script package
+LaTeX Info: Redefining \pagemark on input line 176.
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\ot1enc.def"
+File: ot1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding OT1 on input line 43.
+))
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\utf8.def"
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encoding T1
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\t1enc.dfu"
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encoding OT1
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\ot1enc.dfu"
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encoding OMS
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\omsenc.dfu"
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+))
+("C:\Program Files\MiKTeX 2.8\tex\generic\babel\babel.sty"
+Package: babel 2008/07/06 v3.8l The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\MiKTeX 2.8\tex\generic\babel\ngermanb.ldf"
+Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\babel\babel.def"
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen104
+)
+\l@naustrian = a dialect from \language\l@ngerman 
+Package babel Info: Making " an active character on input line 92.
+))
+("C:\Program Files\MiKTeX 2.8\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip47
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.8\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks17
+\ex@=\dimen105
+))
+("C:\Program Files\MiKTeX 2.8\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen106
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count90
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count91
+\leftroot@=\count92
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count93
+\DOTSCASE@=\count94
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen107
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count95
+\c@MaxMatrixCols=\count96
+\dotsspace@=\muskip10
+\c@parentequation=\count97
+\dspbrk@lvl=\count98
+\tag@help=\toks18
+\row@=\count99
+\column@=\count100
+\maxfields@=\count101
+\andhelp@=\toks19
+\eqnshift@=\dimen108
+\alignsep@=\dimen109
+\tagshift@=\dimen110
+\tagwidth@=\dimen111
+\totwidth@=\dimen112
+\lineht@=\dimen113
+\@envbody=\toks20
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
+\Gread@gobject=\count102
+))
+\Gin@req@height=\dimen114
+\Gin@req@width=\dimen115
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\tools\multicol.sty"
+Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
+\c@tracingmulticols=\count103
+\mult@box=\box29
+\multicol@leftmargin=\dimen116
+\c@unbalance=\count104
+\c@collectmore=\count105
+\doublecol@number=\count106
+\multicoltolerance=\count107
+\multicolpretolerance=\count108
+\full@width=\dimen117
+\page@free=\dimen118
+\premulticols=\dimen119
+\postmulticols=\dimen120
+\multicolsep=\skip50
+\multicolbaselineskip=\skip51
+\partial@page=\box30
+\last@line=\box31
+\mult@rightbox=\box32
+\mult@grightbox=\box33
+\mult@gfirstbox=\box34
+\mult@firstbox=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\c@columnbadness=\count109
+\c@finalcolumnbadness=\count110
+\last@try=\dimen121
+\multicolovershoot=\dimen122
+\multicolundershoot=\dimen123
+\mult@nat@firstbox=\box53
+\colbreak@box=\box54
+)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\po
+lynom.sty
+Package: polynom 2004/08/12 0.16 (Carsten Heinz)
+\pld@currstage=\count111
+)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\vo
+rkurs.sty
+Package: vorkurs 2007/08/09 v1.0 Vorkurs package (A.Z.)
+\c@aufgabe=\count112
+) ("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2009/10/19 v6.79b Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\ifxetex\ifxetex.sty"
+Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\hycolor.sty"
+Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
+O)
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\xcolor-patch.sty"
+Package: xcolor-patch 2009/10/02 xcolor patch
+))
+\@linkdim=\dimen124
+\Hy@linkcounter=\count113
+\Hy@pagecounter=\count114
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2009/10/19 v6.79b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
+t (HO)
+))
+Package hyperref Info: Option `final' set `true' on input line 2864.
+Package hyperref Info: Option `breaklinks' set `true' on input line 2864.
+Package hyperref Info: Option `final' set `true' on input line 2864.
+Package hyperref Info: Hyper figures OFF on input line 2975.
+Package hyperref Info: Link nesting OFF on input line 2980.
+Package hyperref Info: Hyper index ON on input line 2983.
+Package hyperref Info: Plain pages OFF on input line 2990.
+Package hyperref Info: Backreferencing OFF on input line 2995.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 3191.
+("C:\Program Files\MiKTeX 2.8\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 3428.
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\bitset.sty"
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\intcalc.sty"
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\bigintcalc.sty"
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
+ (HO)
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
+)
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+)))
+\Fld@menulength=\count115
+\Field@Width=\dimen125
+\Fld@charsize=\dimen126
+\Field@toks=\toks22
+Package hyperref Info: Hyper figures OFF on input line 4377.
+Package hyperref Info: Link nesting OFF on input line 4382.
+Package hyperref Info: Hyper index ON on input line 4385.
+Package hyperref Info: backreferencing OFF on input line 4392.
+Package hyperref Info: Link coloring OFF on input line 4397.
+Package hyperref Info: Link coloring with OCG OFF on input line 4402.
+Package hyperref Info: PDF/A mode OFF on input line 4407.
+
+("C:\Program Files\MiKTeX 2.8\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+)
+\Hy@abspage=\count116
+\c@Item=\count117
+\c@Hfootnote=\count118
+)
+*hyperref using driver hpdftex*
+("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2009/10/19 v6.79b Hyperref driver for pdfTeX
+\Fld@listcount=\count119
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\microtype\microtype.sty"
+Package: microtype 2010/01/10 v2.4 Micro-typography with pdfTeX (RS)
+\MT@toks=\toks23
+\MT@count=\count120
+LaTeX Info: Redefining \lsstyle on input line 1597.
+LaTeX Info: Redefining \lslig on input line 1597.
+\MT@outer@space=\skip52
+LaTeX Info: Redefining \textls on input line 1605.
+\MT@outer@kern=\dimen127
+LaTeX Info: Redefining \textmicrotypecontext on input line 2156.
+Package microtype Info: Loading configuration file microtype.cfg.
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\microtype\microtype.cfg"
+File: microtype.cfg 2010/01/10 v2.4 microtype main configuration file (RS)
+))
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\he
+ft.aux
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\sp
+ickzettel.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\br
+uchrechnung.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\po
+tenzen.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\bi
+nomischeFormeln.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\po
+ly.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\qu
+adratische_Gleichungen.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\gl
+eichungssysteme.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\be
+trag1.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\kr
+eis1.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\un
+gleichungen1.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\vo
+llstaendigeInduktion.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\fu
+nktionen2.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\lo
+g_e.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\ku
+rven.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\ve
+ktoren.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\co
+mplex.aux))
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
+LaTeX Font Info:    ... okay on input line 31.
+ ("C:\Program Files\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count121
+\scratchdimen=\dimen128
+\scratchbox=\box55
+\nofMPsegments=\count122
+\nofMParguments=\count123
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count124
+\MPscratchDim=\dimen129
+\MPnumerator=\count125
+\everyMPtoPDFconversion=\toks25
+)
+Package hyperref Info: Link coloring OFF on input line 31.
+ ("C:\Program Files\MiKTeX 2.8\tex\latex\hyperref\nameref.sty"
+Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\oberdiek\refcount.sty"
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+\c@section@level=\count126
+)
+LaTeX Info: Redefining \ref on input line 31.
+LaTeX Info: Redefining \pageref on input line 31.
+
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\he
+ft.out)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\he
+ft.out)
+\@outlinefile=\write3
+\AtBeginShipoutBox=\box56
+LaTeX Info: Redefining \microtypecontext on input line 31.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ ("C:\Program Files\MiKTeX 2.8\tex\latex\microtype\mt-cmr.cfg"
+File: mt-cmr.cfg 2009/11/09 v2.0 microtype config. file: Computer Modern Roman 
+(RS)
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 44.
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\microtype\mt-msa.cfg"
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 44.
+
+("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+("C:\Program Files\MiKTeX 2.8\tex\latex\microtype\mt-msb.cfg"
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+<./img/farafin_logo_schwarz_auf_weiss.png, id=231, 365.08395pt x 75.28125pt>
+File: ./img/farafin_logo_schwarz_auf_weiss.png Graphic file (type png)
+
+<use ./img/farafin_logo_schwarz_auf_weiss.png>
+Overfull \hbox (39.58345pt too wide) in paragraph at lines 44--44
+ [] 
+ []
+
+[1
+
+
+{C:/ProgramData/MiKTeX/2.8/pdftex/config/pdftex.map} <C:/Users/Sebastian/Deskto
+p/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/farafin_logo_schwarz_auf
+_weiss.png>] [2
+
+]
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\he
+ft.toc
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 2.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 7.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 73.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 83.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 97.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 127.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 146.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 176.
+Class scrbook Info: You've told me to use the font selection of the element
+(scrbook)           `sectioning' that is an alias of element `disposition'
+(scrbook)            on input line 188.
+ [3
+
+])
+\tf@toc=\write4
+ [4]
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\sp
+ickzettel.tex
+Kapitel 1.
+
+Underfull \hbox (badness 2221) in paragraph at lines 22--23
+[]$\OMS/cmsy/m/n/9  \OT1/cmr/m/n/9 (+20) 2$; $\OMS/cmsy/m/n/9  \OT1/cmr/m/n/9 (
++20) 1$; 0; 1;
+ []
+
+
+Underfull \hbox (badness 1400) in paragraph at lines 24--25
+[]$[]$\OT1/cmr/m/n/9 (+20) ; $[]$; $[]$; $\OMS/cmsy/m/n/9  []$\OT1/cmr/m/n/9 (+
+20) ;
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
+("C:\Program Files\MiKTeX 2.8\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+
+<img/vereinigung.pdf, id=293, 85.02583pt x 37.05823pt>
+File: img/vereinigung.pdf Graphic file (type pdf)
+
+<use img/vereinigung.pdf>
+<img/durchschnitt.pdf, id=295, 84.98605pt x 36.80229pt>
+File: img/durchschnitt.pdf Graphic file (type pdf)
+
+<use img/durchschnitt.pdf>
+<img/differenz.pdf, id=297, 85.08553pt x 36.84497pt>
+File: img/differenz.pdf Graphic file (type pdf)
+ <use img/differenz.pdf>
+[5
+
+
+ <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft/i
+mg/vereinigung.pdf> <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorku
+rs2010/Mathe_Heft/img/durchschnitt.pdf> <C:/Users/Sebastian/Desktop/Studium/kfr
+iedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/differenz.pdf>] [6] [7]) [8]
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\br
+uchrechnung.tex
+Kapitel 2.
+[9
+
+
+
+] [10] [11]) [12]
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\po
+tenzen.tex [13
+
+
+]
+Underfull \vbox (badness 1117) has occurred while \output is active []
+
+ [14]
+[15] [16] [17] [18] [19]) [20]
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\bi
+nomischeFormeln.tex <img/binF1.pdf, id=569, 351.3125pt x 353.32pt>
+File: img/binF1.pdf Graphic file (type pdf)
+
+<use img/binF1.pdf> <img/binF1legende.pdf, id=570, 317.185pt x 211.79124pt>
+File: img/binF1legende.pdf Graphic file (type pdf)
+
+<use img/binF1legende.pdf> <img/binF2.pdf, id=571, 383.4325pt x 389.455pt>
+File: img/binF2.pdf Graphic file (type pdf)
+
+<use img/binF2.pdf> [21
+
+
+ <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft/i
+mg/binF1.pdf> <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010
+/Mathe_Heft/img/binF1legende.pdf>]
+<img/binF2legende.pdf, id=616, 277.035pt x 201.75375pt>
+File: img/binF2legende.pdf Graphic file (type pdf)
+
+<use img/binF2legende.pdf> <img/binF3a.pdf, id=617, 404.51125pt x 389.455pt>
+File: img/binF3a.pdf Graphic file (type pdf)
+
+<use img/binF3a.pdf> [22 <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/
+Vorkurs2010/Mathe_Heft/img/binF2.pdf> <C:/Users/Sebastian/Desktop/Studium/kfrie
+dri-Vorkurse/Vorkurs2010/Mathe_Heft/img/binF2legende.pdf> <C:/Users/Sebastian/D
+esktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/binF3a.pdf>]
+<img/binF3b.pdf, id=663, 485.815pt x 329.23pt>
+File: img/binF3b.pdf Graphic file (type pdf)
+ <use img/binF3b.pdf>
+<img/binF3legende.pdf, id=664, 358.33875pt x 169.63374pt>
+File: img/binF3legende.pdf Graphic file (type pdf)
+
+<use img/binF3legende.pdf> [23 <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vor
+kurse/Vorkurs2010/Mathe_Heft/img/binF3b.pdf> <C:/Users/Sebastian/Desktop/Studiu
+m/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/binF3legende.pdf>] [24])
+[25]
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\po
+ly.tex [26
+
+
+]
+Underfull \vbox (badness 1019) has occurred while \output is active []
+
+ [27])
+[28]
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\qu
+adratische_Gleichungen.tex
+Kapitel 3.
+[29
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
+
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 82--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--99
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--130
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--130
+
+ []
+
+[31]
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\Gl
+eichungen-Aufgaben.tex [32])) [33]
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\gl
+eichungssysteme.tex [34
+
+
+
+]
+Kapitel 4.
+[35] [36] [37] [38] [39] [40] [41] [42]) [43]
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\be
+trag1.tex [44
+
+
+
+]
+Kapitel 5.
+<img/betrag/betrag.png, id=913, 444.15938pt x 445.665pt>
+File: img/betrag/betrag.png Graphic file (type png)
+
+<use img/betrag/betrag.png> [45 <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vo
+rkurse/Vorkurs2010/Mathe_Heft/img/betrag/betrag.png (PNG copy)>]) [46]
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\kr
+eis1.tex <img/kreis/kreis.png, id=939, 645.41125pt x 485.815pt>
+File: img/kreis/kreis.png Graphic file (type png)
+
+<use img/kreis/kreis.png> [47
+
+
+ <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft/i
+mg/kreis/kreis.png (PNG copy)>]
+<img/kreis/kreis1.png, id=949, 642.4pt x 481.8pt>
+File: img/kreis/kreis1.png Graphic file (type png)
+ <use img/kreis/kreis1.png>
+<img/kreis/kreis2.png, id=950, 642.4pt x 481.8pt>
+File: img/kreis/kreis2.png Graphic file (type png)
+ <use img/kreis/kreis2.png>
+[48 <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Hef
+t/img/kreis/kreis1.png (PNG copy)>]
+<img/kreis/kreis3.png, id=959, 645.41125pt x 485.815pt>
+File: img/kreis/kreis3.png Graphic file (type png)
+
+<use img/kreis/kreis3.png>
+Overfull \hbox (19.84355pt too wide) in paragraph at lines 84--85
+[]\OT1/cmr/m/n/9 (-20) * Ge-ben Sie die Glei-chung des Krei-ses an, der durch d
+ie Punk-te $\OML/cmm/m/it/9 P[]\OT1/cmr/m/n/9 (-20) (6\OMS/cmsy/m/n/9 j\OT1/cmr
+/m/n/9 (-20) 7)\OML/cmm/m/it/9 ; P[]\OT1/cmr/m/n/9 (-20) (2\OMS/cmsy/m/n/9 j\OT
+1/cmr/m/n/9 (-20) 9)$und
+ []
+
+) [49 <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_H
+eft/img/kreis/kreis2.png (PNG copy)> <C:/Users/Sebastian/Desktop/Studium/kfried
+ri-Vorkurse/Vorkurs2010/Mathe_Heft/img/kreis/kreis3.png (PNG copy)>]
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\un
+gleichungen1.tex [50
+
+
+]
+<img/ungleichungen/LBer1.png, id=981, 615.29875pt x 123.46124pt>
+File: img/ungleichungen/LBer1.png Graphic file (type png)
+
+<use img/ungleichungen/LBer1.png> [51 <C:/Users/Sebastian/Desktop/Studium/kfrie
+dri-Vorkurse/Vorkurs2010/Mathe_Heft/img/ungleichungen/LBer1.png (PNG copy)>]
+[52] <img/ungleichungen/LBer2.png, id=993, 641.39626pt x 123.46124pt>
+File: img/ungleichungen/LBer2.png Graphic file (type png)
+
+<use img/ungleichungen/LBer2.png> [53 <C:/Users/Sebastian/Desktop/Studium/kfrie
+dri-Vorkurse/Vorkurs2010/Mathe_Heft/img/ungleichungen/LBer2.png (PNG copy)>]
+<img/ungleichungen/LBer3.png, id=1004, 641.39626pt x 123.46124pt>
+File: img/ungleichungen/LBer3.png Graphic file (type png)
+
+<use img/ungleichungen/LBer3.png> [54 <C:/Users/Sebastian/Desktop/Studium/kfrie
+dri-Vorkurse/Vorkurs2010/Mathe_Heft/img/ungleichungen/LBer3.png (PNG copy)>]
+<img/ungleichungen/UGlsystmit2.png, id=1011, 642.4pt x 481.8pt>
+File: img/ungleichungen/UGlsystmit2.png Graphic file (type png)
+
+<use img/ungleichungen/UGlsystmit2.png>
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 206.
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
+[][]$\OT1/cmtt/m/n/8 ftp : / / ftp . fernuni-[]hagen . de / pub / fachb / mathe
+ / alggeo / schulte / 1011C3 . pdf$[]
+ []
+
+
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\un
+gleichungen-aufgaben1.tex [55 <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vork
+urse/Vorkurs2010/Mathe_Heft/img/ungleichungen/UGlsystmit2.png (PNG copy)>]
+[56] [57] [58])) [59]
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\vo
+llstaendigeInduktion.tex [60
+
+
+
+]
+Kapitel 6.
+[61] [62]
+Overfull \hbox (27.9264pt too wide) in paragraph at lines 101--102
+[][]$\OT1/cmtt/m/n/9 http : / / www . math . uni-[]sb . de / ag / wittstock / l
+ehre / WS00 / analysis1 / Vorlesung /
+ []
+
+[63] [64] [65]) [66]
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\fu
+nktionen2.tex
+Kapitel 7.
+
+LaTeX Warning: Reference `fig:Funktionssammlung' on page 67 undefined on input 
+line 14.
+
+<img/Funktionssammlung.pdf, id=1156, 597.23125pt x 845.1575pt>
+File: img/Funktionssammlung.pdf Graphic file (type pdf)
+
+<use img/Funktionssammlung.pdf> [67
+
+
+
+ <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft/i
+mg/Funktionssammlung.pdf>]
+<img/winkel.pdf, id=1171, 264.99pt x 158.5925pt>
+File: img/winkel.pdf Graphic file (type pdf)
+ <use img/winkel.pdf>
+<img/sin.pdf, id=1172, 997.32597pt x 1318.52597pt>
+File: img/sin.pdf Graphic file (type pdf)
+ <use img/sin.pdf>
+<img/cos.pdf, id=1174, 997.32597pt x 1318.52597pt>
+File: img/cos.pdf Graphic file (type pdf)
+ <use img/cos.pdf>
+<img/tan.pdf, id=1176, 845.55902pt x 1318.52597pt>
+File: img/tan.pdf Graphic file (type pdf)
+ <use img/tan.pdf> [68 <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vo
+rkurs2010/Mathe_Heft/img/winkel.pdf> <C:/Users/Sebastian/Desktop/Studium/kfried
+ri-Vorkurse/Vorkurs2010/Mathe_Heft/img/sin.pdf> <C:/Users/Sebastian/Desktop/Stu
+dium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/cos.pdf> <C:/Users/Sebastian/
+Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/tan.pdf>]
+<img/symmetrie.pdf, id=1192, 256.07481pt x 142.26376pt>
+File: img/symmetrie.pdf Graphic file (type pdf)
+
+<use img/symmetrie.pdf> [69] [70 <C:/Users/Sebastian/Desktop/Studium/kfriedri-V
+orkurse/Vorkurs2010/Mathe_Heft/img/symmetrie.pdf>]
+<img/winkel_aufgaben.pdf, id=1217, 259.97125pt x 163.61125pt>
+File: img/winkel_aufgaben.pdf Graphic file (type pdf)
+
+<use img/winkel_aufgaben.pdf>) [71 <C:/Users/Sebastian/Desktop/Studium/kfriedri
+-Vorkurse/Vorkurs2010/Mathe_Heft/img/winkel_aufgaben.pdf>]
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\lo
+g_e.tex <img/exp.pdf, id=1259, 1318.52597pt x 1318.52597pt>
+File: img/exp.pdf Graphic file (type pdf)
+ <use img/exp.pdf>
+[72
+
+
+ <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft/i
+mg/exp.pdf>] <img/log.pdf, id=1268, 676.0375pt x 836.72598pt>
+File: img/log.pdf Graphic file (type pdf)
+
+<use img/log.pdf> [73 <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vor
+kurs2010/Mathe_Heft/img/log.pdf>]) [74]
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\ku
+rven.tex [75
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 74--81
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--81
+
+ []
+
+<img/tangenten.pdf, id=1324, 557.08125pt x 557.08125pt>
+File: img/tangenten.pdf Graphic file (type pdf)
+
+<use img/tangenten.pdf>
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+[] [][]\OT1/cmr/m/n/9 (+20) Tangenten der
+ []
+
+<img/sattelpunkt.pdf, id=1325, 557.08125pt x 557.08125pt>
+File: img/sattelpunkt.pdf Graphic file (type pdf)
+
+<use img/sattelpunkt.pdf>
+Underfull \hbox (badness 5862) in paragraph at lines 97--97
+[] [][]\OT1/cmr/m/n/9 (+20) Sattelpunkt der
+ []
+
+[76 <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Hef
+t/img/tangenten.pdf> <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vork
+urs2010/Mathe_Heft/img/sattelpunkt.pdf>] [77]
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\ku
+rven_a.tex) [78]) [79]
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\ve
+ktoren.tex [80
+
+
+
+]
+Kapitel 8.
+<img/vektoren.pdf, id=1397, 424.58624pt x 402.50375pt>
+File: img/vektoren.pdf Graphic file (type pdf)
+ <use img/vektoren.pdf>
+[81 <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Hef
+t/img/vektoren.pdf>]
+<img/vektor_addition.pdf, id=1409, 304.13625pt x 163.61125pt>
+File: img/vektor_addition.pdf Graphic file (type pdf)
+
+<use img/vektor_addition.pdf> [82 <C:/Users/Sebastian/Desktop/Studium/kfriedri-
+Vorkurse/Vorkurs2010/Mathe_Heft/img/vektor_addition.pdf>]
+<img/vektor_mult.pdf, id=1422, 239.89626pt x 46.1725pt>
+File: img/vektor_mult.pdf Graphic file (type pdf)
+
+<use img/vektor_mult.pdf> [83 <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vork
+urse/Vorkurs2010/Mathe_Heft/img/vektor_mult.pdf>] [84]
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 201--203
+
+ []
+
+[85] [86]) [87]
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\co
+mplex.tex [88
+
+
+
+]
+Kapitel 9.
+[89] <img/complex1.pdf, id=1499, 481.8pt x 361.35pt>
+File: img/complex1.pdf Graphic file (type pdf)
+ <use img/complex1.pdf>
+[90 <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Hef
+t/img/complex1.pdf>] <img/complex2.pdf, id=1509, 481.8pt x 361.35pt>
+File: img/complex2.pdf Graphic file (type pdf)
+
+<use img/complex2.pdf> [91 <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurs
+e/Vorkurs2010/Mathe_Heft/img/complex2.pdf>] [92] [93]
+<img/complex3.pdf, id=1531, 481.8pt x 361.35pt>
+File: img/complex3.pdf Graphic file (type pdf)
+ <use img/complex3.pdf> [94 <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkur
+se/Vorkurs2010/Mathe_Heft/img/complex3.pdf>]
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\co
+mplex_a.tex [95]) [96])
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\he
+ft.aux
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\sp
+ickzettel.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\br
+uchrechnung.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\po
+tenzen.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\bi
+nomischeFormeln.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\po
+ly.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\qu
+adratische_Gleichungen.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\gl
+eichungssysteme.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\be
+trag1.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\kr
+eis1.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\un
+gleichungen1.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\vo
+llstaendigeInduktion.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\fu
+nktionen2.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\lo
+g_e.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\ku
+rven.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\ve
+ktoren.aux)
+(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\co
+mplex.aux))
+
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 10430 strings out of 495285
+ 159034 string characters out of 3180381
+ 306985 words of memory out of 3000000
+ 12413 multiletter control sequences out of 15000+200000
+ 21236 words of font info for 126 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 43i,16n,54p,732b,503s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Pro
+gram Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cmextra/cmex7.pfb><C:/Program
+ Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Program Fil
+es/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX
+ 2.8/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.8/font
+s/type1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/p
+ublic/amsfonts/cmextra/cmmib9.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfon
+ts/cm/cmr5.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr6
+.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/P
+rogram Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Fil
+es/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsl9.pfb><C:/Program Files/MiKTeX
+ 2.8/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Files/MiKTeX 2.8/f
+onts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.8/fonts/type
+1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/
+amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/
+cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmti9.
+pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/P
+rogram Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmtt9.pfb><C:/Program Fi
+les/MiKTeX 2.8/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files
+/MiKTeX 2.8/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on heft.pdf (96 pages, 2574416 bytes).
+PDF statistics:
+ 1798 PDF objects out of 2073 (max. 8388607)
+ 760 named destinations out of 1000 (max. 500000)
+ 20610 words of extra memory for PDF output out of 20736 (max. 10000000)
+

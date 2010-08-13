@@ -1,0 +1,36 @@
+<!DOCTYPE kmpdoc>
+<kmpdoc version="2" >
+    <axes width="5" tic-width="1" color="#808080" tic-legth="10" >
+        <show-axes>1</show-axes>
+        <show-arrows>1</show-arrows>
+        <show-label>1</show-label>
+        <show-frame>1</show-frame>
+        <show-extra-frame>1</show-extra-frame>
+        <xcoord>4</xcoord>
+        <xmin>0</xmin>
+        <xmax>8</xmax>
+        <ycoord>1</ycoord>
+    </axes>
+    <grid width="1" color="#c0c0c0" >
+        <mode>0</mode>
+    </grid>
+    <scale>
+        <tic-x>3</tic-x>
+        <tic-y>3</tic-y>
+        <print-tic-x>3</print-tic-x>
+        <print-tic-y>3</print-tic-y>
+    </scale>
+    <function width="10" use-slider="-1" color="#00c100" visible="1" >
+        <equation>f(x)=ln(x)</equation>
+    </function>
+    <function width="10" use-slider="-1" color="#3838ff" visible="1" >
+        <equation>g(x)=log(x)</equation>
+    </function>
+    <function width="10" use-slider="-1" color="#ff0105" visible="1" >
+        <equation>h(x)=ln(x)/ln(1/2)</equation>
+    </function>
+    <fonts>
+        <axes-font>Sans Serif</axes-font>
+        <header-table-font>Sans Serif</header-table-font>
+    </fonts>
+</kmpdoc>

@@ -1,0 +1,395 @@
+\chapter{Lineare Gleichungssysteme L\"osungen}
+	
+	Autor: Marko Rak
+	
+	\subsubsection{Aufgabe 1}
+	
+		Bestimmen Sie die L\"osungen folgender Gleichungssysteme.
+		
+			\begin{enumerate}\abovedisplayskip-0em
+				\item 
+				
+					\[
+						\begin{tabular} {ccc|cccc}
+							$x_1$ & $x_2$ & $x_3$ & & &\\
+							\hline
+							1 & 5 & 2 & 3 & $\leftarrow$ & \\
+							2 & -2 & 4 & 5 & & $\leftarrow$ \\
+							1 & 1 & 2 & 1 & $\cdot(-1)$ & $\cdot(-2)$ \\
+							\hline
+							1 & 1 & 2 & 1 & & & \\
+							0 & 4 & 0 & 2 & $\cdot(1)$ & & \\
+							0 & -4 & 0 & 3 & $\leftarrow$ & & \\
+							\hline
+							1 & 1 & 2 & 1 & & & \\
+							0 & 4 & 0 & 2 & & & \\
+							0 & 0 & 0 & 5 & & & \\
+						\end{tabular}
+					\]
+					
+					\abovedisplayskip-0em
+					
+					Widerspruch in der letzten Zeile $\Rightarrow$ keine L"osung
+
+					
+				\item
+				
+					\[
+						\begin{tabular} {ccc|ccc}
+							$x_1$ & $x_2$ & $x_3$ & & &\\
+							\hline
+							7 & 8 & 5 & 3 & $\leftarrow$ & \\
+							3 & -3 & 2 & 1 & $\cdot(-\frac{7}{3})$ & $\cdot(-6)$ \\
+							18 & 21 & 13 & 8 & & $\leftarrow$ \\
+							\hline
+							3 & -3 & 2 & 1 & & \\
+							0 & 15 & $\frac{1}{3}$ & $\frac{2}{3}$ & $\leftarrow$ & \\
+							0 & 39 & 1 & 2 & $\cdot(-\frac{15}{39})$ & \\
+							\hline
+							3 & -3 & 2 & 1 & & \\
+							0 & 39 & 1 & 2 & & \\
+							0 & 0 & $-\frac{2}{39}$ & $-\frac{4}{39}$ & & \\
+						\end{tabular}
+					\]
+					
+					\abovedisplayskip-0em
+					
+					\[	
+						\begin{array} {ccc}
+							x_3 & = & 2\\
+							x_2 & = & 0\\
+							x_1 & = & -1\\
+						\end{array}
+					\]
+				
+				\item
+						
+					\[
+						\begin{tabular} {cccc|cccc}
+							$x_1$ & $x_2$ & $x_3$ & $x_4$ & & & & \\
+							\hline
+							1 & 1 & 3 & 4 & -3 & $\cdot(-2)$ & $\cdot(-2)$ & $\cdot(-1)$ \\
+							2 & 3 & 11 & 5 & 2 & $\leftarrow$ & & \\
+							2 & 1 & 3 & 2 & -3 & & $\leftarrow$ & \\
+							1 & 1 & 5 & 2 & 1 & & & $\leftarrow$ \\
+							\hline
+							1 & 1 & 3 & 4 & -3 & & & \\
+							0 & 1 & 5 & -3 & 8 & $\cdot(1)$ & & \\
+							0 & -1 & -3 & -6 & 3 & $\leftarrow$ & & \\
+							0 & 0 & 2 & -2 & 4 & & & \\
+							\hline
+							1 & 1 & 3 & 4 & -3 & & & \\
+							0 & 1 & 5 & -3 & 8 & & & \\
+							0 & 0 & 2 & -2 & 4 & $\cdot(-1)$ & & \\
+							0 & 0 & 2 & -9 & 11 & $\leftarrow$ & & \\
+							\hline
+							1 & 1 & 3 & 4 & -3 & & & \\
+							0 & 1 & 5 & -3 & 8 & & & \\
+							0 & 0 & 2 & -2 & 4 & & & \\
+							0 & 0 & 0 & -7 & 7 & & & \\
+						\end{tabular}
+					\]
+					
+					\abovedisplayskip-0em
+					
+					\[
+						\begin{array} {ccc}
+							x_4 & = & -1\\
+							x_3 & = & 1\\
+							x_2 & = & 0\\
+							x_1 & = & 2\\
+						\end{array}
+					\]	
+							
+				\item
+											
+					\[
+						\begin{tabular} {ccc|cccc}
+							$x_1$ & $x_2$ & $x_3$ & & &\\
+							\hline
+							1 & 2 & 3 & -4 & $\cdot(-5)$ & $\cdot(-7)$ & $\cdot(-2)$ \\
+							5 & -1 & 1 & 0 & $\leftarrow$ & & \\
+							7 & 3 & 7 & -8 & & $\leftarrow$ & \\
+							2 & 3 & -1 & 11 & & & $\leftarrow$ \\
+							\hline
+							1 & 2 & 3 & -4 & & & \\
+							0 & -11 & -14 & 20 & & $\leftarrow$ & \\
+							0 & -11 & -14 & 20 & $\leftarrow$ & & \\
+							0 & -1 & -7 & 19 & $\cdot(-11)$ & $\cdot(-11)$ & \\
+							\hline
+							1 & 2 & 3 & -4 & & & \\
+							0 & -1 & -7 & 19 & & & \\
+							0 & 0 & 63 & -189 & $\cdot(-1)$ & & \\
+							0 & 0 & 63 & -189 & $\leftarrow$ & & \\
+							\hline
+							1 & 2 & 3 & -4 & & & \\
+							0 & -1 & -7 & 19 & & & \\
+							0 & 0 & 63 & -189 & & & \\
+							0 & 0 & 0 & 0 & & & \\
+						\end{tabular}
+					\]
+					
+					\abovedisplayskip-0em
+					
+					\[
+						\begin{array} {ccc}
+							x_3 & = & -3\\
+							x_2 & = & 2\\
+							x_1 & = & 1\\
+						\end{array}
+					\]
+							
+				\item
+						
+					\[
+						\begin{tabular} {ccccc|cccc}
+							$x_1$ & $x_2$ & $x_3$ & $x_4$ & $x_5$ & & & \\
+							\hline
+							-1 & 1 & 1 & 0 & -1 & 0 & $\cdot(1)$ & $\cdot(3)$ & \\
+							1 & -1 & -3 & 2 & -1 & 2 & $\leftarrow$ & & \\
+							0 & 3 & -1 & -5 & -7 & 9 & & & \\
+							3 & -3 & -5 & 2 & 5 & 2 & & $\leftarrow$ & \\
+							\hline
+							-1 & 1 & 1 & 0 & -1 & 0 & & & \\
+							0 & 3 & -1 & -5 & -7 & 9 & & & \\
+							0 & 0 & -2 & 2 & -2 & 2 & $\cdot(-1)$ & & \\
+							0 & 0 & -2 & 2 & 2 & 2 & $\leftarrow$ & & \\
+							\hline
+							-1 & 1 & 1 & 0 & -1 & 0 & & & \\
+							0 & 3 & -1 & -5 & -7 & 9 & & & \\
+							0 & 0 & -2 & 2 & -2 & 2 & & & \\
+							0 & 0 & 0 & 0 & 4 & 0 & & & \\
+						\end{tabular}
+					\]	
+						
+					\abovedisplayskip-0em
+					
+					\[		
+						\begin{array} {ccccc}
+							x_5 & = & 0 & & \\
+							x_4 & = & & & t\\
+							x_3 & = & -1 & + & t\\
+							x_2 & = & \frac{8}{3} & + & 2t \\
+							x_1 & = & \frac{5}{3} & + & 3t\\
+						\end{array}
+					\]
+
+		
+				\item
+						
+					\[
+						\begin{tabular} {cccc|ccccc}
+							$x_1$ & $x_2$ & $x_3$ & $x_4$ & & & & \\
+							\hline
+							1 & -2 & -3 & 0 & -7 & $\cdot(-2)$ & $\cdot(2)$ & $\cdot(-1)$ \\
+							2 & -1 & 2 & 7 & -3 & $\leftarrow$ & & \\
+							-2 & 1 & 3 & 3 & 8 & & $\leftarrow$ & \\
+							1 & 4 & 5 & -2 & 7 & & & $\leftarrow$ \\
+							\hline
+							1 & -2 & -3 & 0 & -7 & & & \\
+							0 & 3 & 8 & 7 & 11 & $\cdot(1)$ & $\cdot(-2)$ & \\
+							0 & -3 & -3 & 3 & -6 & $\leftarrow$ & & \\
+							0 & 6 & 8 & -2 & 14 & & $\leftarrow$ & \\
+							\hline
+							1 & -2 & -3 & 0 & -7 & & & \\
+							0 & 3 & 8 & 7 & 11 & & & \\
+							0 & 0 & 5 & 10 & 5 & $\cdot(\frac{8}{5})$ & & \\
+							0 & 0 & -8 & -16 & -8 & $\leftarrow$ & & \\
+							\hline
+							1 & -2 & -3 & 0 & -7 & & & \\
+							0 & 3 & 8 & 7 & 11 & & & \\
+							0 & 0 & 5 & 10 & 5 & & & \\
+							0 & 0 & 0 & 0 & 0 & & & \\
+						\end{tabular}
+					\]
+					
+					\abovedisplayskip-0em
+					
+					\[		
+						\begin{array} {ccccc}
+							x_4 & = & & & t\\
+							x_3 & = & 1 & - & 2t\\
+							x_2 & = & 1 & + & 3t\\
+							x_1 & = & -2 & & \\
+						\end{array}
+					\]
+						
+				\item
+						
+					\[
+						\begin{tabular} {ccc|ccccc}
+							$x_1$ & $x_2$ & $x_3$ & & & & \\
+							\hline
+							1 & -1 & 1 & 4 & $\cdot(-1)$ & $\cdot(-4)$ & $\cdot(-2)$ \\
+							1 & 2 & 1 & 13 & $\leftarrow$ & & \\
+							4 & 5 & 4 & 43 & & $\leftarrow$ & \\
+							2 & 4 & 2 & 26 & & & $\leftarrow$ \\
+							\hline
+							1 & -1 & 1 & 4 & & & \\
+							0 & 3 & 0 & 9 & $\cdot(-3)$ & $\cdot(-2)$ & \\
+							0 & 9 & 0 & 27 & $\leftarrow$ & & \\
+							0 & 6 & 0 & 18 & & $\leftarrow$ & \\
+							\hline
+							1 & -1 & 1 & 4 & & & \\
+							0 & 3 & 0 & 9 & & & \\
+							0 & 0 & 0 & 0 & & & \\
+							0 & 0 & 0 & 0 & & & \\
+						\end{tabular}
+					\]
+					
+					\abovedisplayskip-0em
+					
+					\[
+						\begin{array} {ccccc}
+							x_3 & = & & & t\\
+							x_2 & = & 3 & & \\
+							x_1 & = & 7 & - & t \\
+						\end{array}
+					\]
+
+				\end{enumerate}
+	
+		\subsubsection{Aufgabe 2}
+				
+			Bestimmen Sie die L\"osungen folgender Gleichungssysteme in Abh\"angigkeit von $a$ und $b$.
+
+				\begin{enumerate}\abovedisplayskip-0em
+					\item
+					
+						\[
+							\begin{tabular} {ccc|ccc}
+								$x_1$ & $x_2$ & $x_3$ & & & \\
+								\hline
+								2 & -1 & 4 & 0 & $\leftarrow$ & \\
+								1 & 3 & -1 & 0 & $\cdot(-2)$ & $\cdot(-7)$ \\
+								7 & 7 & 4-a & 0 & & $\leftarrow$ \\
+								\hline
+								1 & 3 & -1 & 0 & & \\
+								0 & -7 & 6 & 0 & $\cdot(-2)$ & \\
+								0 & -14 & 11-a & 0 & $\leftarrow$ & \\
+								\hline
+								1 & 3 & -1 & 0 & & \\
+								0 & -7 & 6 & 0 & & \\
+								0 & 0 & -1-a & 0 & & \\
+							\end{tabular}
+						\]
+						
+						\abovedisplayskip-0em
+						
+						Fall 1: \emph{$a = -1$}
+						
+						\[
+							\begin{array} {ccc}
+								x_3 & = & t\\
+								x_2 & = & \frac{6}{7}t\\
+								x_1 & = & -\frac{11}{7}t\\
+							\end{array}
+						\]
+						
+						\abovedisplayskip-0em
+						
+						Fall 2: \emph{$a \neq -1$}
+						
+						\[
+							\begin{array} {ccc}
+								x_3 & = & 0\\
+								x_2 & = & 0\\
+								x_1 & = & 0\\
+							\end{array}
+						\]
+							
+					\item
+						
+						\[
+							\begin{tabular} {ccc|ccc}
+								$x_1$ & $x_2$ & $x_3$ & & & \\
+								\hline
+								1 & 1 & 1 & 0 & $\cdot(-1)$ & $\cdot(-a)$ \\
+								1 & a & 1 & 4 & $\leftarrow$ & \\
+								a & 3 & a & -2 & & $\leftarrow$ \\
+								\hline
+								1 & 1 & 1 & 0 & & \\
+								0 & a-1 & 0 & 4 & & \\
+								0 & 3-a & 0 & -2 & & \\
+							\end{tabular}
+						\]
+						
+						\abovedisplayskip-0em
+						
+						Fall 1: \emph{$a = 1$} oder \emph{$a = 3$} ergibt keine L\"osung.
+						
+						Fall 2: \emph{$a \neq 1$} und \emph{$a \neq 3$}
+						
+						\[
+							\begin{tabular} {ccc|ccc}
+								$x_1$ & $x_2$ & $x_3$ & & & \\
+								\hline
+								1 & 1 & 1 & 0 & & \\
+								0 & a-1 & 0 & 4 & $\cdot(-\frac{3-a}{a-1})$ & \\
+								0 & 3-a & 0 & -2 & $\leftarrow$ & \\
+								\hline
+								1 & 1 & 1 & 0 & & \\
+								0 & a-1 & 0 & 4 & & \\
+								0 & 0 & 0 & $\frac{2a-10}{a-1}$ & & \\
+							\end{tabular}
+						\]
+						
+						Fall 2a: \emph{$a = 5$}
+						
+						\[
+							\begin{array} {ccccc}
+								x_3 & = & & & t\\
+								x_2 & = & 1 & & \\
+								x_1 & = & -1 & - & t\\
+							\end{array}
+						\]
+						
+						Fall 2b: \emph{$a \neq 1$}, \emph{$a \neq 3$} und \emph{$a \neq 5$} ergibt keine L\"osung
+						
+					\item
+						
+						\[
+							\begin{tabular} {ccc|ccc}
+								$x_1$ & $x_2$ & $x_3$ & & & \\
+								\hline
+								1 & -2 & 3 & 4 & $\cdot(-2)$ & $\cdot(-1)$ \\
+								2 & 1 & 1 & -2 & $\leftarrow$ & \\
+								1 & a & 2 & b & & $\leftarrow$ \\
+								\hline
+								1 & -2 & 3 & 4 & & \\
+								0 & 5 & -5 & -10 & $\cdot(-\frac{2+a}{5})$ & \\
+								0 & 2+a & -1 & b-4 & $\leftarrow$ & \\
+								\hline
+								1 & -2 & 3 & 4 & & \\
+								0 & 5 & -5 & -10 & & \\
+								0 & 0 & 1+a & 2a+b & & \\
+							\end{tabular}
+						\]
+						
+						\abovedisplayskip-0em
+						
+						Fall 1a: \emph{$a = -1$} und \emph{$b = 2$} 
+						
+						\[
+							\begin{array} {ccccc}
+								x_3 & = & & & t\\
+								x_2 & = & -2 & + & t\\
+								x_1 & = & & - & t\\
+							\end{array}
+						\]
+						
+						\abovedisplayskip-0em
+						
+						Fall 1b: \emph{$a = -1$} und \emph{$b \neq 2$} ergibt keine L\"osung
+						
+						Fall 2: \emph{$a \neq -1$}
+						
+						\[
+							\begin{array} {ccccc}
+								x_3 & = & \frac{2a+b}{1+a}\\
+								x_2 & = & \frac{b-2}{1+a}\\
+								x_1 & = & \frac{2a+b}{1+a}\\
+							\end{array}
+						\]
+						
+				\end{enumerate}

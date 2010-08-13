@@ -1,0 +1,92 @@
+\documentclass[fontsize=9pt,paper=a5,fleqn,%parskip=full-,
+DIV15,BCOR5.0mm,%
+smallheadings,final]{scrbook}
+\usepackage{scrpage2}
+\usepackage[OT1]{fontenc}
+\usepackage[utf8]{inputenc}
+%\usepackage{ngerman} 
+\usepackage[ngerman]{babel}
+%\usepackage{umlaute}
+\usepackage{amsmath,amssymb}
+
+%\usepackage{color}
+\usepackage[final]{graphicx}
+%\usepackage{url}
+\usepackage{multicol}
+\usepackage{polynom}
+\usepackage{vorkurs}
+\usepackage[breaklinks=true,pdftex,final,]{hyperref}
+%\usepackage{url}
+\usepackage{microtype}
+
+%\usepackage[Bjornstrup]{fncychap}
+\setcounter{tocdepth}{0} % Nur Kapitel im Inhaltsverzeichnis anzeigen
+\renewcommand*{\chapterheadstartvskip}{\vspace{0pt}} % Kein Leerraum ueber Ueberschrift
+\setlength\mathindent{1pc} % Einzug von Mathe-Bloecken
+\setcapindent{1em} % Einzug der zweiten Zeile in Unterschrift aendern
+\automark[chapter]{chapter} % Kapitelname in Kopfzeile links und rechts 
+
+%\includeonly{funktionen,trig,log_e}
+
+\begin{document}
+
+\title{Vorkurs Mathematik}
+\author{Gerhard Gossen \\ Katja Matthes \\ Marc Mittner \\ Marko Rak \\ Christian Rutsch \\ Andreas Zöllner
+%FaRaFIN Vorkurs-Team
+}
+\publishers{\begin{center}\includegraphics%[viewport = 60 700 660 790]
+{./img/farafin_logo_schwarz_auf_weiss.png}\end{center}}
+\lowertitleback{Dieses Heft wurde vom Fachschaftsrat der Fakultät für
+Informatik der Otto-von-Guericke-Universität Magdeburg für den
+Mathematik-Vorkurs 2010 produziert.}
+\date{2010}
+\maketitle
+\tableofcontents
+
+
+% Hier folgen die einzelnen Kapitel in folgender Gliederung:
+\include{spickzettel}
+\include{bruchrechnung}
+\include{potenzen}
+\include{binomischeFormeln}
+\addtocontents{toc}{\setcounter{tocdepth}{0}}
+\include{poly}
+
+\include{quadratische_Gleichungen}
+\addtocontents{toc}{\setcounter{tocdepth}{1}}
+\include{gleichungssysteme}
+
+\include{betrag1}
+\include{kreis1}
+\addtocontents{toc}{\setcounter{tocdepth}{0}}
+\include{ungleichungen1}
+
+
+\include{vollstaendigeInduktion}
+\addtocontents{toc}{\setcounter{tocdepth}{1}}
+\include{funktionen2}
+%\include{trig}
+\include{log_e}
+%\addtocontents{toc}{\setcounter{tocdepth}{0}}
+\include{kurven}
+\include{vektoren}
+\include{complex}
+
+%\include{bruchrechnungLsg}
+%\include{potenzenLsg}
+%\include{binomischeFormelnLsg}
+%\include{polynomdivision_loesungen}
+%\include{Gleichungen-Lösungen}
+%\include{Ungleichungen-Lösungen}
+%\include{vollstaendigeInduktionLsg}
+
+\cleardoublepage
+%\pagestyle{scrplain}
+\ofoot[]{}
+\markboth{Notizen}{Notizen}
+%\mbox{}
+%\cleardoublepage
+%\include{Funktionen}
+%\include{ZusammenfassungKay}
+%\include{merkblatt}
+\end{document}

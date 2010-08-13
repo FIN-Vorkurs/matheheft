@@ -1,0 +1,134 @@
+\chapter{Quadratische Gleichungen}
+	
+	Autor: Marc Mittner
+	
+\noindent	\"Uberarbeitung: Marko Rak, Julia Hempel, Johannes Jendersie
+	
+	\section{Definition}
+		
+		Eine quadratische Gleichung ist eine Gleichung, die sich auf die Form 
+		\[ ax^2 +bx+c=0 \]
+		überführen lässt, mit  $ a, b, c \in \mathbb{R} $.
+		
+		Eine quadratische Gleichung ist in Normalform, falls $a = 1 $, also
+        \begin{align*}
+          x^2 &+ px + q=0 \quad\text{mit}\\
+          p &= \frac b a \quad\text{und}\\
+          q &= \frac c a
+        \end{align*}
+      
+		
+	\section{Lösen quadratischer Gleichungen}
+		
+		Jede quadratische Gleichung hat entweder keine, eine oder zwei reelle Lösungen.
+	
+		\subsection{Satz von Vieta:}
+		Die reellen Zahlen $ a $ und $ b $ sind genau dann Lösungen der Gleichung 
+		$x^2 + px + q = 0$, wenn für die Koeffizienten $ p $ und $ q $ gilt:
+        \begin{align*}
+            p &= -( a + b) \\
+            q &= a \cdot b
+        \end{align*}
+		Daraus folgt:
+		Hat eine quadratische Gleichung die Lösungen a und b, so lässt sie sich folgendermaßen darstellen:
+		\[ (x - a)(x - b) = 0 \]
+		Umgekehrt können die Lösungen aus dieser faktorisierten Form direkt abgelesen werden.
+	
+		\subsection{Mitternachtsformel}
+			
+			Jede quadratische Gleichung ($ ax^2 + bx + c = 0 $) kann mit Hilfe der Mitternachtsformel gelöst werden:
+			
+			\[x_{1,2} = \frac{-b \pm \sqrt{b^2 - 4ac}} {2a}\]
+			
+		\subsection{p-q-Formel}
+			
+			Jede quadratische Gleichung in Normalform ($ x^2 + px + q = 0 $) kann mit Hilfe der hergeleiteten p-q-Formel gelöst werden. Die Herleitung erfolgt mit der quadratischen Ergänzung:
+			\[ x^2 + px + q = 0\]\\
+			\[ x^2 + px + \left({}\frac{p}{2}\right)^2 - \left({}\frac{p}{2}\right)^2 + q = 0\]\\
+			\[ \left({}x + \frac{p}{2} \right)^2 = \left({}\frac{p}{2}\right)^2 - q\]\\			
+			\[ x_{1,2} = - \frac p 2 \pm \sqrt{\left(\frac p 2 \right)^2 - q} \]\\
+			Zusammenhang mit der Mitternachtsformel:
+            \begin{align*}
+              p &= \frac b a\\
+              q &= \frac c a
+            \end{align*}
+
+		\subsection{Satz vom Nullprodukt}
+			
+			Ein Produkt ist genau dann gleich Null, wenn einer seiner Faktoren gleich Null ist. 
+			Lässt sich eine Gleichung auf die Form $(ax^2 + bx + c) \cdot x^k = 0$ bringen, so hat die Gleichung nach dem Satz vom Nullprodukt die Lösungen 			$x_{1,2,..,k} = 0$ und die Lösungen $x_{k+1}$ und $x_{k+2}$ können mit Hilfe der Mitternachtsformel / p-q-Formel gelöst werden. 
+			
+		\subsection{Substitution}
+		
+		Hat eine Gleichung die Form $ax^{2k} + bx^k + c = 0$, so kann $x^k$ durch eine Variable $u$ substituiert werden: 
+		\[au^2 + bu + c = 0 \]
+		Diese Gleichung kann dann als quadratische Gleichung gelöst werden. Für die Ergebnisse $ u_1 $ und $ u_2 $ gilt dann:
+  \begin{align*}      
+u_1 & = x^k& u_2 &= x^k \\
+x_{1,2} &= \sqrt[k] {u_1} & x_{3,4} &= \sqrt[k] {u_2}
+  \end{align*}
+
+		Dabei gilt für die Anzahl der Lösungen:
+		\begin{itemize}
+			\item keine Lösung, wenn $ u < 0 $ und $k$ gerade
+			\item eine Lösung, wenn $ -\infty < u < \infty $ und $k$ ungerade oder $ u = 0 $ und $k$ gerade.
+			\item zwei Lösungen, wenn $ u > 0 $ und $k$ gerade
+		\end{itemize}
+		
+	\section{Beispiele}
+\begin{enumerate}
+    \item $3x^2  + 3x - 36 = 0$
+        
+        Ausklammern: \newline
+        $\begin{array}{crcl}
+            &3(x^2 + x - 12) &=& 0 \\
+            &x^2 + x - 12 &=& 0 \\
+        \end{array}$ \newline\newline
+        Lösen mit p-q-Formel ( $ p = 1 $ , $ q = -12 $ ):\newline
+        $\begin{array}{crcl}
+         &x_{1,2} &=& - \frac 1 2 \pm \sqrt{\left(\frac 1 2 \right)^2 + 12} \\
+        &&=& - \frac 1 2 \pm \sqrt {\frac {49} 4}  \\
+        &&=& - \frac 1 2 \pm \frac 7 2 \\
+        &x_1 &=& 3 \\
+        &x_2 &=& -4 \\
+        \end{array}$ \newline\newline
+        faktorisierte Darstellung: \newline
+        $\begin{array}{crcl}
+         &3 (x - 3) (x + 4) &=& 0\\
+        \end{array}$
+\end{enumerate}
+
+\begin{itemize}        
+    \item[2.] $x^7 + 19x^4 - 216x = 0 $\newline\newline
+        Ausklammern:\newline
+		$\begin{array}{crcl}
+			&x(x^6+19x^3-216)&=&0\\
+			&x_1&=&0
+		\end{array}$           \newline  \newline   
+        Substitution von \textit{$ x^3 = u $}: \newline
+        $\begin{array}{crcl}
+         &u^2 + 19u - 216 &=& 0 \\
+        \end{array}$                \newline \newline
+        Lösen mit p-q-Formel ($ p = 19 $ , $ q = -216 $): \newline 
+        $\begin{array}{crcl}
+         &u_{1,2} &=& - \frac {19} 2 \pm \sqrt{\left(\frac {19} 2 \right)^2 + 216} \\
+         &&=& - \frac {19} 2 \pm \sqrt{\frac {361} 4 + \frac {864} 4}\\
+         &&=& - \frac {19} 2 \pm \sqrt{\frac {1225} 4} \\
+         &&=& - \frac {19} 2 \pm \frac {35} 2 \\
+        &u_1 &=& 8 \\
+        &u_2 &=& -27\\
+        \end{array}$   \newline   \newline
+        Resubstitution: \newline
+        $\begin{array}{ll}
+        &x^3 = u_1 \text{\ ergibt die Lösungen}\\
+        &x^3 = 8 \\
+        &x_2 = 2 \\[2ex]
+        &x^3 = u_2 \text{\ ergibt die Lösungen}\\
+        &x^3 = -27 \\
+        &x_3 = -3\\
+        \end{array}$
+    
+\end{itemize}
+
+		
+\input{Gleichungen-Aufgaben}
