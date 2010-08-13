@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2009.12.10)  13 AUG 2010 01:51
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2009.12.10)  13 AUG 2010 02:19
 entering extended mode
 **heft.tex
 
@@ -745,8 +745,8 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 File: ./img/farafin_logo_schwarz_auf_weiss.png Graphic file (type png)
 
 <use ./img/farafin_logo_schwarz_auf_weiss.png>
-Overfull \hbox (39.58345pt too wide) in paragraph at lines 44--44
- [] 
+Overfull \hbox (68.0362pt too wide) in paragraph at lines 44--44
+ | [] 
  []
 
 [1
@@ -1235,7 +1235,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  10430 strings out of 495285
  159034 string characters out of 3180381
- 306985 words of memory out of 3000000
+ 307985 words of memory out of 3000000
  12413 multiletter control sequences out of 15000+200000
  21236 words of font info for 126 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
