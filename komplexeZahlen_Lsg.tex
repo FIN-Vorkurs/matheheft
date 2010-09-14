@@ -1,0 +1,138 @@
+\chapter{Komplexe Zahlen}
+
+	Autor: Julia Hempel
+	
+\subsubsection{Aufgabe 1}
+	
+	\begin{enumerate}
+
+	\item
+			\begin{itemize}
+				\item $|z_{1}|=\sqrt{(-2)^{2}}=2$
+				\item $\varphi_{1} = arctan\frac{-2}{0} = -\frac{\pi}{2}$ (siehe Tabelle)
+				\item Eulersche Form: $z_{1} = 2e^{\frac{-\pi}{2}i}$
+			\end{itemize}
+	\item
+			\begin{itemize}
+				\item $|z_{2}|=\sqrt{3^{2}}=3$
+				\item $\varphi_{2} = arctan\frac{0}{3} = 0$ (siehe Tabelle)
+				\item Eulersche Form: $z_{2} = 3e^{0\cdot i}$
+			\end{itemize}			
+	\item
+			\begin{itemize}
+				\item $|z_{3}|=\sqrt{1^{2}+2^{2}}=\sqrt{5}$
+				\item $\varphi_{3} = arctan\frac{2}{1} \approx 63,4^\circ$ (siehe TR)
+				\item Eulersche Form: $z_{3} = \sqrt{5}e^{arctan(2)\cdot i}$
+			\end{itemize}				
+	\item
+			\begin{itemize}
+				\item $|z_{4}|=\sqrt{4^{2}+(-3)^{2}}=5$
+				\item $\varphi_{4} = arctan\frac{-3}{4} \approx 323,1^\circ$ (siehe TR)
+				\item Eulersche Form: $z_{4} = 5e^{arctan(\frac{-3}{4})\cdot i}$
+			\end{itemize}			
+	\item
+			\begin{itemize}
+				\item $|z_{5}|=\sqrt{\left(e^{\frac{\pi}{4}}\right)^{2}+0}=e^{\frac{\pi}{4}}$
+				\item $\varphi_{5} = arctan\frac{0}{e^{\frac{\pi}{4}}} =0$ (nur Realteil vorhanden)
+				\item Eulersche Form: $z_{5} = e^{\frac{\pi}{4}} e^{0 \cdot i}$
+			\end{itemize}			
+	\item
+			\begin{itemize}
+				\item $|z_{6}|=1 $, denn allgemein gilt:($|z|\cdot e^{(i\varphi)}$)
+				\item $\varphi_{6} = arctan\frac{\pi}{4}$ (siehe eulersche Form)
+				\item kartesische Form: \newline
+				$x=|z| \cdot cos\varphi = 1 \cdot cos(\frac{\pi}{4}) = \frac{1}{2}\sqrt{2}$\newline
+				$y=|z| \cdot sin\varphi = 1 \cdot cos(\frac{\pi}{4}) = \frac{1}{2}\sqrt{2}$\newline
+				$z_{6} = \frac{1}{2}\sqrt{2} + \frac{1}{2}\sqrt{2}\cdot i$
+			\end{itemize}						
+	\item
+			\begin{itemize}
+				\item $|z_{7}|=2 $, denn allgemein gilt:($|z|\cdot e^{(i\varphi)}$)
+				\item $\varphi_{7} = -\frac{3}{4}\pi$ (siehe eulersche Form)
+				\item kartesische Form: \newline
+				$x=|z| \cdot cos\varphi = 2 \cdot cos(-\frac{3\pi}{4}) = -\frac{1}{2}\sqrt{2}$\newline
+				$y=|z| \cdot sin\varphi = 2 \cdot cos(-\frac{3\pi}{4}) = -\frac{1}{2}\sqrt{2}$\newline
+				$z_{7} = -\frac{1}{2}\sqrt{2} - \frac{1}{2}\sqrt{2}\cdot i$				
+			\end{itemize}	
+	\item
+			\begin{itemize}
+				\item $|z_{8}|=-\frac{1}{2} $, denn allgemein gilt:($|z|\cdot e^{(i\varphi)}$)
+				\item $\varphi_{8} = \frac{3\pi}{4}$ (siehe eulersche Form)
+				\item kartesische Form: \newline
+				$x=|z| \cdot cos\varphi = 1 \cdot cos(\frac{3\pi}{4}) = 0$\newline
+				$y=|z| \cdot sin\varphi = 1 \cdot cos(\frac{3\pi}{4}) = -1$\newline
+				$z_{8} = -1i$
+			\end{itemize}				
+	\end{enumerate}
+	
+\subsubsection{Aufgabe 2}
+	
+	\begin{enumerate}	
+		
+	\item Addition\newline
+		$\begin{array}{lll} 
+		(1 + 2i)+(4-3i) & =(1 + 4)+i(2-3) & =5-i\\
+		(2 + 4i)+3 & =(2 + 3)+4i & =5+4i\\
+		(4 + 2i)-2i & =4+i(2-2) & =4\\		
+		\end{array}$
+	\item Multiplikation\newline
+		$\begin{array}{lll} 
+		(1 + 2i)*(4-3i) & =1*4 + 1*(-3i) + 2i*4 +2i * (-3i) & =10+5i\\
+		(3 + 2i)*(3-2i) & =9+6i-6i-4i^{2} & =13\\
+		(1 + 3i)*((-1)*3i) & =1+3i-3i+9i^{2} & =-10\\		
+		\end{array}$				
+	\item Division\newline
+		$\begin{array}{lll} 
+		\frac{(1+2i)*(4+3i)}{(4-3i)*(4+3i)} & =\frac{-2+11i}{25}\\
+		\frac{(3+2i)*(3+2i)}{(3-2i)*(3+2i)} & =\frac{5+12i}{13} \\
+		\frac{(1+3i)*(-1-3i)}{(-1+3i)*(-1-3i)} & =\frac{8-6i}{10}\\		
+		\end{array}$
+	\item Potenzieren\newline
+		\begin{itemize}
+			\item $e^{1+2i}=e^{1}*e^{2i}$\newline
+			$r = e^1 ; \varphi=2$\newline
+			Umwandlung in kartesische Koordinaten:\newline
+			$x=r*cos\varphi = -0,42e$\newline
+			$y=r*sin\varphi = -0,91e$\newline
+			$z=-0,43e + 0,91e * i$
+
+			\item $ln(1+2i)$\newline
+			Umwandlung in Eulersche Darstellung:\newline
+			$r = \sqrt{1^2 + 2^2} = \sqrt{5}$\newline
+			$ \varphi=arctan\frac{2}{1}=arctan(2)$\newline
+			$ln(\sqrt{5}e^{i*arctan(2)})$\newline
+			Anwenden der Logarithmengesetze:\newline
+			$z=\frac{1}{2} * ln(5) + arctan(2) * i$
+		\end{itemize}
+	\end{enumerate}
+	
+\subsubsection{Aufgabe 3}	
+
+	\begin{enumerate}[a)]
+	
+		\item Quadratwurzeln
+		\[\sqrt{-i} = \sqrt{e^{-i*\frac{\pi}{2}}} = e^{-i*\frac{\pi}{4}+k\pi};k \in \{0,1\}\]\newline
+		\[\sqrt{-1+i} = \sqrt{\sqrt{2}*e^{i*\frac{3\pi}{4}}} = \sqrt[4]{2}*e^{i*\frac{3\pi}{8}+k*\pi};k \in \{0,1\}\]\newline	
+		\item 3.Wurzel
+		\[\sqrt[3]{8e^{\frac{2\pi}{3}*i}} = 2*e^{i*\frac{2}{9}*\pi+k*\frac{2}{3}\pi};k\in \{0,1,2\}\]
+		\item Nullstelle der Polynome
+		\begin{itemize}
+			\item $p_{1}(x) = x^5-x^4-2x^2-4x=0$\\
+			Klammere x aus $\rightarrow x_{1} = 0$\\[2ex]
+			Rate $x_{2}=-1$\\
+			Polynomdivision ergibt $x^3-2x^2+2x-4=0=0$\\[2ex]
+			Rate $x_{3}=2$\\
+			Polynomdivision ergibt: $x^2+2=0$\\
+			$x_{4,5}=\sqrt{-2}=\pm\sqrt{2}i$
+			\item $p_{2}(y) = y^4-3y^3+2=0$\\[2ex]
+			Substituiere $y^2 = x$\\
+			$x^2+3x+2=0$\\[2ex]
+			Mitternachtsformel:\\
+			$x_{1,2} = -\frac{3}{2}\pm\sqrt{\frac{9}{4}-2}=-\frac{3}{2}\pm\frac{1}{2}$\\
+			$x_{1}-1;x_{2}=-2$\\[2ex]
+			R\"ucksubstitution:\\
+			$y_{1}^2 = -1 \rightarrow y_{1,2}=\pm i$\\
+			$y_{2}^2 = -2 \rightarrow y_{3,4}=\pm\sqrt{2}i$
+		\end{itemize}
+	\end{enumerate}
+	
