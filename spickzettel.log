@@ -1,12 +1,17 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2009.12.10)  9 AUG 2010 06:11
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.5)  11 APR 2011 15:57
 entering extended mode
+ %&-line parsing enabled.
 **spickzettel.tex
-
-(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\sp
-ickzettel.tex
+(./spickzettel.tex
 LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
 ! Undefined control sequence.
 l.2 \chapter
             {Spickzettel}
@@ -569,17 +574,17 @@ Missing character: There is no ; in font nullfont!
 Missing character: There is no ; in font nullfont!
 
 Overfull \hbox (12.77782pt too wide) in paragraph at lines 22--23
-[]$\OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 2$
+[]$\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 2$
  []
 
 
 Overfull \hbox (12.77782pt too wide) in paragraph at lines 22--23
-\OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 1$
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 1$
  []
 
 
 Overfull \hbox (37.7779pt too wide) in paragraph at lines 22--23
-\OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 645631$
+\OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 645631$
  []
 
 
@@ -692,7 +697,7 @@ Overfull \hbox (6.38612pt too wide) in paragraph at lines 24--25
 
 
 Overfull \hbox (18.15005pt too wide) in paragraph at lines 24--25
-\OMS/cmsy/m/n/10  []$
+\OMS/cmsy/m/n/10 ^^@[]$
  []
 
 
@@ -731,7 +736,7 @@ Missing character: There is no n in font nullfont!
 
 Overfull \hbox (47.72571pt too wide) in paragraph at lines 25--26
 []$\OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 25; []; \OML/cmm/m/it/10
- $| 
+ ^^Y$| 
  []
 
 ! Undefined control sequence.
@@ -797,7 +802,7 @@ Overfull \hbox (12.77782pt too wide) in paragraph at lines 26--28
 
 Overfull \hbox (41.33472pt too wide) in paragraph at lines 26--28
 \OT1/cmr/m/n/10 3\OML/cmm/m/it/10 i\OT1/cmr/m/n/10 ; \OML/cmm/m/it/10 i\OT1/cmr
-/m/n/10 ; \OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 6 \OMS/cmsy/m/n/10  
+/m/n/10 ; \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 6 \OMS/cmsy/m/n/10 ^^@
  []
 
 
@@ -930,22 +935,22 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 32--34
 
 
 Overfull \hbox (19.68048pt too wide) in paragraph at lines 32--34
-\OML/cmm/m/it/10 N \OMS/cmsy/m/n/10 
+\OML/cmm/m/it/10 N \OMS/cmsy/m/n/10 ^^Z
  []
 
 
 Overfull \hbox (18.09718pt too wide) in paragraph at lines 32--34
-\OML/cmm/m/it/10 Z \OMS/cmsy/m/n/10 
+\OML/cmm/m/it/10 Z \OMS/cmsy/m/n/10 ^^Z
  []
 
 
 Overfull \hbox (18.46106pt too wide) in paragraph at lines 32--34
-\OML/cmm/m/it/10 Q \OMS/cmsy/m/n/10 
+\OML/cmm/m/it/10 Q \OMS/cmsy/m/n/10 ^^Z
  []
 
 
 Overfull \hbox (18.22566pt too wide) in paragraph at lines 32--34
-\OML/cmm/m/it/10 R \OMS/cmsy/m/n/10 
+\OML/cmm/m/it/10 R \OMS/cmsy/m/n/10 ^^Z
  []
 
 
@@ -1047,7 +1052,6 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no g in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -1836,7 +1840,7 @@ Overfull \hbox (8.0868pt too wide) in paragraph at lines 66--69
 
 
 Overfull \hbox (18.05553pt too wide) in paragraph at lines 66--69
-\OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 
+\OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 ^^R
  []
 
 
@@ -1921,7 +1925,7 @@ Overfull \hbox (8.0868pt too wide) in paragraph at lines 66--69
 
 
 Overfull \hbox (18.05553pt too wide) in paragraph at lines 66--69
-\OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 
+\OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 ^^Z
  []
 
 
@@ -1990,7 +1994,7 @@ Overfull \hbox (8.0868pt too wide) in paragraph at lines 70--72
 
 
 Overfull \hbox (18.05553pt too wide) in paragraph at lines 70--72
-\OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 
+\OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 ^^S
  []
 
 
@@ -2000,7 +2004,7 @@ Overfull \hbox (8.0868pt too wide) in paragraph at lines 70--72
 
 
 Overfull \hbox (18.05553pt too wide) in paragraph at lines 70--72
-\OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 
+\OML/cmm/m/it/10 A \OMS/cmsy/m/n/10 ^^[
  []
 
 
@@ -2251,7 +2255,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no z in font nullfont!
 
 Overfull \hbox (8.33336pt too wide) in paragraph at lines 86--87
-[]$\OT1/cmr/m/n/10 $| 
+[]$\OT1/cmr/m/n/10 ^^A$| 
  []
 
 Missing character: There is no E in font nullfont!
@@ -2318,7 +2322,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 
 Overfull \hbox (4.97223pt too wide) in paragraph at lines 89--90
-[]$\OML/cmm/m/it/10 $
+[]$\OML/cmm/m/it/10 ^^R$
  []
 
 Missing character: There is no L in font nullfont!
@@ -2356,23 +2360,16 @@ Missing character: There is no P in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no , in font nullfont!
 Missing character: There is no : in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no r in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no n in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no k in font nullfont!
+Missing character: There is no t in font nullfont!
 
 Overfull \hbox (16.61456pt too wide) in paragraph at lines 93--94
-[]$\OML/cmm/m/it/10  \OT1/cmr/m/n/10 =
+[]$\OML/cmm/m/it/10 ^^Y \OT1/cmr/m/n/10 =
  []
 
 
@@ -2382,7 +2379,7 @@ Overfull \hbox (32.7777pt too wide) in paragraph at lines 93--94
 
 
 Overfull \hbox (7.50002pt too wide) in paragraph at lines 93--94
-\OT1/cmr/m/n/10 $| 
+\OT1/cmr/m/n/10 ^^E$| 
  []
 
 Missing character: There is no R in font nullfont!
@@ -2401,7 +2398,7 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no e in font nullfont!
 
 Overfull \hbox (7.22223pt too wide) in paragraph at lines 95--96
-[]$\OT1/cmr/m/n/10 $| 
+[]$\OT1/cmr/m/n/10 ^^F$| 
  []
 
 Missing character: There is no T in font nullfont!
@@ -2419,7 +2416,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 
 Overfull \hbox (5.95834pt too wide) in paragraph at lines 97--98
-[]$\OML/cmm/m/it/10 $
+[]$\OML/cmm/m/it/10 ^^^$
  []
 
 Missing character: There is no C in font nullfont!
@@ -2828,7 +2825,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[1{C:/ProgramData/MiKTeX/2.8/pdftex/config/pdftex.map}
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 ! Undefined control sequence.
 <write> \newlabel{tab:griechisch}{{}{\thepage 
                                               }}
@@ -3612,7 +3609,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no m in font nullfont!
 ! Undefined control sequence.
 l.149 demonstrandum\grqq
-                        {} (\glqq was zu zeigen/ beweisen war\grqq). Bedeutung:
+                        {} (\glqq was zu zeigen / beweisen war\grqq). Bedeut...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3622,7 +3619,7 @@ and I'll forget about whatever was undefined.
 Missing character: There is no ( in font nullfont!
 ! Undefined control sequence.
 l.149 demonstrandum\grqq{} (\glqq
-                                  was zu zeigen/ beweisen war\grqq). Bedeutung:
+                                  was zu zeigen / beweisen war\grqq). Bedeut...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3653,7 +3650,7 @@ Missing character: There is no w in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 ! Undefined control sequence.
-l.149 ...} (\glqq was zu zeigen/ beweisen war\grqq
+l.149 ... (\glqq was zu zeigen / beweisen war\grqq
                                                   ). Bedeutung:
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3965,12 +3962,12 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
 Overfull \hbox (15.0pt too wide) in paragraph at lines 152--156
-\OT1/cmr/m/n/10 +\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 $
+\OT1/cmr/m/n/10 +\OML/cmm/m/it/10 ; \OMS/cmsy/m/n/10 ^^A$
  []
 
 
 Overfull \hbox (10.2859pt too wide) in paragraph at lines 152--156
-\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 
+\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 ^^N
  []
 
 
@@ -3980,7 +3977,7 @@ Overfull \hbox (14.84717pt too wide) in paragraph at lines 152--156
 
 
 Overfull \hbox (9.29167pt too wide) in paragraph at lines 152--156
-\OML/cmm/m/it/10 b \OMS/cmsy/m/n/10 
+\OML/cmm/m/it/10 b \OMS/cmsy/m/n/10 ^^N
  []
 
 
@@ -3990,7 +3987,7 @@ Overfull \hbox (5.28589pt too wide) in paragraph at lines 152--156
 
 
 Overfull \hbox (5.00002pt too wide) in paragraph at lines 152--156
-\OMS/cmsy/m/n/10 $
+\OMS/cmsy/m/n/10 ^^N$
  []
 
 
@@ -4030,7 +4027,7 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no : in font nullfont!
 
 Overfull \hbox (8.06367pt too wide) in paragraph at lines 156--158
-\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 
+\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 ^^A
  []
 
 
@@ -4045,7 +4042,7 @@ Overfull \hbox (18.77197pt too wide) in paragraph at lines 156--158
 
 
 Overfull \hbox (8.06367pt too wide) in paragraph at lines 156--158
-\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 
+\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 ^^A
  []
 
 
@@ -4055,7 +4052,7 @@ Overfull \hbox (12.06946pt too wide) in paragraph at lines 156--158
 
 
 Overfull \hbox (8.06367pt too wide) in paragraph at lines 156--158
-\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 
+\OML/cmm/m/it/10 a \OMS/cmsy/m/n/10 ^^A
  []
 
 
@@ -4699,11 +4696,11 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 28 strings out of 495285
- 549 string characters out of 3180381
- 56037 words of memory out of 3000000
- 3323 multiletter control sequences out of 15000+200000
+ 26 strings out of 493848
+ 363 string characters out of 1152824
+ 58808 words of memory out of 3000000
+ 3398 multiletter control sequences out of 15000+50000
  4294 words of font info for 16 fonts, out of 3000000 for 9000
- 14 hyphenation exceptions out of 8191
- 19i,10n,14p,204b,169s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 714 hyphenation exceptions out of 8191
+ 19i,10n,14p,203b,169s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!

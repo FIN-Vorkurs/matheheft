@@ -1,6 +1,5 @@
 \documentclass[fontsize=9pt,paper=a5,fleqn,%parskip=full-,
-DIV15,BCOR5.0mm,%
-smallheadings,final]{scrbook}
+DIV15,BCOR5.0mm,smallheadings,final, openany]{scrbook}
 \usepackage{scrpage2}
 \usepackage[OT1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -31,15 +30,15 @@ smallheadings,final]{scrbook}
 \begin{document}
 
 \title{Vorkurs Mathematik}
-\author{Gerhard Gossen \\ Katja Matthes \\ Marc Mittner \\ Marko Rak \\ Christian Rutsch \\ Andreas Zöllner
+\author{Gerhard Gossen \\ Katja Matthes \\ Marc Mittner \\ Marko Rak \\ Christian Braune \\ Andreas Zöllner
 %FaRaFIN Vorkurs-Team
 }
 \publishers{\begin{center} \hspace*{1cm}\includegraphics%[viewport = 60 700 660 790]
 {./img/farafin_logo_schwarz_auf_weiss.png}\end{center}}
 \lowertitleback{Dieses Heft wurde vom Fachschaftsrat der Fakultät für
 Informatik der Otto-von-Guericke-Universität Magdeburg für den
-Mathematik-Vorkurs 2010 produziert.}
-\date{2010}
+Mathematik-Vorkurs 2011 produziert.}
+\date{2011}
 \maketitle
 \tableofcontents
 
@@ -47,11 +46,11 @@ Mathematik-Vorkurs 2010 produziert.}
 % Hier folgen die einzelnen Kapitel in folgender Gliederung:
 \include{spickzettel}
 \include{bruchrechnung}
+
 \include{potenzen}
 \include{binomischeFormeln}
 \addtocontents{toc}{\setcounter{tocdepth}{0}}
 \include{poly}
-
 \include{quadratische_Gleichungen}
 \addtocontents{toc}{\setcounter{tocdepth}{1}}
 \include{gleichungssysteme}

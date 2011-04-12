@@ -1,34 +1,39 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2009.12.10)  14 SEP 2010 23:46
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.5)  12 APR 2011 12:53
 entering extended mode
+ %&-line parsing enabled.
 **loesungen.tex
-
-(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\lo
-esungen.tex
+(./loesungen.tex
 LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
-("C:\Program Files\MiKTeX 2.8\tex\latex\koma-script\scrbook.cls"
-Document Class: scrbook 2010/02/15 v3.05 KOMA-Script document class (book)
-("C:\Program Files\MiKTeX 2.8\tex\latex\koma-script\scrkbase.sty"
-Package: scrkbase 2010/02/15 v3.05 KOMA-Script package (KOMA-Script-dependent b
-asics and keyval usage)
-
-("C:\Program Files\MiKTeX 2.8\tex\latex\koma-script\scrbase.sty"
-Package: scrbase 2010/02/15 v3.05 KOMA-Script package (KOMA-Script-independent 
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
+ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
+9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
+skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
+orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
+, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
+rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrbook.cls
+Document Class: scrbook 2009/07/24 v3.04a KOMA-Script document class (book)
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2009/07/24 v3.04a KOMA-Script package (KOMA-Script-dependent 
 basics and keyval usage)
 
-("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2009/07/24 v3.04a KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.8\tex\latex\koma-script\scrlfile.sty"
+(/usr/share/texmf-texlive/tex/latex/koma-script/scrlfile.sty
 Package: scrlfile 2009/03/25 v3.03 KOMA-Script package (loading files)
 
 Package scrlfile, 2009/03/25 v3.03 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
-))) ("C:\Program Files\MiKTeX 2.8\tex\latex\koma-script\tocbasic.sty"
-Package: tocbasic 2010/01/05 v3.04b KOMA-Script package (handling toc-files)
+))) (/usr/share/texmf-texlive/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2009/06/08 v3.03b KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
@@ -40,20 +45,26 @@ Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 119.
 
-("C:\Program Files\MiKTeX 2.8\tex\latex\base\fleqn.clo"
+(/usr/share/texmf-texlive/tex/latex/base/fleqn.clo
 File: fleqn.clo 1998/08/17 v1.1c Standard LaTeX option (flush left equations)
 \mathindent=\dimen102
 )
+Class scrbook Info: You've used standard option `openany'.
+(scrbook)           This is correct!
+(scrbook)           Internaly I'm using `open=any'.
+(scrbook)           If you'd like to set the option with \KOMAoptions,
+(scrbook)           you'd have to use `open=any' there
+(scrbook)           instead of `openany', too.
 Class scrbook Info: File `size9.clo' used to setup font sizes on input line 127
 2.
 
-("C:\Program Files\MiKTeX 2.8\tex\latex\extsizes\size9.clo"
+(/usr/share/texmf-texlive/tex/latex/extsizes/size9.clo
 File: size9.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 )
-("C:\Program Files\MiKTeX 2.8\tex\latex\koma-script\typearea.sty"
-Package: typearea 2010/02/15 v3.05 KOMA-Script package (type area)
+(/usr/share/texmf-texlive/tex/latex/koma-script/typearea.sty
+Package: typearea 2009/07/24 v3.04a KOMA-Script package (type area)
 
-Package typearea, 2010/02/15 v3.05 KOMA-Script package (type area)
+Package typearea, 2009/07/24 v3.04a KOMA-Script package (type area)
                   Copyright (C) Frank Neukam, 1992-1994
                   Copyright (C) Markus Kohm, 1994-
 
@@ -93,26 +104,26 @@ Package typearea Info: These are the values describing the layout:
 \c@figure=\count87
 \c@table=\count88
 \bibindent=\dimen103
-) ("C:\Program Files\MiKTeX 2.8\tex\latex\base\fontenc.sty"
+) (/usr/share/texmf-texlive/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files\MiKTeX 2.8\tex\latex\base\t1enc.def"
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-("C:\Program Files\MiKTeX 2.8\tex\latex\base\inputenc.sty"
+(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
-("C:\Program Files\MiKTeX 2.8\tex\latex\base\utf8.def"
+(/usr/share/texmf-texlive/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files\MiKTeX 2.8\tex\latex\base\t1enc.dfu"
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -262,7 +273,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files\MiKTeX 2.8\tex\latex\base\ot1enc.dfu"
+(/usr/share/texmf-texlive/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -293,7 +304,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files\MiKTeX 2.8\tex\latex\base\omsenc.dfu"
+(/usr/share/texmf-texlive/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -317,46 +328,40 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files\MiKTeX 2.8\tex\latex\german\ngerman.sty" v2.5e 1998-07-08
+(/usr/share/texmf-texlive/tex/generic/german/ngerman.sty v2.5e 1998-07-08
 Package: ngerman 1998/07/08 v2.5e Support for writing german texts (br)
 \grmnU@D=\dimen104
-ngerman -- \language number for naustrian undefined, default 4 used.
+ngerman -- \language number for naustrian undefined, default 17 used.
 )
-("C:\Program Files\MiKTeX 2.8\tex\generic\babel\babel.sty"
+(/var/lib/texmf/tex/generic/babel/babel.sty
 Package: babel 2008/07/06 v3.8l The Babel package
 
-*************************************
-* Local config file bblopts.cfg used
-*
-("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\bblopts.cfg"
-File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
-)
-("C:\Program Files\MiKTeX 2.8\tex\generic\babel\ngermanb.ldf"
+(/usr/share/texmf-texlive/tex/generic/babel/ngermanb.ldf
 Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
 
-("C:\Program Files\MiKTeX 2.8\tex\generic\babel\babel.def"
+(/usr/share/texmf-texlive/tex/generic/babel/babel.def
 File: babel.def 2008/07/06 v3.8l Babel common definitions
 \babel@savecnt=\count89
 \U@D=\dimen105
 )))
-("C:\Program Files\MiKTeX 2.8\tex\latex\ams\math\amsmath.sty"
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.8\tex\latex\ams\math\amstext.sty"
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files\MiKTeX 2.8\tex\latex\ams\math\amsgen.sty"
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen106
 ))
-("C:\Program Files\MiKTeX 2.8\tex\latex\ams\math\amsbsy.sty"
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen107
 )
-("C:\Program Files\MiKTeX 2.8\tex\latex\ams\math\amsopn.sty"
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count90
@@ -397,38 +402,38 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\amssymb.sty"
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 
-("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\amsfonts.sty"
+(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 ))
-("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\graphics.sty"
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.8\tex\latex\graphics\trig.sty"
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files\MiKTeX 2.8\tex\latex\pdftex-def\pdftex.def"
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2009/08/25 v0.04m Graphics/color for pdfTeX
 \Gread@gobject=\count102
 ))
 \Gin@req@height=\dimen115
 \Gin@req@width=\dimen116
 )
-("C:\Program Files\MiKTeX 2.8\tex\latex\tools\multicol.sty"
+(/usr/share/texmf-texlive/tex/latex/tools/multicol.sty
 Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \c@tracingmulticols=\count103
 \mult@box=\box29
@@ -474,17 +479,16 @@ Package: multicol 2008/12/05 v1.6h multicolumn formatting (FMi)
 \multicolundershoot=\dimen124
 \mult@nat@firstbox=\box53
 \colbreak@box=\box54
-)
-(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\po
-lynom.sty
+) (./polynom.sty
 Package: polynom 2004/08/12 0.16 (Carsten Heinz)
 \pld@currstage=\count111
-) ("C:\Program Files\MiKTeX 2.8\tex\latex\tools\enumerate.sty"
+)
+(/usr/share/texmf-texlive/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks22
-)
-(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\lo
-esungen.aux)
+) (./loesungen.aux)
+\openout1 = `loesungen.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
@@ -497,7 +501,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
 LaTeX Font Info:    ... okay on input line 15.
- ("C:\Program Files\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
+
+(/usr/share/texmf/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count112
 \scratchdimen=\dimen125
@@ -511,27 +516,25 @@ LaTeX Font Info:    ... okay on input line 15.
 \everyMPtoPDFconversion=\toks24
 )
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 21.
- ("C:\Program Files\MiKTeX 2.8\tex\latex\base\t1cmss.fd"
+ (/usr/share/texmf-texlive/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 21.
 
-("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsa.fd"
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 21.
 
-("C:\Program Files\MiKTeX 2.8\tex\latex\amsfonts\umsb.fd"
+(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 ) [1
 
 
 
-{C:/ProgramData/MiKTeX/2.8/pdftex/config/pdftex.map}] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
-]
-(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\lo
-esungen.toc
+] (./loesungen.toc
 Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)           `sectioning' that is an alias of element `disposition'
 (scrbook)            on input line 1.
@@ -558,36 +561,36 @@ Class scrbook Info: You've told me to use the font selection of the element
 (scrbook)            on input line 87.
 )
 \tf@toc=\write3
+\openout3 = `loesungen.toc'.
+
  [3
-
-
-] [4
-
 
 ]
 Kapitel 2.
+(./bruchrechnungLsg.tex [4
 
-(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\br
-uchrechnungLsg.tex [5])
-(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\po
-tenzenLsg.tex [6] [7] [8] [9] [10])
-(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\bi
-nomischeFormelnLsg.tex [11] [12] [13])
-(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\po
-lynomdivision_loesungen.tex
-Underfull \vbox (badness 1895) has occurred while \output is active []
+]) (./potenzenLsg.tex [5] [6] [7] [8] [9])
+(./binomischeFormelnLsg.tex [10] [11] [12])
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14]
+ [13]
+(./polynomdivision_loesungen.tex
 Overfull \hbox (46.67287pt too wide) in paragraph at lines 17--19
 []$[]$ 
  []
 
-[15]
+
+Underfull \vbox (badness 2617) has occurred while \output is active []
+
+ [14]
 Overfull \hbox (21.9794pt too wide) in paragraph at lines 23--25
 []$[]$ 
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
 Overfull \hbox (6.56131pt too wide) in paragraph at lines 31--33
 []$[]$ 
  []
@@ -596,36 +599,41 @@ Overfull \hbox (6.56131pt too wide) in paragraph at lines 31--33
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16])
-(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\Gl
-eichungen-Loesungen.tex [17] [18
-
-
-]
+(./Gleichungen-Loesungen.tex [17]
 Kapitel 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 5--8
 
  []
 
-[19])
-(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\gl
-eichungssysteme_loesungen.tex [20]
+[18
+
+]) (./gleichungssysteme_loesungen.tex [19]
 Kapitel 4.
-[21
+[20
+
+] [21]
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \vskip 
+l.141 						\vspace{-0.5}
+                         
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
 
 
-] [22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [23]
-[24] [25] [26])
-(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\Un
-gleichungen-Lsg.tex [27] [28
-
+ [22]
+[23] [24] [25]) (./Ungleichungen-Lsg.tex [26]
+Kapitel 5.
+[27
 
 ]
-Kapitel 5.
-[29]
 Underfull \hbox (badness 10000) in paragraph at lines 66--72
 
  []
@@ -660,76 +668,64 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--99
 
  []
 
-[30] <img/Aufgaben/Analytisch/A1.PNG, id=118, 644.4075pt x 484.81125pt>
+[28] <img/Aufgaben/Analytisch/A1.PNG, id=112, 644.4075pt x 484.81125pt>
 File: img/Aufgaben/Analytisch/A1.PNG Graphic file (type png)
 
-<use img/Aufgaben/Analytisch/A1.PNG> [31 <C:/Users/Sebastian/Desktop/Studium/kf
-riedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/Aufgaben/Analytisch/A1.PNG (PNG copy
-)>] <img/Aufgaben/Analytisch/A2.PNG, id=124, 644.4075pt x 484.81125pt>
+<use img/Aufgaben/Analytisch/A1.PNG> [29 <./img/Aufgaben/Analytisch/A1.PNG (PNG
+ copy)>] <img/Aufgaben/Analytisch/A2.PNG, id=117, 644.4075pt x 484.81125pt>
 File: img/Aufgaben/Analytisch/A2.PNG Graphic file (type png)
 
 <use img/Aufgaben/Analytisch/A2.PNG>
-<img/Aufgaben/Analytisch/A3.PNG, id=125, 644.4075pt x 484.81125pt>
+<img/Aufgaben/Analytisch/A3.PNG, id=118, 644.4075pt x 484.81125pt>
 File: img/Aufgaben/Analytisch/A3.PNG Graphic file (type png)
 
-<use img/Aufgaben/Analytisch/A3.PNG> [32 <C:/Users/Sebastian/Desktop/Studium/kf
-riedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/Aufgaben/Analytisch/A2.PNG (PNG copy
-)> <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft
-/img/Aufgaben/Analytisch/A3.PNG (PNG copy)>]
-<img/Aufgaben/Analytisch/A4.PNG, id=129, 644.4075pt x 484.81125pt>
+<use img/Aufgaben/Analytisch/A3.PNG> [30 <./img/Aufgaben/Analytisch/A2.PNG (PNG
+ copy)> <./img/Aufgaben/Analytisch/A3.PNG (PNG copy)>]
+<img/Aufgaben/Analytisch/A4.PNG, id=122, 644.4075pt x 484.81125pt>
 File: img/Aufgaben/Analytisch/A4.PNG Graphic file (type png)
 
 <use img/Aufgaben/Analytisch/A4.PNG>
-<img/Aufgaben/Analytisch/A5.PNG, id=130, 644.4075pt x 484.81125pt>
+<img/Aufgaben/Analytisch/A5.PNG, id=123, 644.4075pt x 484.81125pt>
 File: img/Aufgaben/Analytisch/A5.PNG Graphic file (type png)
 
-<use img/Aufgaben/Analytisch/A5.PNG> [33 <C:/Users/Sebastian/Desktop/Studium/kf
-riedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/Aufgaben/Analytisch/A4.PNG (PNG copy
-)> <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft
-/img/Aufgaben/Analytisch/A5.PNG (PNG copy)>]
-<img/Aufgaben/Analytisch/A6.PNG, id=134, 644.4075pt x 484.81125pt>
+<use img/Aufgaben/Analytisch/A5.PNG> [31 <./img/Aufgaben/Analytisch/A4.PNG (PNG
+ copy)> <./img/Aufgaben/Analytisch/A5.PNG (PNG copy)>]
+<img/Aufgaben/Analytisch/A6.PNG, id=128, 644.4075pt x 484.81125pt>
 File: img/Aufgaben/Analytisch/A6.PNG Graphic file (type png)
 
 <use img/Aufgaben/Analytisch/A6.PNG>
-<img/Aufgaben/Analytisch/A7.PNG, id=135, 644.4075pt x 484.81125pt>
+<img/Aufgaben/Analytisch/A7.PNG, id=129, 644.4075pt x 484.81125pt>
 File: img/Aufgaben/Analytisch/A7.PNG Graphic file (type png)
 
-<use img/Aufgaben/Analytisch/A7.PNG> [34 <C:/Users/Sebastian/Desktop/Studium/kf
-riedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/Aufgaben/Analytisch/A6.PNG (PNG copy
-)> <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft
-/img/Aufgaben/Analytisch/A7.PNG (PNG copy)>]
-<img/Aufgaben/Analytisch/A8.PNG, id=139, 644.4075pt x 484.81125pt>
+<use img/Aufgaben/Analytisch/A7.PNG> [32 <./img/Aufgaben/Analytisch/A6.PNG (PNG
+ copy)> <./img/Aufgaben/Analytisch/A7.PNG (PNG copy)>]
+<img/Aufgaben/Analytisch/A8.PNG, id=133, 644.4075pt x 484.81125pt>
 File: img/Aufgaben/Analytisch/A8.PNG Graphic file (type png)
 
 <use img/Aufgaben/Analytisch/A8.PNG>
-<img/Aufgaben/Analytisch/A9.PNG, id=140, 644.4075pt x 484.81125pt>
+<img/Aufgaben/Analytisch/A9.PNG, id=134, 644.4075pt x 484.81125pt>
 File: img/Aufgaben/Analytisch/A9.PNG Graphic file (type png)
 
-<use img/Aufgaben/Analytisch/A9.PNG> [35 <C:/Users/Sebastian/Desktop/Studium/kf
-riedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/Aufgaben/Analytisch/A8.PNG (PNG copy
-)> <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft
-/img/Aufgaben/Analytisch/A9.PNG (PNG copy)>]
+<use img/Aufgaben/Analytisch/A9.PNG> [33 <./img/Aufgaben/Analytisch/A8.PNG (PNG
+ copy)> <./img/Aufgaben/Analytisch/A9.PNG (PNG copy)>]
 Underfull \hbox (badness 10000) in paragraph at lines 191--201
 
  []
 
-<img/Aufgaben/Analytisch/A10.PNG, id=144, 644.4075pt x 484.81125pt>
+<img/Aufgaben/Analytisch/A10.PNG, id=138, 644.4075pt x 484.81125pt>
 File: img/Aufgaben/Analytisch/A10.PNG Graphic file (type png)
 
-<use img/Aufgaben/Analytisch/A10.PNG> [36 <C:/Users/Sebastian/Desktop/Studium/k
-friedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/Aufgaben/Analytisch/A10.PNG (PNG co
-py)>] <img/Aufgaben/Analytisch/A11.PNG, id=148, 644.4075pt x 484.81125pt>
+<use img/Aufgaben/Analytisch/A10.PNG> [34 <./img/Aufgaben/Analytisch/A10.PNG (P
+NG copy)>] <img/Aufgaben/Analytisch/A11.PNG, id=142, 644.4075pt x 484.81125pt>
 File: img/Aufgaben/Analytisch/A11.PNG Graphic file (type png)
 
 <use img/Aufgaben/Analytisch/A11.PNG>
-<img/Aufgaben/Analytisch/A12.PNG, id=149, 644.4075pt x 484.81125pt>
+<img/Aufgaben/Analytisch/A12.PNG, id=143, 644.4075pt x 484.81125pt>
 File: img/Aufgaben/Analytisch/A12.PNG Graphic file (type png)
 
-<use img/Aufgaben/Analytisch/A12.PNG> [37 <C:/Users/Sebastian/Desktop/Studium/k
-friedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/Aufgaben/Analytisch/A11.PNG (PNG co
-py)> <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_He
-ft/img/Aufgaben/Analytisch/A12.PNG (PNG copy)>]
-<img/Aufgaben/Analytisch/A13.PNG, id=154, 644.4075pt x 484.81125pt>
+<use img/Aufgaben/Analytisch/A12.PNG> [35 <./img/Aufgaben/Analytisch/A11.PNG (P
+NG copy)> <./img/Aufgaben/Analytisch/A12.PNG (PNG copy)>]
+<img/Aufgaben/Analytisch/A13.PNG, id=147, 644.4075pt x 484.81125pt>
 File: img/Aufgaben/Analytisch/A13.PNG Graphic file (type png)
 
 <use img/Aufgaben/Analytisch/A13.PNG>
@@ -737,14 +733,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 256--260
 
  []
 
-<img/Aufgaben/Analytisch/A14.PNG, id=155, 644.4075pt x 484.81125pt>
+<img/Aufgaben/Analytisch/A14.PNG, id=148, 644.4075pt x 484.81125pt>
 File: img/Aufgaben/Analytisch/A14.PNG Graphic file (type png)
 
-<use img/Aufgaben/Analytisch/A14.PNG> [38 <C:/Users/Sebastian/Desktop/Studium/k
-friedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/Aufgaben/Analytisch/A13.PNG (PNG co
-py)> <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_He
-ft/img/Aufgaben/Analytisch/A14.PNG (PNG copy)>]
-<img/Aufgaben/Analytisch/A15.PNG, id=159, 644.4075pt x 484.81125pt>
+<use img/Aufgaben/Analytisch/A14.PNG> [36 <./img/Aufgaben/Analytisch/A13.PNG (P
+NG copy)> <./img/Aufgaben/Analytisch/A14.PNG (PNG copy)>]
+<img/Aufgaben/Analytisch/A15.PNG, id=152, 644.4075pt x 484.81125pt>
 File: img/Aufgaben/Analytisch/A15.PNG Graphic file (type png)
 
 <use img/Aufgaben/Analytisch/A15.PNG>
@@ -752,254 +746,289 @@ Underfull \hbox (badness 10000) in paragraph at lines 276--280
 
  []
 
-<img/Aufgaben/Analytisch/A16.PNG, id=160, 644.4075pt x 484.81125pt>
+<img/Aufgaben/Analytisch/A16.PNG, id=153, 644.4075pt x 484.81125pt>
 File: img/Aufgaben/Analytisch/A16.PNG Graphic file (type png)
 
 <use img/Aufgaben/Analytisch/A16.PNG>
 Underfull \vbox (badness 2564) has occurred while \output is active []
 
- [39 <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_He
-ft/img/Aufgaben/Analytisch/A15.PNG (PNG copy)>]
-<img/Aufgaben/Graphisch/A1.PNG, id=164, 639.38875pt x 479.7925pt>
+ [37 <./img/Aufgaben/Analytisch/A15.PNG (PNG copy)>]
+<img/Aufgaben/Graphisch/A1.PNG, id=158, 639.38875pt x 479.7925pt>
 File: img/Aufgaben/Graphisch/A1.PNG Graphic file (type png)
 
 <use img/Aufgaben/Graphisch/A1.PNG>
-<img/Aufgaben/Graphisch/A2.PNG, id=165, 645.41125pt x 481.8pt>
+<img/Aufgaben/Graphisch/A2.PNG, id=159, 645.41125pt x 481.8pt>
 File: img/Aufgaben/Graphisch/A2.PNG Graphic file (type png)
 
-<use img/Aufgaben/Graphisch/A2.PNG> [40 <C:/Users/Sebastian/Desktop/Studium/kfr
-iedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/Aufgaben/Analytisch/A16.PNG (PNG copy
-)> <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft
-/img/Aufgaben/Graphisch/A1.PNG (PNG copy)>]
-<img/Aufgaben/Graphisch/A3.PNG, id=169, 642.4pt x 481.8pt>
+<use img/Aufgaben/Graphisch/A2.PNG> [38 <./img/Aufgaben/Analytisch/A16.PNG (PNG
+ copy)> <./img/Aufgaben/Graphisch/A1.PNG (PNG copy)>]
+<img/Aufgaben/Graphisch/A3.PNG, id=163, 642.4pt x 481.8pt>
 File: img/Aufgaben/Graphisch/A3.PNG Graphic file (type png)
 
-<use img/Aufgaben/Graphisch/A3.PNG> [41 <C:/Users/Sebastian/Desktop/Studium/kfr
-iedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/Aufgaben/Graphisch/A2.PNG (PNG copy)>
- <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft/i
-mg/Aufgaben/Graphisch/A3.PNG (PNG copy)>]
-<img/Aufgaben/Graphisch/A4.PNG, id=173, 1284.8pt x 803.0pt>
+<use img/Aufgaben/Graphisch/A3.PNG> [39 <./img/Aufgaben/Graphisch/A2.PNG (PNG c
+opy)> <./img/Aufgaben/Graphisch/A3.PNG (PNG copy)>]
+<img/Aufgaben/Graphisch/A4.PNG, id=167, 1284.8pt x 803.0pt>
 File: img/Aufgaben/Graphisch/A4.PNG Graphic file (type png)
 
 <use img/Aufgaben/Graphisch/A4.PNG>
-<img/Aufgaben/Graphisch/A5.PNG, id=174, 642.4pt x 481.8pt>
+<img/Aufgaben/Graphisch/A5.PNG, id=168, 642.4pt x 481.8pt>
 File: img/Aufgaben/Graphisch/A5.PNG Graphic file (type png)
 
-<use img/Aufgaben/Graphisch/A5.PNG> [42 <C:/Users/Sebastian/Desktop/Studium/kfr
-iedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/Aufgaben/Graphisch/A4.PNG (PNG copy)>
- <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft/i
-mg/Aufgaben/Graphisch/A5.PNG (PNG copy)>]
-<img/Aufgaben/Graphisch/A6.PNG, id=178, 645.41125pt x 481.8pt>
+<use img/Aufgaben/Graphisch/A5.PNG> [40 <./img/Aufgaben/Graphisch/A4.PNG (PNG c
+opy)> <./img/Aufgaben/Graphisch/A5.PNG (PNG copy)>]
+<img/Aufgaben/Graphisch/A6.PNG, id=172, 645.41125pt x 481.8pt>
 File: img/Aufgaben/Graphisch/A6.PNG Graphic file (type png)
 
 <use img/Aufgaben/Graphisch/A6.PNG>
-<img/Aufgaben/Graphisch/A7.PNG, id=179, 645.41125pt x 485.815pt>
+<img/Aufgaben/Graphisch/A7.PNG, id=173, 645.41125pt x 485.815pt>
 File: img/Aufgaben/Graphisch/A7.PNG Graphic file (type png)
 
-<use img/Aufgaben/Graphisch/A7.PNG> [43 <C:/Users/Sebastian/Desktop/Studium/kfr
-iedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/Aufgaben/Graphisch/A6.PNG (PNG copy)>
-] <img/Aufgaben/Graphisch/A8.PNG, id=184, 645.41125pt x 485.815pt>
+<use img/Aufgaben/Graphisch/A7.PNG> [41 <./img/Aufgaben/Graphisch/A6.PNG (PNG c
+opy)>] <img/Aufgaben/Graphisch/A8.PNG, id=177, 645.41125pt x 485.815pt>
 File: img/Aufgaben/Graphisch/A8.PNG Graphic file (type png)
 
 <use img/Aufgaben/Graphisch/A8.PNG>
-<img/Aufgaben/Graphisch/A9.PNG, id=185, 637.38126pt x 483.8075pt>
+<img/Aufgaben/Graphisch/A9.PNG, id=178, 637.38126pt x 483.8075pt>
 File: img/Aufgaben/Graphisch/A9.PNG Graphic file (type png)
 
-<use img/Aufgaben/Graphisch/A9.PNG> [44 <C:/Users/Sebastian/Desktop/Studium/kfr
-iedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/Aufgaben/Graphisch/A7.PNG (PNG copy)>
- <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft/i
-mg/Aufgaben/Graphisch/A8.PNG (PNG copy)>]
-<img/Aufgaben/Graphisch/A10.PNG, id=189, 645.41125pt x 485.815pt>
+<use img/Aufgaben/Graphisch/A9.PNG> [42 <./img/Aufgaben/Graphisch/A7.PNG (PNG c
+opy)> <./img/Aufgaben/Graphisch/A8.PNG (PNG copy)>]
+<img/Aufgaben/Graphisch/A10.PNG, id=182, 645.41125pt x 485.815pt>
 File: img/Aufgaben/Graphisch/A10.PNG Graphic file (type png)
 
 <use img/Aufgaben/Graphisch/A10.PNG>
-<img/Aufgaben/Graphisch/A11.PNG, id=190, 645.41125pt x 485.815pt>
+<img/Aufgaben/Graphisch/A11.PNG, id=183, 645.41125pt x 485.815pt>
 File: img/Aufgaben/Graphisch/A11.PNG Graphic file (type png)
 
-<use img/Aufgaben/Graphisch/A11.PNG> [45 <C:/Users/Sebastian/Desktop/Studium/kf
-riedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/Aufgaben/Graphisch/A9.PNG (PNG copy)
-> <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft/
-img/Aufgaben/Graphisch/A10.PNG (PNG copy)>]
-<img/Aufgaben/Graphisch/A12.PNG, id=194, 645.41125pt x 481.8pt>
+<use img/Aufgaben/Graphisch/A11.PNG> [43 <./img/Aufgaben/Graphisch/A9.PNG (PNG 
+copy)> <./img/Aufgaben/Graphisch/A10.PNG (PNG copy)>]
+<img/Aufgaben/Graphisch/A12.PNG, id=188, 645.41125pt x 481.8pt>
 File: img/Aufgaben/Graphisch/A12.PNG Graphic file (type png)
 
 <use img/Aufgaben/Graphisch/A12.PNG>
-<img/Aufgaben/Flächeninhalt/A13.PNG, id=195, 638.385pt x 477.785pt>
-File: img/Aufgaben/Flächeninhalt/A13.PNG Graphic file (type png)
 
-<use img/Aufgaben/Flächeninhalt/A13.PNG> [46 <C:/Users/Sebastian/Desktop/Studiu
-m/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/Aufgaben/Graphisch/A11.PNG (PNG 
-copy)> <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Mathe_
-Heft/img/Aufgaben/Graphisch/A12.PNG (PNG copy)>]
-<img/Aufgaben/Flächeninhalt/A14.PNG, id=199, 635.37375pt x 482.80376pt>
-File: img/Aufgaben/Flächeninhalt/A14.PNG Graphic file (type png)
-
-<use img/Aufgaben/Flächeninhalt/A14.PNG>
-<img/Aufgaben/Flächeninhalt/A15.PNG, id=200, 642.4pt x 481.8pt>
-File: img/Aufgaben/Flächeninhalt/A15.PNG Graphic file (type png)
-
-<use img/Aufgaben/Flächeninhalt/A15.PNG> [47 <C:/Users/Sebastian/Desktop/Studiu
-m/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/Aufgaben/Flächeninhalt/A13.PNG (
-PNG copy)> <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Ma
-the_Heft/img/Aufgaben/Flächeninhalt/A14.PNG (PNG copy)>]
-<img/Aufgaben/Flächeninhalt/A16.PNG, id=204, 642.4pt x 481.8pt>
-File: img/Aufgaben/Flächeninhalt/A16.PNG Graphic file (type png)
-
-<use img/Aufgaben/Flächeninhalt/A16.PNG> [48 <C:/Users/Sebastian/Desktop/Studiu
-m/kfriedri-Vorkurse/Vorkurs2010/Mathe_Heft/img/Aufgaben/Flächeninhalt/A15.PNG (
-PNG copy)> <C:/Users/Sebastian/Desktop/Studium/kfriedri-Vorkurse/Vorkurs2010/Ma
-the_Heft/img/Aufgaben/Flächeninhalt/A16.PNG (PNG copy)>])
-(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\vo
-llstaendigeInduktionLsg.tex [49] [50
+LaTeX Warning: File `img/Aufgaben/Fl\"acheninhalt/A13.PNG' not found on input l
+ine 405.
 
 
-]
+! Package pdftex.def Error: File `img/Aufgaben/Flächeninhalt/A13.PNG' not found
+.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.405 ...th]{img/Aufgaben/Fl\"acheninhalt/A13.PNG}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 405.
+
+(/usr/share/texmf-texlive/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+) [44 <./img/Aufgaben/Graphisch/A11.PNG (PNG copy)> <./img/Aufgaben/Graphisch/A
+12.PNG (PNG copy)>]
+
+LaTeX Warning: File `img/Aufgaben/Fl\"acheninhalt/A14.PNG' not found on input l
+ine 416.
+
+
+! Package pdftex.def Error: File `img/Aufgaben/Flächeninhalt/A14.PNG' not found
+.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.416 ...th]{img/Aufgaben/Fl\"acheninhalt/A14.PNG}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [45]
+
+LaTeX Warning: File `img/Aufgaben/Fl\"acheninhalt/A15.PNG' not found on input l
+ine 424.
+
+
+! Package pdftex.def Error: File `img/Aufgaben/Flächeninhalt/A15.PNG' not found
+.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.424 ...th]{img/Aufgaben/Fl\"acheninhalt/A15.PNG}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[46]
+
+LaTeX Warning: File `img/Aufgaben/Fl\"acheninhalt/A16.PNG' not found on input l
+ine 432.
+
+
+! Package pdftex.def Error: File `img/Aufgaben/Flächeninhalt/A16.PNG' not found
+.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.432 ...th]{img/Aufgaben/Fl\"acheninhalt/A16.PNG}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[47]) (./vollstaendigeInduktionLsg.tex [48]
 Kapitel 6.
 
 Underfull \vbox (badness 3428) has occurred while \output is active []
 
- [51]
-[52]
+ [49
+
+]
+[50]
 Underfull \vbox (badness 5403) has occurred while \output is active []
 
- [53]
+ [51]
 Underfull \vbox (badness 1147) has occurred while \output is active []
 
- [54]
-[55]
+ [52]
+[53]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56]
-[57] [58]
+ [54]
+[55] [56]
 Underfull \vbox (badness 2671) has occurred while \output is active []
 
- [59]
-[60] [61] [62] [63] [64] [65] [66] [67])
-(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\Fu
-nktionen_loesungen.tex [68]
+ [57]
+[58] [59] [60] [61] [62] [63] [64] [65]) (./Funktionen_loesungen.tex [66]
 Kapitel 7.
-[69
-
+[67
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 90--92
 
  []
 
-[70] [71]
+[68] [69]
 Underfull \hbox (badness 10000) in paragraph at lines 162--166
 
  []
 
-[72]
+[70]
 Underfull \hbox (badness 10000) in paragraph at lines 178--179
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--198
+Underfull \hbox (badness 10000) in paragraph at lines 196--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--212
+Underfull \hbox (badness 10000) in paragraph at lines 210--213
 
  []
 
-[73]
-Underfull \hbox (badness 10000) in paragraph at lines 234--238
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 239--249
+[71]
+Underfull \hbox (badness 10000) in paragraph at lines 235--239
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 239--249
+Underfull \hbox (badness 10000) in paragraph at lines 240--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--256
+Underfull \hbox (badness 10000) in paragraph at lines 240--250
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--267
+Underfull \hbox (badness 10000) in paragraph at lines 253--257
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--267
+Underfull \hbox (badness 10000) in paragraph at lines 258--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--267
-
- []
-
-[74]
-Underfull \hbox (badness 10000) in paragraph at lines 273--278
+Underfull \hbox (badness 10000) in paragraph at lines 258--268
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--289
+Underfull \hbox (badness 10000) in paragraph at lines 258--268
+
+ []
+
+[72]
+Underfull \hbox (badness 10000) in paragraph at lines 274--279
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--300
+Underfull \hbox (badness 10000) in paragraph at lines 284--290
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--309
+Underfull \hbox (badness 10000) in paragraph at lines 295--301
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--309
+Underfull \hbox (badness 10000) in paragraph at lines 302--310
 
  []
 
-[75])
-(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\ve
-ktoren_loesungen.tex [76]
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--310
+
+ []
+
+[73]) (./vektoren_loesungen.tex [74]
 Kapitel 8.
-[77
-
+[75
 
 ]
 Underfull \vbox (badness 1635) has occurred while \output is active []
 
- [78]
+ [76]
 Overfull \hbox (6.66232pt too wide) in paragraph at lines 77--80
 \T1/cmr/m/n/9 to-ren als Li-ne-ar-kom-bi-na-ti-on der an-de-ren dar. (Hin-weis:
  Nut-ze den Gauss-Algorithmus) 
  []
 
-[79]
+[77]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80]
-[81] [82])
-(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\ko
-mplexeZahlen_Lsg.tex [83] [84
-
-
-]
+ [78]
+[79] [80]) (./komplexeZahlen_Lsg.tex [81]
 Kapitel 9.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 11.
-("C:\Program Files\MiKTeX 2.8\tex\latex\base\omscmr.fd"
+(/usr/share/texmf-texlive/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 11.
- [85] [86]
+ [82
+
+] [83]
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
@@ -1014,44 +1043,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
-[87]) [88]
-(C:\Users\Sebastian\Desktop\Studium\kfriedri-Vorkurse\Vorkurs2010\Mathe_Heft\lo
-esungen.aux) ) 
+[84]) [85] (./loesungen.aux) ) 
 Here is how much of TeX's memory you used:
- 4439 strings out of 495285
- 64195 string characters out of 3180381
- 153927 words of memory out of 3000000
- 7510 multiletter control sequences out of 15000+200000
- 20433 words of font info for 54 fonts, out of 3000000 for 9000
- 14 hyphenation exceptions out of 8191
- 35i,13n,42p,386b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Sebastian\AppData\Local\MiKTeX\2.8\fonts\pk\ljfour\jkn
-appen\ec\dpi600\ecsx1000.pk> <C:\Users\Sebastian\AppData\Local\MiKTeX\2.8\fonts
-\pk\ljfour\jknappen\ec\dpi600\ecbx0900.pk> <C:\Users\Sebastian\AppData\Local\Mi
-KTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl0900.pk> <C:\Users\Sebastian\Ap
-pData\Local\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1095.pk> <C:\User
-s\Sebastian\AppData\Local\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm090
-0.pk> <C:\Users\Sebastian\AppData\Local\MiKTeX\2.8\fonts\pk\ljfour\jknappen\ec\
-dpi600\ecsx0900.pk> <C:\Users\Sebastian\AppData\Local\MiKTeX\2.8\fonts\pk\ljfou
-r\jknappen\ec\dpi600\ecrm1095.pk> <C:\Users\Sebastian\AppData\Local\MiKTeX\2.8\
-fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1440.pk><C:/Program Files/MiKTeX 2.8/fon
-ts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files/MiKTeX 2.8/fonts/t
-ype1/public/amsfonts/cmextra/cmex9.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1
-/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/a
-msfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/c
-m/cmmi8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi9.p
-fb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Pro
-gram Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files
-/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.
-8/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.8/fonts/ty
-pe1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/publi
-c/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfont
-s/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy
-9.pfb><C:/Program Files/MiKTeX 2.8/fonts/type1/public/amsfonts/symbols/msbm10.p
-fb>
-Output written on loesungen.pdf (88 pages, 1335942 bytes).
+ 4439 strings out of 493848
+ 61313 string characters out of 1152824
+ 157475 words of memory out of 3000000
+ 7583 multiletter control sequences out of 15000+50000
+ 20746 words of font info for 55 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 35i,13n,52p,386b,399s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-sup
+er-t1.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cmextra/cmex8.p
+fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-texlive/fonts/type1/pu
+blic/amsfonts/cm/cmmi9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmr5.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb
+></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/
+texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/share/texmf-texlive/fonts/type1
+/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
+onts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy
+9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfrm0900.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfrm1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsl0900.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfsx0900.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/type1/public/cm-s
+uper/sfsx1095.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1440.pfb></
+usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb>
+Output written on loesungen.pdf (85 pages, 1337051 bytes).
 PDF statistics:
- 750 PDF objects out of 1000 (max. 8388607)
+ 401 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 

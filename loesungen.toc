@@ -1,90 +1,90 @@
-\contentsline {chapter}{\numberline {2}Basismathematik}{5}
-\contentsline {section}{\numberline {2.1}Bruchrechnung L\IeC {\"o}sung}{5}
+\contentsline {chapter}{\numberline {2}Basismathematik}{4}
+\contentsline {section}{\numberline {2.1}Bruchrechnung L\IeC {\"o}sung}{4}
+\contentsline {subsubsection}{Aufgabe 1}{4}
+\contentsline {subsubsection}{Aufgabe 2}{4}
+\contentsline {subsubsection}{Aufgabe 3}{4}
+\contentsline {subsubsection}{Aufgabe 4}{4}
+\contentsline {subsubsection}{Aufgabe 5}{4}
+\contentsline {subsubsection}{Aufgabe 6}{5}
+\contentsline {section}{\numberline {2.2}Potenzen L\IeC {\"o}sung}{5}
 \contentsline {subsubsection}{Aufgabe 1}{5}
-\contentsline {subsubsection}{Aufgabe 2}{5}
-\contentsline {subsubsection}{Aufgabe 3}{5}
-\contentsline {subsubsection}{Aufgabe 4}{5}
-\contentsline {subsubsection}{Aufgabe 5}{5}
-\contentsline {subsubsection}{Aufgabe 6}{6}
-\contentsline {section}{\numberline {2.2}Potenzen L\IeC {\"o}sung}{6}
-\contentsline {subsubsection}{Aufgabe 1}{6}
-\contentsline {subsubsection}{Aufgabe 2}{7}
-\contentsline {subsubsection}{Aufgabe 3}{8}
-\contentsline {subsubsection}{Aufgabe 4}{8}
-\contentsline {subsubsection}{Aufgabe 5}{9}
-\contentsline {subsubsection}{Aufgabe 6}{9}
-\contentsline {subsubsection}{Aufgabe 7}{9}
-\contentsline {subsubsection}{Aufgabe 8}{9}
-\contentsline {subsubsection}{Aufgabe 9}{10}
-\contentsline {subsubsection}{Aufgabe 10}{10}
-\contentsline {subsubsection}{Aufgabe 11}{10}
-\contentsline {subsubsection}{Aufgabe 12}{11}
-\contentsline {subsubsection}{Aufgabe 13}{11}
-\contentsline {section}{\numberline {2.3}Binomische Formeln L\IeC {\"o}sung}{12}
-\contentsline {subsubsection}{Aufgabe 1}{12}
-\contentsline {subsubsection}{Aufgabe 2}{12}
-\contentsline {subsubsection}{Aufgabe 3}{13}
-\contentsline {subsubsection}{Aufgabe 4}{13}
-\contentsline {subsubsection}{Aufgabe 5}{14}
-\contentsline {subsubsection}{Aufgabe 6}{14}
+\contentsline {subsubsection}{Aufgabe 2}{6}
+\contentsline {subsubsection}{Aufgabe 3}{7}
+\contentsline {subsubsection}{Aufgabe 4}{7}
+\contentsline {subsubsection}{Aufgabe 5}{8}
+\contentsline {subsubsection}{Aufgabe 6}{8}
+\contentsline {subsubsection}{Aufgabe 7}{8}
+\contentsline {subsubsection}{Aufgabe 8}{8}
+\contentsline {subsubsection}{Aufgabe 9}{9}
+\contentsline {subsubsection}{Aufgabe 10}{9}
+\contentsline {subsubsection}{Aufgabe 11}{9}
+\contentsline {subsubsection}{Aufgabe 12}{10}
+\contentsline {subsubsection}{Aufgabe 13}{10}
+\contentsline {section}{\numberline {2.3}Binomische Formeln L\IeC {\"o}sung}{11}
+\contentsline {subsubsection}{Aufgabe 1}{11}
+\contentsline {subsubsection}{Aufgabe 2}{11}
+\contentsline {subsubsection}{Aufgabe 3}{12}
+\contentsline {subsubsection}{Aufgabe 4}{12}
+\contentsline {subsubsection}{Aufgabe 5}{13}
+\contentsline {subsubsection}{Aufgabe 6}{13}
 \contentsline {section}{\numberline {2.4}Polynomdivision L\"osungen}{14}
-\contentsline {chapter}{\numberline {3}Quadratische Gleichungen L\"osungen}{19}
-\contentsline {chapter}{\numberline {4}Lineare Gleichungssysteme L\"osungen}{21}
-\contentsline {subsubsection}{Aufgabe 1}{21}
-\contentsline {subsubsection}{Aufgabe 2}{25}
-\contentsline {chapter}{\numberline {5}Betrag, Kreis, Ungleichungen}{29}
-\contentsline {section}{\numberline {5.1}Betrag}{29}
-\contentsline {section}{\numberline {5.2}Kreis}{29}
-\contentsline {section}{\numberline {5.3}Ungleichungen}{31}
-\contentsline {subsection}{\numberline {5.3.1}Ungleichungen mit einer Variablen}{31}
-\contentsline {subsection}{\numberline {5.3.2}Ungleichungen mit mehreren Variablen}{40}
-\contentsline {chapter}{\numberline {6}Vollst\IeC {\"a}ndige Induktion L\IeC {\"o}sung}{51}
-\contentsline {section}{\numberline {6.1}Gleichungen}{51}
-\contentsline {subsubsection}{Aufgabe 1}{51}
-\contentsline {subsubsection}{Aufgabe 2}{52}
-\contentsline {subsubsection}{Aufgabe 3}{52}
-\contentsline {subsubsection}{Aufgabe 4}{53}
-\contentsline {subsubsection}{Aufgabe 5}{53}
-\contentsline {subsubsection}{Aufgabe 6}{54}
-\contentsline {subsubsection}{Aufgabe 7}{55}
-\contentsline {subsubsection}{Aufgabe 8}{55}
-\contentsline {subsubsection}{Aufgabe 9}{56}
-\contentsline {subsubsection}{Aufgabe 10}{56}
-\contentsline {section}{\numberline {6.2}Ungleichung}{57}
-\contentsline {subsubsection}{Aufgabe 1 - Bernoulli-Ungleichung}{57}
-\contentsline {subsubsection}{Aufgabe 2}{57}
-\contentsline {subsubsection}{Aufgabe 3}{58}
-\contentsline {subsubsection}{Aufgabe 4}{58}
-\contentsline {subsubsection}{Aufgabe 5}{59}
-\contentsline {subsubsection}{Aufgabe 6}{59}
-\contentsline {section}{\numberline {6.3}Teilbarkeitsprobleme}{60}
-\contentsline {subsubsection}{Aufgabe 1}{60}
-\contentsline {subsubsection}{Aufgabe 2}{61}
-\contentsline {subsubsection}{Aufgabe 3}{61}
-\contentsline {subsubsection}{Aufgabe 4}{62}
-\contentsline {subsubsection}{Aufgabe 5}{62}
-\contentsline {subsubsection}{Aufgabe 6}{62}
-\contentsline {subsubsection}{Aufgabe 7}{63}
-\contentsline {section}{\numberline {6.4}Ableitungen}{64}
-\contentsline {subsubsection}{Aufgabe 1}{64}
-\contentsline {subsubsection}{Aufgabe 2}{64}
-\contentsline {subsubsection}{Aufgabe 3}{65}
-\contentsline {subsubsection}{Aufgabe 4}{66}
-\contentsline {subsubsection}{Aufgabe 5}{66}
-\contentsline {subsubsection}{Aufgabe 6}{67}
-\contentsline {subsubsection}{Aufgabe 7}{68}
-\contentsline {chapter}{\numberline {7}Funktionen Loesungen}{69}
-\contentsline {section}{\numberline {7.1}Trigonometrische Funktionen}{69}
-\contentsline {subsection}{\numberline {7.1.1}Exponentialfunktionen und Logarithmus}{71}
-\contentsline {section}{\numberline {7.2}Kurvendiskusion}{74}
-\contentsline {chapter}{\numberline {8}Vektoren L\"osungen}{77}
-\contentsline {subsubsection}{Aufgabe 1}{77}
-\contentsline {subsubsection}{Aufgabe 2}{77}
-\contentsline {subsubsection}{Aufgabe 3}{78}
-\contentsline {subsubsection}{Aufgabe 4}{78}
-\contentsline {subsubsection}{Aufgabe 5}{79}
-\contentsline {subsubsection}{Aufgabe 6}{79}
-\contentsline {chapter}{\numberline {9}Komplexe Zahlen}{85}
-\contentsline {subsubsection}{Aufgabe 1}{85}
-\contentsline {subsubsection}{Aufgabe 2}{86}
-\contentsline {subsubsection}{Aufgabe 3}{87}
+\contentsline {chapter}{\numberline {3}Quadratische Gleichungen L\"osungen}{18}
+\contentsline {chapter}{\numberline {4}Lineare Gleichungssysteme L\"osungen}{20}
+\contentsline {subsubsection}{Aufgabe 1}{20}
+\contentsline {subsubsection}{Aufgabe 2}{24}
+\contentsline {chapter}{\numberline {5}Betrag, Kreis, Ungleichungen}{27}
+\contentsline {section}{\numberline {5.1}Betrag}{27}
+\contentsline {section}{\numberline {5.2}Kreis}{27}
+\contentsline {section}{\numberline {5.3}Ungleichungen}{29}
+\contentsline {subsection}{\numberline {5.3.1}Ungleichungen mit einer Variablen}{29}
+\contentsline {subsection}{\numberline {5.3.2}Ungleichungen mit mehreren Variablen}{38}
+\contentsline {chapter}{\numberline {6}Vollst\IeC {\"a}ndige Induktion L\IeC {\"o}sung}{49}
+\contentsline {section}{\numberline {6.1}Gleichungen}{49}
+\contentsline {subsubsection}{Aufgabe 1}{49}
+\contentsline {subsubsection}{Aufgabe 2}{50}
+\contentsline {subsubsection}{Aufgabe 3}{50}
+\contentsline {subsubsection}{Aufgabe 4}{51}
+\contentsline {subsubsection}{Aufgabe 5}{51}
+\contentsline {subsubsection}{Aufgabe 6}{52}
+\contentsline {subsubsection}{Aufgabe 7}{53}
+\contentsline {subsubsection}{Aufgabe 8}{53}
+\contentsline {subsubsection}{Aufgabe 9}{54}
+\contentsline {subsubsection}{Aufgabe 10}{54}
+\contentsline {section}{\numberline {6.2}Ungleichung}{55}
+\contentsline {subsubsection}{Aufgabe 1 - Bernoulli-Ungleichung}{55}
+\contentsline {subsubsection}{Aufgabe 2}{55}
+\contentsline {subsubsection}{Aufgabe 3}{56}
+\contentsline {subsubsection}{Aufgabe 4}{56}
+\contentsline {subsubsection}{Aufgabe 5}{57}
+\contentsline {subsubsection}{Aufgabe 6}{57}
+\contentsline {section}{\numberline {6.3}Teilbarkeitsprobleme}{58}
+\contentsline {subsubsection}{Aufgabe 1}{58}
+\contentsline {subsubsection}{Aufgabe 2}{59}
+\contentsline {subsubsection}{Aufgabe 3}{59}
+\contentsline {subsubsection}{Aufgabe 4}{60}
+\contentsline {subsubsection}{Aufgabe 5}{60}
+\contentsline {subsubsection}{Aufgabe 6}{60}
+\contentsline {subsubsection}{Aufgabe 7}{61}
+\contentsline {section}{\numberline {6.4}Ableitungen}{62}
+\contentsline {subsubsection}{Aufgabe 1}{62}
+\contentsline {subsubsection}{Aufgabe 2}{62}
+\contentsline {subsubsection}{Aufgabe 3}{63}
+\contentsline {subsubsection}{Aufgabe 4}{64}
+\contentsline {subsubsection}{Aufgabe 5}{64}
+\contentsline {subsubsection}{Aufgabe 6}{65}
+\contentsline {subsubsection}{Aufgabe 7}{66}
+\contentsline {chapter}{\numberline {7}Funktionen Loesungen}{67}
+\contentsline {section}{\numberline {7.1}Trigonometrische Funktionen}{67}
+\contentsline {subsection}{\numberline {7.1.1}Exponentialfunktionen und Logarithmus}{69}
+\contentsline {section}{\numberline {7.2}Kurvendiskusion}{72}
+\contentsline {chapter}{\numberline {8}Vektoren L\"osungen}{75}
+\contentsline {subsubsection}{Aufgabe 1}{75}
+\contentsline {subsubsection}{Aufgabe 2}{75}
+\contentsline {subsubsection}{Aufgabe 3}{76}
+\contentsline {subsubsection}{Aufgabe 4}{76}
+\contentsline {subsubsection}{Aufgabe 5}{77}
+\contentsline {subsubsection}{Aufgabe 6}{77}
+\contentsline {chapter}{\numberline {9}Komplexe Zahlen}{82}
+\contentsline {subsubsection}{Aufgabe 1}{82}
+\contentsline {subsubsection}{Aufgabe 2}{83}
+\contentsline {subsubsection}{Aufgabe 3}{84}
