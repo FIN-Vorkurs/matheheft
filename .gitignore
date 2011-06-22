@@ -22,3 +22,5 @@
 *.nav
 *.snm
 *.vrb
+.DS_Store
+*.swp
