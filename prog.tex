@@ -10,15 +10,15 @@
 	\begin{tabular}{ll}
 	\textbf{Befehl} & \textbf{Bedeutung}\\
 	\hline
-	man <Befehl> & manual (zeigt die Hilfedatei des Befehls an)\\
-	cd <Pfad> & change directory (in ein Verzeichnis wechseln)\\
-	ls <Pfad> & list (listen den Verzeichnisinhalt auf)\\
-	rm <Datei> & remove (löscht Datei)\\
+	man \textless{}Befehl\textgreater{} & manual (zeigt die Hilfedatei des Befehls an)\\
+	cd \textless{}Pfad\textgreater{} & change directory (in ein Verzeichnis wechseln)\\
+	ls \textless{}Pfad\textgreater{} & list (listen den Verzeichnisinhalt auf)\\
+	rm \textless{}Datei\textgreater{} & remove (löscht Datei)\\
 	mv & move (verschiebt Datei oder Verzeichnis)\\
 	mkdir & make directory (legt ein neues Verzeichnis an)\\
-	cat <Datei> & (gibt den Inhalt der Datei aus)\\
-	touch <Dateiname> & (legt eine leere Datei an)\\
-	file <Datei> & (gibt Informationen über Datei aus)\\
+	cat \textless{}Datei\textgreater{} & (gibt den Inhalt der Datei aus)\\
+	touch \textless{}Dateiname\textgreater{} & (legt eine leere Datei an)\\
+	file \textless{}Datei\textgreater{} & (gibt Informationen über Datei aus)\\
 	passwd & password (ändern des Passworts)
 	\end{tabular}
 }
@@ -36,6 +36,41 @@
 		\item Rechtsklick auf das Projekt \frqq New \frqq Class
 		\item Name und evtl. Package eigeben \frqq Finish
 		\end{enumerate}
+
+		\subsubsection{Programm testen}
+		\begin{enumerate}
+		\item Normales Ausführen: Grüner Pfeil
+		\item Debugmodus: Käfer
+		\end{enumerate}
+
+	\subsection{Java Referenz}
+		\subsubsection{Operatoren}
+		\begin{tabular}{ll}
+		\textbf{Operator} & \textbf{Wirkung}\\
+		\hline
+		= & Zuweisung, weist dem Wert der rechten Seite der linken Seite zu.\\
+		+, +=, ++ & Addition, Addition mit Zuweisung, Inkrementierung\\
+		-, -=, -- & Subtraktion, Subtraktion mit Zuweisung, Dekrement\\
+		*, *= & Multiplikation, Multiplikation mit Zuweisung\\
+		/, /= & Division, Division mit Zuweisung\\
+		return & Verlasse die Methode (und gib Wert zurück)\\
+		\end{tabular}
+
+		\subsubsection{API Methoden}
+		\begin{tabular}{ll}
+		\textbf{Methode} & \textbf{Wirkung}\\
+		\hline
+		\end{tabular}
+
+		\subsubsection{Achtung!}
+			Diese Übersicht umfasst nur die wichtigsten Befehle, und ist bei weitem nicht vollständig. Eine Ausführlichere Dokumentation der Java API findet ihr unter TODO.
+
+	\subsection{Übungsaufgaben}
+		\subsubsection{Potenzieren}
+			Schreibe eine Methode long pot(long b, int p), welche einen gegeben Wert b mit einem beliebigen Wert p potenziert. Schreibe außerdem eine Methode long square(long b) zum quadrieren und eine Funktionion long cubic(long b).
+		\subsubsection{Gröster gemeinsamer Teiler}
+			Schreibe die Methode long ggt(long a, long b) zur Berechnung des größten gemeinsamen Teilers auf Basis seiner rekursiven Definition.
+
 
 \section{Literatur}
 
