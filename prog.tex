@@ -26,6 +26,7 @@
 \section{Java}
 	\lstset{language=Java}
 	\subsection{Eclipse}
+		\textbf{Download:} http://www.eclipse.org/
 		\subsubsection{Projekt erstellen}
 		\begin{enumerate}
 		\item File \frqq New \frqq Java Project
@@ -73,8 +74,18 @@
 		\textbf{Methode} & \textbf{Wirkung}\\
 		\hline
 		\lstinline$System.out.println(String)$ & Gibt String in der Konsole aus\\
+		\lstinline$new int[] {4,2,...}$ & Konstruktor für ein Integer Array\\		
 		
 		\end{tabular}
+
+		\subsubsection{Texteingabe}
+			\begin{lstlisting}
+	public static String readln() {	
+		Scanner scn = new Scanner(System.in);
+		String str =scn.next();
+		return str;
+	}
+			\end{lstlisting}
 
 		\subsubsection{Achtung!}
 			Diese Übersicht umfasst nur die wichtigsten Befehle, und ist bei weitem nicht vollständig. Eine Ausführlichere Dokumentation der Java API findet ihr unter http://download.oracle.com/javase/7/docs/api/
@@ -84,6 +95,18 @@
 			Schreibe eine Methode \lstinline$long pot(long b, int p)$, welche einen gegeben Wert b mit einem beliebigen Wert p potenziert. Schreibe außerdem eine Methode \lstinline$long square(long b)$ zum quadrieren und eine Funktionion \lstinline$long cubic(long b)$.
 		\subsubsection{Gröster gemeinsamer Teiler}
 			Schreibe die Methode \lstinline$long ggt(long a, long b)$ zur Berechnung des größten gemeinsamen Teilers auf Basis seiner rekursiven Definition.
+		\subsubsection{Falten}
+			Schreibe die Methode \lstinline$long fold(int[] arr)$ welche alle Werte des übergebenen Arrays addiert und das Ergebnis zurückgibt.
+		\subsubsection{Fakultät}
+			Entwickle ein Programm, das die Fakultät berechnet (n!). Die benutzten Funktionen müssen dabei rekursiv arbeiten und es darf bei arithmetischen Operationen nur auf ``+1'' und ``-1'' zurückgegriffen werden, also insbesondere keine Multiplikation.
+		\subsubsection{Tabelle}
+			Schreibe eine Methode welche eine Tabelle von Quadrat- und Kubikzahlen erzeugt und ausgibt.
+		\subsubsection{Passwort}
+			Schreibe ein Programm, das nach richtiger Passworteingabe einen Text ausgibt.
+		\subsubsection{Umrechner}
+			Schreibe Methoden, die Dezimalzahlen in Hexadezimalzahlen und Binärzahlen umrechnen.
+		\subsubsection{Weihnachtsbaum}
+			Schreibe ein Programm, das als Ausgabe einen Weihnachtsbaum aus Textzeichen ausgibt.
 
 
 \section{Literatur}
